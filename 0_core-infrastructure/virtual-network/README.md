@@ -2,8 +2,8 @@
 
 Costa Rica
 
-!GitHub
-brown9804
+[![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/)
+[brown9804](https://github.com/brown9804)
 
 Last updated: 2025-03-11
 
@@ -14,6 +14,9 @@ Last updated: 2025-03-11
 > [!NOTE]
 > The Virtual Network depends on the Resource Group. Terraform ensures that the Resource Group is created before the Virtual Network by using the `depends_on` argument in the configuration.
 
+<p align="center">
+    <img width="550" alt="image" src="https://github.com/user-attachments/assets/4d8d236c-28d7-4f87-b594-00f5988ecaa0">
+</p>
 
 ## File Descriptions
 
