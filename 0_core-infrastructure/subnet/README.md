@@ -14,6 +14,10 @@ Last updated: 2025-03-11
 > [!NOTE]
 > The Subnet depends on the Virtual Network and Resource Group. Terraform ensures that the Resource Group and Virtual Network are created before the Subnet by using the `depends_on` argument in the configuration.
 
+<p align="center">
+    <img width="550" alt="image" src="https://github.com/user-attachments/assets/a17ef1ee-c54f-4702-8062-96ba53fee48e">
+</p>
+
 ## File Descriptions
 
 - **main.tf**: Contains the main configuration for creating the Azure Subnet, Virtual Network, and Resource Group.
