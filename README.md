@@ -14,7 +14,22 @@ Last updated: 2025-03-10
 <details>
 <summary><b>List of References </b> (Click to expand)</summary>
 
+- [Define resources with Bicep, ARM templates, and Terraform AzAPI provider](https://learn.microsoft.com/en-us/azure/templates/)
+
 </details>
+
+
+## Versioning 
+
+> Using Semantic versioning to track the changes:
+
+
+| **Version**   | **Description**                                                                 |
+|---------------|---------------------------------------------------------------------------------|
+| **0.0.0**     | Initial version of the repository with basic Azure resources.                  |
+| **0.1.0**     | Added support for additional Azure services.                                   |
+| **1.0.0**     | First stable release with a comprehensive set of Azure resources.              |
+
 
 <div align="center">
   <h3 style="color: #4CAF50;">Total Visitors</h3>
