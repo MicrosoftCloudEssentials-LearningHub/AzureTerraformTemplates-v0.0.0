@@ -14,6 +14,10 @@ Last updated: 2025-03-11
 > [!NOTE]
 > The Public IP depends on the Resource Group. Terraform ensures that the Resource Group is created before the Public IP by using the `depends_on` argument in the configuration.
 
+<p align="center">
+    <img width="550" alt="image" src="https://github.com/user-attachments/assets/679faa55-7a64-436e-b97f-984f276d0bad">
+</p>
+
 ## File Descriptions
 
 - **main.tf**: Contains the main configuration for creating the Azure Public IP and the Resource Group it depends on.
