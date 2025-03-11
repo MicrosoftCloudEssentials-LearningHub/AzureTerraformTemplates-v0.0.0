@@ -14,6 +14,10 @@ Last updated: 2025-03-11
 > [!NOTE]
 > The Network Security Group (NSG) depends on the Resource Group. Terraform ensures that the Resource Group is created before the NSG by using the `depends_on` argument in the configuration.
 
+<p align="center">
+    <img width="550" alt="image" src="https://github.com/user-attachments/assets/83794940-2863-495e-9ac0-3e6ee1a4fea1">
+</p>
+
 ## File Descriptions
 
 - **main.tf**: Contains the main configuration for creating the Azure Network Security Group and the Resource Group it depends on.
