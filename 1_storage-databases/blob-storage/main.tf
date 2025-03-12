@@ -34,5 +34,4 @@ resource "azurerm_storage_container" "example" {
   depends_on = [
     azurerm_storage_account.example
   ]
-
 }
