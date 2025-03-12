@@ -15,7 +15,7 @@ Last updated: 2025-03-12
 > The DNS Zone depends on the Resource Group. Terraform ensures that the Resource Group is created before the DNS Zone by using the `depends_on` argument in the configuration.
 
 <p align="center">
-    <img width="550" alt="image" src="">
+    <img width="550" alt="image" src="https://github.com/user-attachments/assets/3d95cf33-b114-463c-a60e-95e15f288648">
 </p>
 
 ## File Descriptions
