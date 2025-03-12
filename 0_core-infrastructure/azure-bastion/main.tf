@@ -24,8 +24,6 @@ resource "azurerm_subnet" "example" {
   resource_group_name  = azurerm_resource_group.example.name
   virtual_network_name = azurerm_virtual_network.example.name
   address_prefixes     = var.subnet_address_prefixes
-
-  tags = var.tags
 }
 
 resource "azurerm_public_ip" "example" {
@@ -42,13 +40,19 @@ resource "azurerm_bastion_host" "example" {
   name                = var.bastion_name
   location            = azurerm_resource_group.example.location
   resource_group_name = azurerm_resource_group.example.name
-  dns_name            = var.bastion_dns_name
   sku                 = "Standard"
   ip_configuration {
     name                 = "configuration"
     subnet_id            = azurerm_subnet.example.id
     public_ip_address_id = azurerm_public_ip.example.id
   }
+
+  # Ensure the Bastion Host depends on the Resource Group, Virtual Network, and Subnet
+  depends_on = [
+    azurerm_resource_group.example,
+    azurerm_virtual_network.example,
+    azurerm_subnet.example
+  ]
 
   tags = var.tags
 }
