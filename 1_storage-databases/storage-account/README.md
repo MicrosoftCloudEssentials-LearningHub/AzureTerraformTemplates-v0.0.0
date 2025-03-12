@@ -15,7 +15,7 @@ Last updated: 2025-03-12
 > The Storage Account depends on the Resource Group. Terraform ensures that the Resource Group is created before the Storage Account by using the `depends_on` argument in the configuration.
 
 <p align="center">
-    <img width="550" alt="image" src="">
+    <img width="550" alt="image" src="https://github.com/user-attachments/assets/eeb4c2b6-3d77-41fe-8df5-91e56bbcd8f3">
 </p>
 
 ## File Descriptions
