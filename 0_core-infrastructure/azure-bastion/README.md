@@ -5,7 +5,7 @@ Costa Rica
 [![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/)
 [brown9804](https://github.com/brown9804)
 
-Last updated: 2025-02-21
+Last updated: 2025-03-12
 
 ------------------------------------------
 
@@ -15,7 +15,7 @@ Last updated: 2025-02-21
 > The Bastion Host depends on the Resource Group, Virtual Network, and Subnet. Terraform ensures that these resources are created before the Bastion Host by using the `depends_on` argument in the configuration.
 
 <p align="center">
-    <img width="550" alt="image" src="">
+    <img width="550" alt="image" src="https://github.com/user-attachments/assets/7727a7d8-8ee4-4638-a2cc-65b1b430c57c">
 </p>
 
 ## File Descriptions
