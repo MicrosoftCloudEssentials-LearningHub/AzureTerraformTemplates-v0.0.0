@@ -15,7 +15,8 @@ Last updated: 2025-03-12
 > The Blob Container depends on the Storage Account and Resource Group. Terraform ensures that these resources are created before the Blob Container by using the `depends_on` argument in the configuration.
 
 <p align="center">
-    <img width="550" alt="image" src="">
+    <img width="550" alt="image" src="https://github.com/user-attachments/assets/e0bbfda8-2666-476f-8fa4-d2f96eeb0779">
+
 </p>
 
 ## File Descriptions
