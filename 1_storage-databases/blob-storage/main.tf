@@ -35,5 +35,4 @@ resource "azurerm_storage_container" "example" {
     azurerm_storage_account.example
   ]
 
-  tags = var.tags
 }
