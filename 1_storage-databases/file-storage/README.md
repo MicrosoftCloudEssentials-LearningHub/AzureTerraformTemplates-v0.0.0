@@ -15,7 +15,7 @@ Last updated: 2025-03-12
 > The File Share depends on the Storage Account and Resource Group. Terraform ensures that these resources are created before the File Share by using the `depends_on` argument in the configuration.
 
 <p align="center">
-    <img width="550" alt="image" src="">
+    <img width="550" alt="image" src="https://github.com/user-attachments/assets/66b111e1-f84a-4135-8807-48fd9d7ce56e">
 </p>
 
 ## File Descriptions
