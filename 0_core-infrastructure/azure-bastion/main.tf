@@ -20,7 +20,7 @@ resource "azurerm_virtual_network" "example" {
 }
 
 resource "azurerm_subnet" "example" {
-  name                 = var.subnet_name
+  name                 = "AzureBastionSubnet"  # Required name for the Bastion subnet
   resource_group_name  = azurerm_resource_group.example.name
   virtual_network_name = azurerm_virtual_network.example.name
   address_prefixes     = var.subnet_address_prefixes
