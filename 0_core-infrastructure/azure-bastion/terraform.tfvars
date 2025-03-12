@@ -2,6 +2,7 @@
 # This file provides default values for the variables defined in variables.tf.
 # These values can be overridden by specifying different values during Terraform execution.
 
+subscription_id     = "your-subscription-id"
 resource_group_name = "my-resource-group"
 location            = "East US"
 vnet_name           = "my-vnet"

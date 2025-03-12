@@ -2,6 +2,11 @@
 # This file defines the input variables used in the Terraform configuration.
 # Each variable includes a description and type.
 
+variable "subscription_id" {
+  description = "The Azure subscription ID to use for the AzureRM provider."
+  type        = string
+}
+
 variable "resource_group_name" {
   description = "The name of the Azure Resource Group to associate the Bastion Host with."
   type        = string
