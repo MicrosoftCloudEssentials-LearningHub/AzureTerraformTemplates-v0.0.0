@@ -5,10 +5,10 @@
 resource_group_name      = "my-resource-group"
 location                 = "East US"
 sql_server_name          = "my-sql-server"
-administrator_login      = "adminuser"
-administrator_login_password = "P@ssw0rd123"
+admin_username           = "adminuser"
+admin_password           = "P@ssw0rd123"
 sql_database_name        = "mydatabase"
-sku_name                 = "S1"
+sku_name                 = "Basic"
 subscription_id          = "your-subscription-id"
 tags = {
   env = "dev"

@@ -17,12 +17,12 @@ variable "sql_server_name" {
   type        = string
 }
 
-variable "administrator_login" {
+variable "admin_username" {
   description = "The administrator login name for the SQL Server."
   type        = string
 }
 
-variable "administrator_login_password" {
+variable "admin_password" {
   description = "The administrator login password for the SQL Server."
   type        = string
 }
@@ -33,7 +33,7 @@ variable "sql_database_name" {
 }
 
 variable "sku_name" {
-  description = "The SKU name for the SQL Database (e.g., S0, S1, P1)."
+  description = "The SKU name for the SQL Database (e.g., Basic, S0, S1, P1)."
   type        = string
 }
 
