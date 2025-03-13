@@ -15,7 +15,7 @@ Last updated: 2025-03-13
 > The SQL Database depends on the SQL Server and Resource Group. Terraform ensures that these resources are created before the SQL Database by using the `depends_on` argument in the configuration.
 
 <p align="center">
-    <img width="550" alt="image" src="">
+    <img width="550" alt="image" src="https://github.com/user-attachments/assets/0bb33732-1ce5-4768-92ef-7d18aadf5b45">
 </p>
 
 ## File Descriptions
