@@ -15,7 +15,8 @@ Last updated: 2025-03-13
 > The Data Lake Gen2 File System depends on the Storage Account and Resource Group. Terraform ensures that these resources are created before the Data Lake Gen2 File System by using the `depends_on` argument in the configuration.
 
 <p align="center">
-    <img width="550" alt="image" src="">
+    <img width="550" alt="image" src="https://github.com/user-attachments/assets/208e7e31-040d-4e9a-89e1-98fdcb0a9204">
+
 </p>
 
 ## File Descriptions
