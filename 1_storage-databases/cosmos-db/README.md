@@ -15,7 +15,7 @@ Last updated: 2025-03-13
 > The Cosmos DB Account depends on the Resource Group. Terraform ensures that the Resource Group is created before the Cosmos DB Account by using the `depends_on` argument in the configuration.
 
 <p align="center">
-    <img width="550" alt="image" src="">
+    <img width="550" alt="image" src="https://github.com/user-attachments/assets/9948cf73-6748-4e77-b47c-4d4af95fe878">
 </p>
 
 ## File Descriptions
