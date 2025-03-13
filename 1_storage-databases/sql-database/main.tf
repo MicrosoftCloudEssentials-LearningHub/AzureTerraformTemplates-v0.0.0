@@ -27,10 +27,9 @@ resource "azurerm_mssql_server" "example" {
 }
 
 resource "azurerm_mssql_database" "example" {
-  name                = var.sql_database_name
-  resource_group_name = azurerm_resource_group.example.name
-  server_name         = azurerm_mssql_server.example.name
-  sku_name            = var.sku_name
+  name      = var.sql_database_name
+  server_id = azurerm_mssql_server.example.id
+  sku_name  = var.sku_name
 
   tags = var.tags
 
