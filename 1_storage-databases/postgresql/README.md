@@ -50,3 +50,4 @@ Below is a list of variables used in this template, their expected values, types
   <h3 style="color: #4CAF50;">Total Visitors</h3>
   <img src="https://profile-counter.glitch.me/your-github-username/count.svg" alt="Visitor Count" style="border: 2px solid #4CAF50; border-radius: 5px; padding: 5px;"/>
 </div>
+

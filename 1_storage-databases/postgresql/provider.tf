@@ -22,3 +22,4 @@ provider "azurerm" {
   features {}                        # Enable all features for the AzureRM provider
   subscription_id = var.subscription_id  # Use the subscription ID variable
 }
+

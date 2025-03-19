@@ -7,3 +7,4 @@ postgresql_server_name = "postgresqlbrowntestserver"
 admin_username        = "adminuser"
 admin_password        = "P@ssw0rd1234!"
 ssl_enforcement_enabled    = true
+

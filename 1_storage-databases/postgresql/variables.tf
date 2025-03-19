@@ -34,3 +34,4 @@ variable "ssl_enforcement_enabled" {
   description = "Whether SSL enforcement is enabled"
   type        = bool
 }
+

@@ -7,3 +7,4 @@ output "postgresql_server_name" {
 output "postgresql_database_name" {
   value = azurerm_postgresql_database.example.name
 }
+
