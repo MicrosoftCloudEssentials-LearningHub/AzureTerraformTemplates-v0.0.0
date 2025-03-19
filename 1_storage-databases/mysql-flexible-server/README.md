@@ -16,7 +16,6 @@ Last updated: 2025-02-21
 
 <p align="center">
     <img width="550" alt="image" src="https://github.com/user-attachments/assets/772af36b-ad53-499c-83fe-548547b5256d">
-
 </p>
 
 ## File Descriptions
