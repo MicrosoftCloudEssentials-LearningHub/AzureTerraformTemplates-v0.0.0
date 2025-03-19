@@ -43,6 +43,7 @@ Below is a list of variables used in this template, their expected values, types
 | `backup_retention_days`   | The number of days to retain backups.            | number | `7`                   |
 | `geo_redundant_backup_enabled` | Whether geo-redundant backup is enabled. | bool   | `false`               |
 | `auto_grow_enabled`       | Whether auto-grow is enabled.                    | bool   | `true`                |
+| `ssl_enforcement_enabled` | Whether SSL enforcement is enabled.              | bool   | `true`                |
 | `subscription_id`         | The subscription ID to use for the provider.     | string | `"your-subscription-id"` |
 
 <div align="center">

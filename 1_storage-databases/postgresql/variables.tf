@@ -29,3 +29,8 @@ variable "admin_password" {
   type        = string
   sensitive   = true
 }
+
+variable "ssl_enforcement_enabled" {
+  description = "Whether SSL enforcement is enabled"
+  type        = bool
+}
