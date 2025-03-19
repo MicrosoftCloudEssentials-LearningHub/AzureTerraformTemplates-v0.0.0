@@ -5,7 +5,7 @@ Costa Rica
 [![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/)
 [brown9804](https://github.com/brown9804)
 
-Last updated: 2025-02-21
+Last updated: 2025-03-19
 
 ------------------------------------------
 
@@ -16,7 +16,6 @@ Last updated: 2025-02-21
 
 <p align="center">
     <img width="550" alt="image" src="https://github.com/user-attachments/assets/772af36b-ad53-499c-83fe-548547b5256d">
-
 </p>
 
 ## File Descriptions
