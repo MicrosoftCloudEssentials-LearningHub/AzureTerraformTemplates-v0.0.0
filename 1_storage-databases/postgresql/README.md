@@ -15,7 +15,7 @@ Last updated: 2025-03-19
 > The PostgreSQL Server depends on the Resource Group. Terraform ensures that these resources are created before PostgreSQL Server by using the `depends_on` argument in the configuration.
 
 <p align="center">
-    <img width="550" alt="image" src="">
+    <img width="550" alt="image" src="https://github.com/user-attachments/assets/d8719c4d-562d-49b6-be67-65acdd1a2116">
 
 </p>
 
