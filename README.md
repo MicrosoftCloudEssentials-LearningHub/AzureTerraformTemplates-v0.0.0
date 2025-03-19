@@ -18,6 +18,37 @@ Last updated: 2025-03-12
 
 </details>
 
+## Templates available
+
+<details>
+<summary><b> Core Infrastructure </b> (Click to expand) </summary>
+
+- [Core Infrastructure](./0_core-infrastructure)
+    - [Resource Group](./0_core-infrastructure/resource-group)
+    - [Azure Bastion](./0_core-infrastructure/azure-bastion)
+    - [Azure DNS Zone](./0_core-infrastructure/azure-dns)
+    - [Network Security Group](./0_core-infrastructure/network-security-group)
+    - [Azure Public IP](./0_core-infrastructure/public-ip)
+    - [Subnet](./0_core-infrastructure/subnet)
+    - [Virtual Network (VNET)](./0_core-infrastructure/virtual-network)
+
+</details>
+
+<details>
+<summary><b> Storage and Databases </b> (Click to expand) </summary>
+
+- [Storage and Databases](./1_storage-databases)
+    - [Blob Storage](./1_storage-databases/blob-storage)
+    - [Azure Cosmos DB](./1_storage-databases/cosmos-db)
+    - [Azure Data Lake Storage Gen2](./1_storage-databases/data-lake-storage)
+    - [Azure File Storage](./1_storage-databases/file-storage)
+    - [MySQL Flexible Server](./1_storage-databases/mysql-flexible-server)
+    - [PostgreSQL Server](./1_storage-databases/postgresql)
+    - [Azure SQL Database](./1_storage-databases/sql-database)
+    - [Azure Storage Account](./1_storage-databases/storage-account)
+
+</details>
+
 ## Versioning 
 
 | **Version**   | **Description**                                                                 |
