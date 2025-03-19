@@ -1,8 +1,8 @@
 # File for setting values for the variables
 
 subscription_id       = "your-subscription-id"
-resource_group_name   = "your-resource-group-name"
-location              = "your-location"
-postgresql_server_name = "your-postgresql-server-name"
-admin_username        = "your-admin-username"
-admin_password        = "your-admin-password"
+resource_group_name   = "rg-example-test"
+location              = "West US"
+postgresql_server_name = "postgresqlbrowntestserver"
+admin_username        = "adminuser"
+admin_password        = "P@ssw0rd1234!"
