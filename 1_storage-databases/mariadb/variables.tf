@@ -30,13 +30,43 @@ variable "admin_password" {
   sensitive   = true
 }
 
-variable "sku_name" {
-  description = "The SKU name for the MariaDB server"
+variable "sku_capacity" {
+  description = "The capacity for the SKU"
+  type        = number
+}
+
+variable "sku_family" {
+  description = "The family for the SKU"
   type        = string
 }
 
-variable "mariadb_version" {
-  description = "The version of MariaDB"
+variable "sku_name" {
+  description = "The name for the SKU"
+  type        = string
+}
+
+variable "sku_size" {
+  description = "The size for the SKU"
+  type        = string
+}
+
+variable "sku_tier" {
+  description = "The tier for the SKU"
+  type        = string
+}
+
+variable "minimal_tls_version" {
+  description = "The minimal TLS version"
+  type        = string
+}
+
+variable "public_network_access" {
+  description = "The public network access setting"
+  type        = string
+}
+
+variable "ssl_enforcement" {
+  description = "The SSL enforcement setting"
   type        = string
 }
 
@@ -45,17 +75,22 @@ variable "backup_retention_days" {
   type        = number
 }
 
-variable "geo_redundant_backup_enabled" {
+variable "geo_redundant_backup" {
   description = "Whether geo-redundant backup is enabled"
-  type        = bool
+  type        = string
 }
 
-variable "auto_grow_enabled" {
-  description = "Whether auto-grow is enabled"
-  type        = bool
+variable "storage_autogrow" {
+  description = "Whether storage autogrow is enabled"
+  type        = string
 }
 
-variable "ssl_enforcement_enabled" {
-  description = "Whether SSL enforcement is enabled"
-  type        = bool
+variable "storage_mb" {
+  description = "The storage size in MB"
+  type        = number
+}
+
+variable "mariadb_version" {
+  description = "The version of MariaDB"
+  type        = string
 }

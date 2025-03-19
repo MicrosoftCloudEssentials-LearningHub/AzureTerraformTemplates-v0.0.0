@@ -38,13 +38,20 @@ Below is a list of variables used in this template, their expected values, types
 | `mariadb_server_name`     | The name of the MariaDB server.                  | string | `"example-mariadb"`   |
 | `admin_username`          | The administrator login for the MariaDB server.  | string | `"adminuser"`         |
 | `admin_password`          | The administrator password for the MariaDB server. | string | `"P@ssw0rd1234!"`     |
-| `sku_name`                | The SKU name for the MariaDB server.             | string | `"GP_Gen5_2"`         |
+| `sku_capacity`            | The capacity for the SKU.                        | int    | `2`                   |
+| `sku_family`              | The family for the SKU.                          | string | `"Gen5"`              |
+| `sku_name`                | The name for the SKU.                            | string | `"GP_Gen5_2"`         |
+| `sku_size`                | The size for the SKU.                            | string | `"Standard"`          |
+| `sku_tier`                | The tier for the SKU.                            | string | `"GeneralPurpose"`    |
+| `minimal_tls_version`     | The minimal TLS version.                         | string | `"TLS1_2"`            |
+| `public_network_access`   | The public network access setting.               | string | `"Enabled"`           |
+| `ssl_enforcement`         | The SSL enforcement setting.                     | string | `"Enabled"`           |
+| `backup_retention_days`   | The number of days to retain backups.            | int    | `7`                   |
+| `geo_redundant_backup`    | Whether geo-redundant backup is enabled.         | string | `"Disabled"`          |
+| `storage_autogrow`        | Whether storage autogrow is enabled.             | string | `"Enabled"`           |
+| `storage_mb`              | The storage size in MB.                          | int    | `5120`                |
 | `mariadb_version`         | The version of MariaDB.                          | string | `"10.3"`              |
-| `backup_retention_days`   | The number of days to retain backups.            | number | `7`                   |
-| `geo_redundant_backup_enabled` | Whether geo-redundant backup is enabled. | bool   | `false`               |
-| `auto_grow_enabled`       | Whether auto-grow is enabled.                    | bool   | `true`                |
-| `ssl_enforcement_enabled` | Whether SSL enforcement is enabled.              | bool   | `true`                |
-| `subscription_id`         | The subscription ID to use for the provider.     | string | `"your-subscription-id"` |
+| `subscription_id`         | The subscription ID to use for the provider.     | string | `"your-subscription-id"` 
 
 <div align="center">
   <h3 style="color: #4CAF50;">Total Visitors</h3>

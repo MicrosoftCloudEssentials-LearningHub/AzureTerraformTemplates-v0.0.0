@@ -10,6 +10,10 @@ terraform {
       source  = "hashicorp/azurerm"  # Source of the AzureRM provider
       version = "~> 4.16.0"          # Version of the AzureRM provider
     }
+    azapi = {
+      source  = "azure/azapi"
+      version = "~> 1.0.0"
+    }
   }
 }
 

@@ -4,36 +4,51 @@ resource "azurerm_resource_group" "example" {
   location = var.location
 }
 
-resource "azurerm_mariadb_server" "example" {
-  name                = var.mariadb_server_name
-  location            = var.location
-  resource_group_name = azurerm_resource_group.example.name
+resource "azapi_resource" "mariadb_server" {
+  type     = "Microsoft.DBforMariaDB/servers@2018-06-01"
+  name     = var.mariadb_server_name
+  location = var.location
 
-  administrator_login          = var.admin_username
-  administrator_login_password = var.admin_password
+  sku = {
+    capacity = var.sku_capacity
+    family   = var.sku_family
+    name     = var.sku_name
+    size     = var.sku_size
+    tier     = var.sku_tier
+  }
 
-  sku_name   = var.sku_name
-  storage_mb = 5120
-  version    = var.mariadb_version
+  tags = {
+    environment = "production"
+  }
 
-  backup_retention_days        = var.backup_retention_days
-  geo_redundant_backup_enabled = var.geo_redundant_backup_enabled
-  auto_grow_enabled            = var.auto_grow_enabled
-  ssl_enforcement_enabled      = var.ssl_enforcement_enabled
-
-    depends_on = [
-    azurerm_resource_group.example
-  ]
+  body = jsonencode({
+    properties = {
+      minimalTlsVersion    = var.minimal_tls_version
+      publicNetworkAccess  = var.public_network_access
+      sslEnforcement       = var.ssl_enforcement
+      storageProfile = {
+        backupRetentionDays = var.backup_retention_days
+        geoRedundantBackup  = var.geo_redundant_backup
+        storageAutogrow     = var.storage_autogrow
+        storageMB           = var.storage_mb
+      }
+      version    = var.mariadb_version
+      createMode = "Default"
+    }
+  })
 }
 
-resource "azurerm_mariadb_database" "example" {
-  name                = "exampledb"
-  resource_group_name = azurerm_mariadb_server.example.resource_group_name
-  server_name         = azurerm_mariadb_server.example.name
-  charset             = "UTF8"
-  collation           = "utf8_general_ci"
+resource "azapi_resource" "mariadb_database" {
+  type     = "Microsoft.DBforMariaDB/databases@2018-06-01"
+  name     = "exampledb"
+  location = var.location
 
-    depends_on = [
-    azurerm_mariadb_server.example
-  ]
+  body = jsonencode({
+    properties = {
+      charset   = "UTF8"
+      collation = "utf8_general_ci"
+    }
+  })
+
+  depends_on = [azurerm_resource_group.example, azapi_resource.mariadb_server]
 }
