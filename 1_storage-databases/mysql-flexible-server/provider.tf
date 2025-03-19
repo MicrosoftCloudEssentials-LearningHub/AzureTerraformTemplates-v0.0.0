@@ -10,6 +10,11 @@ terraform {
       source  = "hashicorp/azurerm"  # Source of the AzureRM provider
       version = "~> 4.16.0"          # Version of the AzureRM provider
     }
+    time = {
+      source  = "hashicorp/time"
+      version = "~> 0.7.0"
+    }
+
   }
 }
 
