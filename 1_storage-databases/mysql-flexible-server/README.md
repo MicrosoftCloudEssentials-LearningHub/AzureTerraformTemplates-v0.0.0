@@ -15,7 +15,7 @@ Last updated: 2025-02-21
 > The MySQL Flexible Server depends on the Resource Group. Terraform ensures that these resources are created before MySQL Flexible Server by using the `depends_on` argument in the configuration.
 
 <p align="center">
-    <img width="550" alt="image" src="">
+    <img width="550" alt="image" src="https://github.com/user-attachments/assets/772af36b-ad53-499c-83fe-548547b5256d">
 
 </p>
 
