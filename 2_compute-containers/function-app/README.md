@@ -15,7 +15,7 @@ Last updated: 2025-03-24
 > The Azure Functions depend on the Resource Group, Storage Account, and App Service Plan. Terraform ensures that these resources are created before the Azure Functions by using the `depends_on` argument in the configuration.
 
 <p align="center">
-    <img width="550" alt="image" src="">
+    <img width="550" alt="image" src="https://github.com/user-attachments/assets/f1b6b070-f241-4aa4-9c3f-253bc3d336f2">
 
 </p>
 
