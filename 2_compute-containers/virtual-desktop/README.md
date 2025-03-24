@@ -15,7 +15,7 @@ Last updated: 2025-03-24
 > The AVD environment depends on the Resource Group, Virtual Network, and Subnet. Terraform ensures that these resources are created before the AVD environment by using the `depends_on` argument in the configuration.
 
 <p align="center">
-    <img width="550" alt="image" src="">
+    <img width="550" alt="image" src="https://github.com/user-attachments/assets/f3112a03-a3a1-4f10-80a1-42ef8d1f29f6">
 
 </p>
 
