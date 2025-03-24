@@ -15,7 +15,7 @@ Last updated: 2025-03-24
 > The Container Instances depend on the Resource Group. Terraform ensures that these resources are created before the Container Instances by using the `depends_on` argument in the configuration.
 
 <p align="center">
-    <img width="550" alt="image" src="">
+    <img width="550" alt="image" src="https://github.com/user-attachments/assets/d7594589-5fdf-4758-b334-a71f0dc7c2e9">
 
 </p>
 
