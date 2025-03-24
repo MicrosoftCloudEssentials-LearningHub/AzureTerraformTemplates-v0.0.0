@@ -15,7 +15,7 @@ Last updated: 2025-03-24
 > The App Service depends on the Resource Group and App Service Plan. Terraform ensures that these resources are created before the App Service by using the `depends_on` argument in the configuration.
 
 <p align="center">
-    <img width="550" alt="image" src="">
+    <img width="550" alt="image" src="https://github.com/user-attachments/assets/fa963614-5ed4-437f-abb5-b71f248cfcc1">
 
 </p>
 
