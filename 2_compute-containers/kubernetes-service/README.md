@@ -19,6 +19,12 @@ Last updated: 2025-03-24
 
 </p>
 
+<p align="center">
+    <img width="550" alt="image" src="https://github.com/user-attachments/assets/c5ce6b2c-3bde-41a9-8ff7-5554c86fa970">
+
+</p>
+
+
 ## File Descriptions
 - **main.tf**: Contains the main configuration for creating the Azure Kubernetes Service (AKS) cluster and the resources it depends on.
 - **variables.tf**: Defines the input variables used in the Terraform configuration.
