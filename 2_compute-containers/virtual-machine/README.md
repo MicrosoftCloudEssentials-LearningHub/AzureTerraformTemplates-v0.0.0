@@ -15,7 +15,7 @@ Last updated: 2025-03-23
 > The Virtual Machine depends on the Resource Group, Virtual Network, and Subnet. Terraform ensures that these resources are created before the Virtual Machine by using the `depends_on` argument in the configuration.
 
 <p align="center">
-    <img width="550" alt="image" src="https://github.com/user-attachments/assets/531f5dc2-86b2-4af5-91fe-5beee6f613c2">
+    <img width="550" alt="image" src="https://github.com/user-attachments/assets/48f4d1ae-afea-4b0c-b10e-438c48c0d1ab">
 
 </p>
 
