@@ -2,21 +2,21 @@
 
 # Notes:
 # - Use the `azurerm_resource_group` resource to create a resource group in Azure. 
-# This is a container that holds related resources for an Azure solution.
+#   This is a container that holds related resources for an Azure solution.
 # - Use the `azurerm_virtual_network` resource to create a virtual network in Azure. 
-# This network will be used for the peering connection with MongoDB Atlas.
+#   This network will be used for the peering connection with MongoDB Atlas.
 # - Use the `mongodbatlas_project` resource to create a project in MongoDB Atlas. 
-# A project is a logical grouping of clusters, users, and other resources.
+#   A project is a logical grouping of clusters, users, and other resources.
 # - Use the `mongodbatlas_network_container` resource to define the CIDR block 
-# and provider details for the peering connection. This container holds the 
-# network settings for the peering connection.
+#   and provider details for the peering connection. This container holds the 
+#   network settings for the peering connection.
 # - Use the `mongodbatlas_network_peering` resource to create 
-# the peering connection request with Azure VNET. This resource 
-# establishes the network peering between MongoDB Atlas and Azure.
+#   the peering connection request with Azure VNET. This resource 
+#   establishes the network peering between MongoDB Atlas and Azure.
 # - The `mongodbatlas_advanced_cluster` resource is optional and can be used
-# to create a MongoDB Atlas cluster once the peering connection is established. 
-# This resource defines the cluster configuration, including replication specs 
-# and backup settings.
+#   to create a MongoDB Atlas cluster once the peering connection is established. 
+#   This resource defines the cluster configuration, including replication specs 
+#   and backup settings.
 
 #----------------------------------------------------------------
 # Create the Azure Resource Group
@@ -34,6 +34,20 @@ resource "azurerm_virtual_network" "example" {
   address_space       = [var.atlas_cidr_block]
   location            = var.location
   resource_group_name = azurerm_resource_group.example.name
+}
+
+#----------------------------------------------------------------
+# Retrieve the object ID of the user running the Terraform script
+#----------------------------------------------------------------
+data "azurerm_client_config" "example" {}
+
+#----------------------------------------------------------------
+# Assign the required permissions to the user running Terraform
+#----------------------------------------------------------------
+resource "azurerm_role_assignment" "vnet_peering" {
+  principal_id   = data.azurerm_client_config.example.object_id
+  role_definition_name = "Network Contributor"
+  scope          = azurerm_virtual_network.example.id
 }
 
 #----------------------------------------------------------------
@@ -57,16 +71,18 @@ resource "mongodbatlas_network_container" "example" {
 }
 
 #----------------------------------------------------------------
+# Introduce a wait time before creating the MongoDB Atlas Network Peering
+#----------------------------------------------------------------
+resource "time_sleep" "wait_5_minutes" {
+  depends_on = [
+    azurerm_role_assignment.vnet_peering
+  ]
+
+  create_duration = "5m"
+}
+
+#----------------------------------------------------------------
 # Create the MongoDB Atlas Network Peering
-# To create the peering request with an Azure VNET, you must grant Atlas the following permissions on the virtual network:
-# - Microsoft.Network/virtualNetworks/virtualNetworkPeerings/read
-# - Microsoft.Network/virtualNetworks/virtualNetworkPeerings/write
-# - Microsoft.Network/virtualNetworks/virtualNetworkPeerings/delete
-# - Microsoft.Network/virtualNetworks/peer/action
-# Ensure you have created the required Azure service principal first.
-# For more information, see:
-# - https://docs.atlas.mongodb.com/security-vpc-peering/
-# - https://docs.atlas.mongodb.com/reference/api/vpc-create-peering-connection/
 #----------------------------------------------------------------
 resource "mongodbatlas_network_peering" "azure_mongodb" {
   project_id            = mongodbatlas_project.example.id
@@ -79,28 +95,26 @@ resource "mongodbatlas_network_peering" "azure_mongodb" {
 
   depends_on = [
     azurerm_resource_group.example,
-    azurerm_virtual_network.example
+    azurerm_virtual_network.example,
+    time_sleep.wait_5_minutes
   ]
 }
 
 #----------------------------------------------------------------
 # Create the MongoDB Atlas Cluster (Optional)
-# Create the cluster once the peering connection is completed.
-# Use this resource if you need to create a MongoDB Atlas cluster.
 #----------------------------------------------------------------
 resource "mongodbatlas_advanced_cluster" "test" {
   project_id     = mongodbatlas_project.example.id
   name           = "terraform-manually-test"
   cluster_type   = "REPLICASET"
   backup_enabled = true
-
   replication_specs {
     region_configs {
       priority      = 7
       provider_name = "AZURE"
       region_name   = "US_EAST_2"
       electable_specs {
-        instance_size = "M10"
+        instance_size = "M0"
         node_count    = 3
       }
     }
@@ -108,4 +122,3 @@ resource "mongodbatlas_advanced_cluster" "test" {
 
   depends_on = [mongodbatlas_network_peering.azure_mongodb]
 }
-
