@@ -1,0 +1,7 @@
+azure_subscription_id      = "your-subscription-id"
+resource_group_name        = "your-resource-group"
+vnet_name                  = "your-vnet-name"
+atlas_cidr_block           = "10.0.0.0/24"
+location                   = "your-location"
+mongodbatlas_org_id        = "your-org-id"
+azure_directory_id         = "your-directory-id"
