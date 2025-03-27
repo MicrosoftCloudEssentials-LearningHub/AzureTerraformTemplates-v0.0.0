@@ -16,7 +16,9 @@ Last updated: 2025-03-27
 - [401 - Unauthorized](#unauthorized)
 - [500 - Internal Server Error](#internal-server-error)
 
-## 401 Unauthorized 
+## Unauthorized 
+
+> 401
 
 <p align="center">
   <img width="550" alt="image" src="https://github.com/user-attachments/assets/7c42ef92-6f1e-4dac-a105-f0b5ed4dee4c" />
@@ -36,7 +38,9 @@ Last updated: 2025-03-27
 > [!TIP]
 > Ensure you have added the user, group, or identity to the Atlas organization. This issue can also be resolved by leveraging public and private keys to connect. Check [this for more information about it](
 
-## 500 Internal Server Error
+## Internal Server Error
+
+> 500
 
 <p align="center">
   <img width="550" alt="image" src="https://github.com/user-attachments/assets/482a289c-e912-40e2-b13a-4167a763cdfe" />
