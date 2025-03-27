@@ -5,7 +5,7 @@ Costa Rica
 [![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/)
 [brown9804](https://github.com/brown9804)
 
-Last updated: 2025-03-24
+Last updated: 2025-03-27
 
 ------------------------------------------
 
@@ -22,6 +22,7 @@ Last updated: 2025-03-24
 - [PostgreSQL Server](./1_storage-databases/postgresql)
 - [Azure SQL Database](./1_storage-databases/sql-database)
 - [Azure Storage Account](./1_storage-databases/storage-account)
+- [MongoDB Atlas with Azure Network Peering](./1_storage-databases/mongo-atlas)
 
 <div align="center">
   <h3 style="color: #4CAF50;">Total Visitors</h3>
