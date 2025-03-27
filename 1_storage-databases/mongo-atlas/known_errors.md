@@ -54,11 +54,9 @@ Last updated: 2025-03-27
 ```
 
 > [!TIP]
-> Please ensure you have configured the Terraform module correctly. You can use [this template as a guide](./1_storage-databases/mongo-atlas/main.tf).
-> Also, make sure you have created the service principal with the correct permissions. [Validate the connection before continuing, as shown in the video](https://github.com/MicrosoftCloudEssentials-LearningHub/AzureTerraformTemplates-v0.0.0/tree/mongo-atlas/1_storage-databases/mongo-atlas#permissions-required).
+> Please ensure you have configured the Terraform module correctly. You can use [this template as a guide](/1_storage-databases/mongo-atlas/main.tf).
+> Also, make sure you have created the service principal with the correct permissions. [Validate the connection before continuing, as shown in the video](https://github.com/MicrosoftCloudEssentials-LearningHub/AzureTerraformTemplates-v0.0.0/tree/main/1_storage-databases/mongo-atlas#permissions-required).
  
-
-
 <div align="center">
   <h3 style="color: #4CAF50;">Total Visitors</h3>
   <img src="https://profile-counter.glitch.me/brown9804/count.svg" alt="Visitor Count" style="border: 2px solid #4CAF50; border-radius: 5px; padding: 5px;"/>
