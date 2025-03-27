@@ -1,13 +1,13 @@
 # Terraform Template - MongoDB Atlas with Azure Network Peering
 
-San Jose
+Costa Rica
 
-!GitHub
-your-github-username
+[![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/)
+[brown9804](https://github.com/brown9804)
 
-Last updated: 2025-03-19
+Last updated: 2025-03-24
 
-------------------------------------------
+----------
 
 > This template contains Terraform configurations to create and manage MongoDB Atlas with Azure network peering. Below is a description of the files and the variables used in this template.
 
@@ -58,3 +58,7 @@ Below is a list of variables used in this template, their expected values, types
 | `mongodbatlas_org_id`     | The organization ID for MongoDB Atlas.           | string | `"your-org-id"`       |
 | `azure_directory_id`      | The Azure directory ID.                          | string | `"your-directory-id"` |
 
+<div align="center">
+  <h3 style="color: #4CAF50;">Total Visitors</h3>
+  <img src="https://profile-counter.glitch.me/brown9804/count.svg" alt="Visitor Count" style="border: 2px solid #4CAF50; border-radius: 5px; padding: 5px;"/>
+</div>

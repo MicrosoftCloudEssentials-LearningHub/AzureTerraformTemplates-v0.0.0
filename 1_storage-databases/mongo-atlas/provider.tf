@@ -12,10 +12,21 @@ terraform {
       source  = "hashicorp/azurerm"
       version = "~> 4.0.0"
     }
+    time = {
+      source  = "hashicorp/time"
+      version = "0.7.2"
+    }
   }
+}
+
+provider "mongodbatlas" {
+  public_key  = var.mongodbatlas_public_key
+  private_key = var.mongodbatlas_private_key
 }
 
 provider "azurerm" {
   features {}
   subscription_id = var.azure_subscription_id
 }
+
+provider "time" {}

@@ -1,0 +1,14 @@
+{
+    "Name": "AtlasPeering",
+    "IsCustom": true,
+    "Description": "Grants MongoDB access to manage peering connections on network",
+    "Actions": [
+        "Microsoft.Network/virtualNetworks/virtualNetworkPeerings/read",
+        "Microsoft.Network/virtualNetworks/virtualNetworkPeerings/write",
+        "Microsoft.Network/virtualNetworks/virtualNetworkPeerings/delete",
+        "Microsoft.Network/virtualNetworks/peer/action"
+    ],
+    "AssignableScopes": [
+        "/subscriptions/{your-subscription-id}"
+    ]
+}
