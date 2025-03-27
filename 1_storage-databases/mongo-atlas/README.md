@@ -11,6 +11,9 @@ Last updated: 2025-03-27
 
 > This template contains Terraform configurations to create and manage MongoDB Atlas with Azure network peering. Below is a description of the files and the variables used in this template.
 
+> [!IMPORTANT]
+> Please review the [list of deployment known errors](/1_storage-databases/mongo-atlas/known_errors.md) in case any guidance is needed.
+
 <details>
 <summary><b>List of References </b> (Click to expand)</summary>
 
@@ -102,6 +105,16 @@ Below is a list of variables used in this template, their expected values, types
 | `azure_directory_id`        | The Azure directory ID.                          | string  | `"your-directory-id"`     |
 | `mongodbatlas_public_key`   | The public key for MongoDB Atlas.                | string  | `"your-public-key"`       |
 | `mongodbatlas_private_key`  | The private key for MongoDB Atlas.               | string  | `"your-private-key"`      |
+
+> CIDR options example:
+
+| Azure Virtual Network CIDR Block Options | MongoDB Atlas Network Container CIDR Block Options |
+|------------------------------------------|----------------------------------------------------|
+| `10.2.0.0/16`                            | `192.168.2.0/24`                                   |
+| `10.3.0.0/16`                            | `192.168.3.0/24`                                   |
+| `10.4.0.0/16`                            | `192.168.4.0/24`                                   |
+| `10.5.0.0/16`                            | `192.168.5.0/24`                                   |
+| `10.6.0.0/16`                            | `192.168.6.0/24`                                   |
 
 ## How to create MongoDB Atlas public/private key
 
