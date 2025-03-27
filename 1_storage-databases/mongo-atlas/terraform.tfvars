@@ -1,0 +1,10 @@
+azure_subscription_id      = "your-subscription-id"
+resource_group_name        = "your-resource-group"
+vnet_name                  = "your-vnet-name"
+azure_vnet_cidr_block      = "10.3.0.0/16"    
+atlas_cidr_block           = "192.168.4.0/24" # Ensure this CIDR block does not overlap with the Azure virtual network CIDR block
+location                   = "your-location" # e.g "East US 2"
+mongodbatlas_org_id        = "your-org-id"
+azure_directory_id         = "your-directory-id"
+mongodbatlas_public_key    = "your-public-key"
+mongodbatlas_private_key   = "your-private-key"
