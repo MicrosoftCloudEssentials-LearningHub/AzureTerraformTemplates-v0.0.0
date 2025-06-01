@@ -15,8 +15,7 @@ Last updated: 2025-06-01
 > The Azure Batch environment depends on the Resource Group and Storage Account. Terraform ensures that these resources are created before the Batch environment by using the `depends_on` argument in the configuration.
 
 <p align="center">
-    <img width="550" alt="image" src="">
-
+    <img width="700" alt="image" src="https://github.com/user-attachments/assets/f3079753-80f4-405e-9791-380050e5121a">
 </p>
 
 ## File Descriptions
