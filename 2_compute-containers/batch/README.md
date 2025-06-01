@@ -37,9 +37,6 @@ Below is a list of variables used in this template, their expected values, types
 | `location`                | The Azure region where the Resource Group will be created. | string | `"East US"`           |
 | `storage_account_name`    | The name of the Azure Storage Account to create. | string | `"mystorageaccount"`  |
 | `batch_account_name`      | The name of the Azure Batch Account to create.   | string | `"mybatchaccount"`    |
-| `pool_name`               | The name of the Azure Batch Pool to create.      | string | `"mypool"`            |
-| `vm_size`                 | The size of the Virtual Machines for the Batch Pool. | string | `"Standard_A1_v2"`    |
-| `node_agent_sku_id`       | The SKU ID of the node agent for the Batch Pool. | string | `"batch.node.ubuntu 20.04"` |
 | `tags`                    | A map of tags to assign to the resources.        | map    | `{ "env": "dev" }`    |
 
 <div align="center">
