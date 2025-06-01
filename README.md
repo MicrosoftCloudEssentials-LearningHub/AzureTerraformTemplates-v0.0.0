@@ -50,6 +50,20 @@ Last updated: 2025-03-27
 
 </details>
 
+<details>
+<summary><b> Compute and Containers </b> (Click to expand) </summary>
+
+- [Azure Virtual Machine](./2_compute-containers/virtual-machine)
+- [Azure Virtual Desktop](./2_compute-containers/virtual-desktop)
+- [Azure Kubernetes Service (AKS)](./2_compute-containers/kubernetes-service)
+- [Azure Functions (Function App)](./2_compute-containers/function-app)
+- [Azure Container Instances](./2_compute-containers/container-instances)
+- [Azure Batch](./2_compute-containers/batch)
+- [Azure App Service](./2_compute-containers/app-service)
+
+</details>
+
+
 ## Prerequisites
 
 - An `Azure subscription is required`. All other resources, including instructions for creating a Resource Group, are provided in this repository.
