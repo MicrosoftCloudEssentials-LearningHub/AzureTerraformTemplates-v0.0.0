@@ -15,7 +15,7 @@ Last updated: 2025-06-12
 > This Front Door configuration uses best practices for global HTTP/HTTPS load balancing and health monitoring.
 
 <p align="center">
-    <img width="550" alt="image" src="">
+    <img width="700" alt="image" src="https://github.com/user-attachments/assets/2571f8a5-a5d3-4785-9b50-71275a31ab77">
 </p>
 
 ## File Descriptions
@@ -27,7 +27,7 @@ Last updated: 2025-06-12
 
 ## Variables
 
-: Below is a list of variables used in this template, their expected values, types, and examples:
+> Below is a list of variables used in this template, their expected values, types, and examples:
 
 | Variable Name         | Description                                      | Type   | Example Value                |
 |---------------------- |--------------------------------------------------|--------|-----------------------------|
