@@ -15,7 +15,7 @@ Last updated: 2025-06-12
 > This Traffic Manager configuration uses best practices for routing, monitoring, and DNS setup.
 
 <p align="center">
-    <img width="550" alt="image" src="">
+    <img width="550" alt="image" src="https://github.com/user-attachments/assets/32680750-b3c9-4149-b0a9-677bcaccffca">
 </p>
 
 ## File Descriptions
