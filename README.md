@@ -64,6 +64,20 @@ Last updated: 2025-06-12
 
 </details>
 
+<details>
+<summary><b> Networking </b> (Click to expand) </summary>
+
+- [Networking](./3_networking)
+    - [Azure Application Gateway](./3_networking/application-gateway)
+    - [Azure ExpressRoute](./3_networking/expressroute)
+    - [Azure Firewall](./3_networking/firewall)
+    - [Azure Front Door](./3_networking/front-door)
+    - [Azure Load Balancer](./3_networking/load-balancer)
+    - [Azure Traffic Manager](./3_networking/traffic-manager)
+    - [Azure VPN Gateway](./3_networking/vpn-gateway)
+
+</details>
+
 
 ## Prerequisites
 
