@@ -28,7 +28,7 @@ Last updated: 2025-06-12
 
 ## Variables
 
-Below is a list of variables used in this template, their expected values, types, and examples:
+> Below is a list of variables used in this template, their expected values, types, and examples:
 
 | Variable Name | Description | Type | Example Value |
 |--------------|-------------|------|---------------|
