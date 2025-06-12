@@ -3,7 +3,7 @@
 # These values can be overridden by specifying different values during Terraform execution.
 
 # Azure Subscription
-subscription_id = "407f4106-0fd3-42e0-9348-3686dd1e7347" # your-subscription-id
+subscription_id = "" # your-subscription-id
 
 # Resource Group
 resource_group_name = "RG-trafficmanager-test"  # your-resource-group-name
