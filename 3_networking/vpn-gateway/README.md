@@ -15,7 +15,7 @@ Last updated: 2025-06-12
 > The subnet used for Azure VPN Gateway **must** be named `GatewaySubnet` and sized at least /27.
 
 <p align="center">
-    <img width="550" alt="image" src="">
+    <img width="700" alt="image" src="https://github.com/user-attachments/assets/c87943f7-5550-4e59-8059-3c236ec00f53">
 </p>
 
 ## File Descriptions
