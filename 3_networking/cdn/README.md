@@ -12,7 +12,7 @@ Last updated: 2025-06-13
 > This template contains Terraform configurations to create and manage an Azure CDN profile and endpoint.
 
 <p align="center">
-    <img width="700" alt="image" src=https://github.com/user-attachments/assets/57af5973-c81e-48df-98d9-80957e0f7207">
+    <img width="700" alt="image" src="https://github.com/user-attachments/assets/57af5973-c81e-48df-98d9-80957e0f7207">
 </p>
 
 
