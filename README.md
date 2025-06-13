@@ -78,6 +78,14 @@ Last updated: 2025-06-13
 
 </details>
 
+<details>
+<summary><b> Migration and Backup </b> (Click to expand) </summary>
+
+- [Migration and Backup](./10_migration-backup)
+    - [Azure Data Protection Backup Vault](./10_migration-backup/backup)
+    - [Azure Site Recovery (Recovery Services Vault)](./10_migration-backup/site-recovery)
+
+</details>
 
 ## Prerequisites
 
