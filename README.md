@@ -1,11 +1,11 @@
-# Azure Terraform Sample Templates: Version 0.0.0
+# Azure Terraform Deployment <br/> Sample Templates: Version 0.0.0
 
 Costa Rica
 
 [![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/)
 [brown9804](https://github.com/brown9804)
 
-Last updated: 2025-06-01
+Last updated: 2025-06-12
 
 ----------
 
@@ -61,6 +61,20 @@ Last updated: 2025-06-01
     - [Azure Container Instances](./2_compute-containers/container-instances)
     - [Azure Batch](./2_compute-containers/batch)
     - [Azure App Service](./2_compute-containers/app-service)
+
+</details>
+
+<details>
+<summary><b> Networking </b> (Click to expand) </summary>
+
+- [Networking](./3_networking)
+    - [Azure Application Gateway](./3_networking/application-gateway)
+    - [Azure ExpressRoute](./3_networking/expressroute)
+    - [Azure Firewall](./3_networking/firewall)
+    - [Azure Front Door](./3_networking/front-door)
+    - [Azure Load Balancer](./3_networking/load-balancer)
+    - [Azure Traffic Manager](./3_networking/traffic-manager)
+    - [Azure VPN Gateway](./3_networking/vpn-gateway)
 
 </details>
 
