@@ -75,6 +75,7 @@ Last updated: 2025-06-13
     - [Azure Load Balancer](./3_networking/load-balancer)
     - [Azure Traffic Manager](./3_networking/traffic-manager)
     - [Azure VPN Gateway](./3_networking/vpn-gateway)
+    - [Azure CDN (Content Delivery Network)](./3_networking/cdn)
 
 </details>
 
