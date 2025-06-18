@@ -18,6 +18,17 @@ Last updated: 2025-06-13
 
 </details>
 
+<details>
+<summary><b>Table of Content </b> (Click to expand)</summary>
+
+- [Templates available](#templates-available)
+- [Prerequisites](#prerequisites)
+- [Versioning](#versioning)
+- [Overview](#overview)
+- [How to execute it](#how-to-execute-it)
+
+</details>
+
 ## Templates available
 
 <details>
