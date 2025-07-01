@@ -14,13 +14,13 @@ Last updated: 2025-03-24
 
 ## Templates available
 
-- [Resource Group](./0_core-infrastructure/resource-group)
-- [Azure Bastion](./0_core-infrastructure/azure-bastion)
-- [Azure DNS Zone](./0_core-infrastructure/azure-dns)
-- [Network Security Group](./0_core-infrastructure/network-security-group)
-- [Azure Public IP](./0_core-infrastructure/public-ip)
-- [Subnet](./0_core-infrastructure/subnet)
-- [Virtual Network (VNET)](./0_core-infrastructure/virtual-network)
+- [Resource Group](./resource-group)
+- [Azure Bastion](./azure-bastion)
+- [Azure DNS Zone](./azure-dns)
+- [Network Security Group](./network-security-group)
+- [Azure Public IP](./public-ip)
+- [Subnet](./subnet)
+- [Virtual Network (VNET)](./virtual-network)
 
 <div align="center">
   <h3 style="color: #4CAF50;">Total Visitors</h3>
