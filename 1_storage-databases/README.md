@@ -14,15 +14,15 @@ Last updated: 2025-03-27
 
 ## Templates available
 
-- [Blob Storage](./1_storage-databases/blob-storage)
-- [Azure Cosmos DB](./1_storage-databases/cosmos-db)
-- [Azure Data Lake Storage Gen2](./1_storage-databases/data-lake-storage)
-- [Azure File Storage](./1_storage-databases/file-storage)
-- [MySQL Flexible Server](./1_storage-databases/mysql-flexible-server)
-- [PostgreSQL Server](./1_storage-databases/postgresql)
-- [Azure SQL Database](./1_storage-databases/sql-database)
-- [Azure Storage Account](./1_storage-databases/storage-account)
-- [MongoDB Atlas with Azure Network Peering](./1_storage-databases/mongo-atlas)
+- [Blob Storage](./blob-storage)
+- [Azure Cosmos DB](./cosmos-db)
+- [Azure Data Lake Storage Gen2](./data-lake-storage)
+- [Azure File Storage](./file-storage)
+- [MySQL Flexible Server](./mysql-flexible-server)
+- [PostgreSQL Server](./postgresql)
+- [Azure SQL Database](./sql-database)
+- [Azure Storage Account](./storage-account)
+- [MongoDB Atlas with Azure Network Peering](./mongo-atlas)
 
 <div align="center">
   <h3 style="color: #4CAF50;">Total Visitors</h3>
