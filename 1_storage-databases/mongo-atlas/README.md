@@ -34,10 +34,6 @@ Last updated: 2025-03-27
 > The MongoDB Atlas network peering depends on the Azure resources. Terraform ensures that these resources are created before the peering by using the `depends_on` argument in the configuration.
 
 <p align="center">
-    <img width="150" alt="image" src="https://github.com/user-attachments/assets/14f80abf-1cc2-4286-bb07-05dd24a0121d">
-</p>
-
-<p align="center">
     <img width="550" alt="image" src="https://github.com/user-attachments/assets/2963fec6-0ec5-47b6-b203-a18b15a1d9a6">
 </p>
 
