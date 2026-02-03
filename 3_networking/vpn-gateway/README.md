@@ -5,7 +5,7 @@ Costa Rica
 [![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/)
 [brown9804](https://github.com/brown9804)
 
-Last updated: 2025-06-13
+Last updated: 2026-02-03
 
 ----------
 
@@ -27,14 +27,14 @@ Last updated: 2025-06-13
 
 ## Variables
 
-| Variable Name         | Description                                      | Type   | Example Value                |
-|---------------------- |--------------------------------------------------|--------|-----------------------------|
-| `subscription_id`     | The Azure subscription ID                        | string | `"00000000-0000-0000-0000-000000000000"` |
-| `resource_group_name` | The name of the resource group                   | string | `"my-vpngw-rg"`             |
-| `location`            | The Azure region to deploy resources             | string | `"eastus"`                  |
-| `public_ip_name`      | The name of the public IP address for the VPN Gateway | string | `"my-vpngw-pip"`        |
-| `vpn_gateway_name`    | The name of the VPN Gateway                      | string | `"my-vpngw"`                |
-| `vpn_gateway_sku`     | The SKU for the VPN Gateway                      | string | `"VpnGw1"`                  |
+| Variable Name | Description | Type | Example Value |
+| --- | --- | --- | --- |
+| `subscription_id` | The Azure subscription ID | string | `"00000000-0000-0000-0000-000000000000"` |
+| `resource_group_name` | The name of the resource group | string | `"my-vpngw-rg"` |
+| `location` | The Azure region to deploy resources | string | `"eastus"` |
+| `public_ip_name` | The name of the public IP address for the VPN Gateway | string | `"my-vpngw-pip"` |
+| `vpn_gateway_name` | The name of the VPN Gateway | string | `"my-vpngw"` |
+| `vpn_gateway_sku` | The SKU for the VPN Gateway | string | `"VpnGw1"` |
 
 ## Usage
 
@@ -50,14 +50,14 @@ terraform apply
 
 ## Outputs
 
-| Output Name           | Description                                 |
-|-----------------------|---------------------------------------------|
-| `vpn_gateway_id`      | The ID of the VPN Gateway                   |
-| `vpn_gateway_public_ip` | The public IP address of the VPN Gateway  |
+| Output Name | Description |
+| --- | --- |
+| `vpn_gateway_id` | The ID of the VPN Gateway |
+| `vpn_gateway_public_ip` | The public IP address of the VPN Gateway |
 
 <!-- START BADGE -->
 <div align="center">
-  <img src="https://img.shields.io/badge/Total%20views-1459-limegreen" alt="Total views">
-  <p>Refresh Date: 2025-10-15</p>
+  <img src="https://img.shields.io/badge/Total%20views-1283-limegreen" alt="Total views">
+  <p>Refresh Date: 2026-02-03</p>
 </div>
 <!-- END BADGE -->

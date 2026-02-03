@@ -5,7 +5,7 @@ Costa Rica
 [![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/)
 [brown9804](https://github.com/brown9804)
 
-Last updated: 2025-03-19
+Last updated: 2026-02-03
 
 ----------
 
@@ -31,26 +31,24 @@ Last updated: 2025-03-19
 
 Below is a list of variables used in this template, their expected values, types, and examples:
 
-| Variable Name             | Description                                      | Type   | Example Value         |
-|---------------------------|--------------------------------------------------|--------|-----------------------|
-| `resource_group_name`     | The name of the Resource Group to associate the PostgreSQL Server with. | string | `"example-resources"` |
-| `location`                | The region where the Resource Group will be created. | string | `"West US"`           |
-| `postgresql_server_name`  | The name of the PostgreSQL server.               | string | `"example-postgresql"`|
-| `admin_username`          | The administrator login for the PostgreSQL server. | string | `"adminuser"`         |
-| `admin_password`          | The administrator password for the PostgreSQL server. | string | `"P@ssw0rd1234!"`     |
-| `sku_name`                | The SKU name for the PostgreSQL server.          | string | `"B_Gen5_1"`          |
-| `postgresql_version`      | The version of PostgreSQL.                       | string | `"11"`                |
-| `backup_retention_days`   | The number of days to retain backups.            | number | `7`                   |
-| `geo_redundant_backup_enabled` | Whether geo-redundant backup is enabled. | bool   | `false`               |
-| `auto_grow_enabled`       | Whether auto-grow is enabled.                    | bool   | `true`                |
-| `ssl_enforcement_enabled` | Whether SSL enforcement is enabled.              | bool   | `true`                |
-| `subscription_id`         | The subscription ID to use for the provider.     | string | `"your-subscription-id"` |
+| Variable Name | Description | Type | Example Value |
+| --- | --- | --- | --- |
+| `resource_group_name` | The name of the Resource Group to associate the PostgreSQL Server with. | string | `"example-resources"` |
+| `location` | The region where the Resource Group will be created. | string | `"West US"` |
+| `postgresql_server_name` | The name of the PostgreSQL server. | string | `"example-postgresql"` |
+| `admin_username` | The administrator login for the PostgreSQL server. | string | `"adminuser"` |
+| `admin_password` | The administrator password for the PostgreSQL server. | string | `"P@ssw0rd1234!"` |
+| `sku_name` | The SKU name for the PostgreSQL server. | string | `"B_Gen5_1"` |
+| `postgresql_version` | The version of PostgreSQL. | string | `"11"` |
+| `backup_retention_days` | The number of days to retain backups. | number | `7` |
+| `geo_redundant_backup_enabled` | Whether geo-redundant backup is enabled. | bool | `false` |
+| `auto_grow_enabled` | Whether auto-grow is enabled. | bool | `true` |
+| `ssl_enforcement_enabled` | Whether SSL enforcement is enabled. | bool | `true` |
+| `subscription_id` | The subscription ID to use for the provider. | string | `"your-subscription-id"` |
 
 <!-- START BADGE -->
 <div align="center">
-  <img src="https://img.shields.io/badge/Total%20views-1459-limegreen" alt="Total views">
-  <p>Refresh Date: 2025-10-15</p>
+  <img src="https://img.shields.io/badge/Total%20views-1283-limegreen" alt="Total views">
+  <p>Refresh Date: 2026-02-03</p>
 </div>
 <!-- END BADGE -->
-
-

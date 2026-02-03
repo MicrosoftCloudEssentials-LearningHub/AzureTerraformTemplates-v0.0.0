@@ -5,7 +5,7 @@ Costa Rica
 [![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/)
 [brown9804](https://github.com/brown9804)
 
-Last updated: 2025-06-13
+Last updated: 2026-02-03
 
 ----------
 
@@ -24,13 +24,13 @@ Last updated: 2025-06-13
 
 ## Variables
 
-| Variable Name         | Description                                      | Type   | Example Value                |
-|---------------------- |--------------------------------------------------|--------|-----------------------------|
-| `resource_group_name` | The name of the resource group                   | string | `"my-siterecovery-rg"`      |
-| `location`            | The Azure region to deploy resources             | string | `"eastus"`                  |
-| `vault_name`          | The name of the Recovery Services Vault          | string | `"my-siterecovery-vault"`   |
-| `sku`                 | The SKU for the Recovery Services Vault          | string | `"Standard"`                |
-| `tags`                | A map of tags to assign to resources             | map    | `{ Environment = "SiteRecovery", Owner = "IT" }` |
+| Variable Name | Description | Type | Example Value |
+| --- | --- | --- | --- |
+| `resource_group_name` | The name of the resource group | string | `"my-siterecovery-rg"` |
+| `location` | The Azure region to deploy resources | string | `"eastus"` |
+| `vault_name` | The name of the Recovery Services Vault | string | `"my-siterecovery-vault"` |
+| `sku` | The SKU for the Recovery Services Vault | string | `"Standard"` |
+| `tags` | A map of tags to assign to resources | map | `{ Environment = "SiteRecovery", Owner = "IT" }` |
 
 ## Usage
 
@@ -46,13 +46,13 @@ terraform apply
 
 ## Outputs
 
-| Output Name                | Description                                 |
-|----------------------------|---------------------------------------------|
-| `recovery_services_vault_id` | The ID of the Recovery Services Vault      |
+| Output Name | Description |
+| --- | --- |
+| `recovery_services_vault_id` | The ID of the Recovery Services Vault |
 
 <!-- START BADGE -->
 <div align="center">
-  <img src="https://img.shields.io/badge/Total%20views-1459-limegreen" alt="Total views">
-  <p>Refresh Date: 2025-10-15</p>
+  <img src="https://img.shields.io/badge/Total%20views-1283-limegreen" alt="Total views">
+  <p>Refresh Date: 2026-02-03</p>
 </div>
 <!-- END BADGE -->

@@ -5,7 +5,7 @@ Costa Rica
 [![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/)
 [brown9804](https://github.com/brown9804)
 
-Last updated: 2025-06-12
+Last updated: 2026-02-03
 
 ----------
 
@@ -18,8 +18,6 @@ Last updated: 2025-06-12
     <img width="800" alt="image" src="https://github.com/user-attachments/assets/7614ce31-c57d-41ce-a9f2-307c29cb0f3d">
 </p>
 
-
-
 ## File Descriptions
 
 - **main.tf**: Contains the main configuration for creating the Azure Firewall and its supporting resources.
@@ -29,13 +27,13 @@ Last updated: 2025-06-12
 
 ## Variables
 
-| Variable Name         | Description                                      | Type   | Example Value                |
-|---------------------- |--------------------------------------------------|--------|-----------------------------|
-| `resource_group_name` | The name of the resource group                   | string | `"my-firewall-rg"`          |
-| `location`            | The Azure region to deploy resources             | string | `"eastus"`                  |
-| `firewall_name`       | The name of the Azure Firewall                   | string | `"my-azfw"`                 |
-| `public_ip_name`      | The name of the public IP address for the firewall | string | `"my-azfw-pip"`           |
-| `subnet_id`           | The ID of the subnet for the Azure Firewall      | string | `".../subnets/AzureFirewallSubnet"` |
+| Variable Name | Description | Type | Example Value |
+| --- | --- | --- | --- |
+| `resource_group_name` | The name of the resource group | string | `"my-firewall-rg"` |
+| `location` | The Azure region to deploy resources | string | `"eastus"` |
+| `firewall_name` | The name of the Azure Firewall | string | `"my-azfw"` |
+| `public_ip_name` | The name of the public IP address for the firewall | string | `"my-azfw-pip"` |
+| `subnet_id` | The ID of the subnet for the Azure Firewall | string | `".../subnets/AzureFirewallSubnet"` |
 
 ## Usage
 
@@ -51,14 +49,14 @@ terraform apply
 
 ## Outputs
 
-| Output Name         | Description                                 |
-|---------------------|---------------------------------------------|
-| `firewall_id`       | The ID of the Azure Firewall                |
-| `firewall_public_ip`| The public IP address of the Azure Firewall |
+| Output Name | Description |
+| --- | --- |
+| `firewall_id` | The ID of the Azure Firewall |
+| `firewall_public_ip` | The public IP address of the Azure Firewall |
 
 <!-- START BADGE -->
 <div align="center">
-  <img src="https://img.shields.io/badge/Total%20views-1459-limegreen" alt="Total views">
-  <p>Refresh Date: 2025-10-15</p>
+  <img src="https://img.shields.io/badge/Total%20views-1283-limegreen" alt="Total views">
+  <p>Refresh Date: 2026-02-03</p>
 </div>
 <!-- END BADGE -->

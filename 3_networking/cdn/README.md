@@ -5,7 +5,7 @@ Costa Rica
 [![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/)
 [brown9804](https://github.com/brown9804)
 
-Last updated: 2025-06-13
+Last updated: 2026-02-03
 
 ----------
 
@@ -14,7 +14,6 @@ Last updated: 2025-06-13
 <p align="center">
     <img width="700" alt="image" src="https://github.com/user-attachments/assets/57af5973-c81e-48df-98d9-80957e0f7207">
 </p>
-
 
 ## File Descriptions
 
@@ -25,16 +24,16 @@ Last updated: 2025-06-13
 
 ## Variables
 
-| Variable Name         | Description                                      | Type   | Example Value                |
-|---------------------- |--------------------------------------------------|--------|-----------------------------|
-| `subscription_id`     | The Azure subscription ID                        | string | `"00000000-0000-0000-0000-000000000000"` |
-| `resource_group_name` | The name of the resource group                   | string | `"RG-cdn-test"`             |
-| `location`            | The Azure region to deploy resources             | string | `"eastus"`                  |
-| `cdn_profile_name`    | The name of the CDN profile                      | string | `"mycdnprofile"`            |
-| `cdn_sku`             | The SKU for the CDN profile                      | string | `"Standard_Microsoft"`      |
-| `cdn_endpoint_name`   | The name of the CDN endpoint                     | string | `"mycdnendpoint"`           |
-| `origin_host`         | The hostname of the origin server                | string | `"myorigin.example.com"`    |
-| `tags`                | A map of tags to assign to resources             | map    | `{ Environment = "CDN", Owner = "IT" }` |
+| Variable Name | Description | Type | Example Value |
+| --- | --- | --- | --- |
+| `subscription_id` | The Azure subscription ID | string | `"00000000-0000-0000-0000-000000000000"` |
+| `resource_group_name` | The name of the resource group | string | `"RG-cdn-test"` |
+| `location` | The Azure region to deploy resources | string | `"eastus"` |
+| `cdn_profile_name` | The name of the CDN profile | string | `"mycdnprofile"` |
+| `cdn_sku` | The SKU for the CDN profile | string | `"Standard_Microsoft"` |
+| `cdn_endpoint_name` | The name of the CDN endpoint | string | `"mycdnendpoint"` |
+| `origin_host` | The hostname of the origin server | string | `"myorigin.example.com"` |
+| `tags` | A map of tags to assign to resources | map | `{ Environment = "CDN", Owner = "IT" }` |
 
 ## Usage
 
@@ -58,7 +57,7 @@ terraform apply
 
 <!-- START BADGE -->
 <div align="center">
-  <img src="https://img.shields.io/badge/Total%20views-1459-limegreen" alt="Total views">
-  <p>Refresh Date: 2025-10-15</p>
+  <img src="https://img.shields.io/badge/Total%20views-1283-limegreen" alt="Total views">
+  <p>Refresh Date: 2026-02-03</p>
 </div>
 <!-- END BADGE -->

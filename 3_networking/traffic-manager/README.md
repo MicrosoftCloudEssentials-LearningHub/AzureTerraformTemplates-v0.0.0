@@ -5,7 +5,7 @@ Costa Rica
 [![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/)
 [brown9804](https://github.com/brown9804)
 
-Last updated: 2025-06-12
+Last updated: 2026-02-03
 
 ----------
 
@@ -30,17 +30,17 @@ Last updated: 2025-06-12
 
 Below is a list of variables used in this template, their expected values, types, and examples:
 
-| Variable Name           | Description                                            | Type         | Example Value         |
-|------------------------ |-------------------------------------------------------|--------------|----------------------|
-| `resource_group_name`   | The name of the resource group                        | string       | `"tm-resource-group"` |
-| `location`              | The Azure region for the resource group               | string       | `"eastus"`           |
-| `traffic_manager_name`  | The name of the Traffic Manager profile               | string       | `"my-tm-profile"`    |
-| `traffic_routing_method`| The traffic routing method (Performance, Priority, etc.) | string    | `"Performance"`      |
-| `dns_name`              | The relative DNS name for the Traffic Manager profile | string       | `"mytmprofile"`      |
-| `ttl`                   | The DNS Time-To-Live (TTL) in seconds                | number       | `30`                 |
-| `monitor_protocol`      | The protocol used for endpoint monitoring             | string       | `"HTTP"`             |
-| `monitor_port`          | The port used for endpoint monitoring                 | number       | `80`                 |
-| `monitor_path`          | The path used for endpoint monitoring                 | string       | `"/"`                |
+| Variable Name | Description | Type | Example Value |
+| --- | --- | --- | --- |
+| `resource_group_name` | The name of the resource group | string | `"tm-resource-group"` |
+| `location` | The Azure region for the resource group | string | `"eastus"` |
+| `traffic_manager_name` | The name of the Traffic Manager profile | string | `"my-tm-profile"` |
+| `traffic_routing_method` | The traffic routing method (Performance, Priority, etc.) | string | `"Performance"` |
+| `dns_name` | The relative DNS name for the Traffic Manager profile | string | `"mytmprofile"` |
+| `ttl` | The DNS Time-To-Live (TTL) in seconds | number | `30` |
+| `monitor_protocol` | The protocol used for endpoint monitoring | string | `"HTTP"` |
+| `monitor_port` | The port used for endpoint monitoring | number | `80` |
+| `monitor_path` | The path used for endpoint monitoring | string | `"/"` |
 
 ## Usage
 
@@ -56,14 +56,14 @@ terraform apply
 
 ## Outputs
 
-| Output Name                | Description                                 |
-|----------------------------|---------------------------------------------|
-| `traffic_manager_profile_id` | The ID of the Traffic Manager profile      |
-| `traffic_manager_fqdn`       | The FQDN of the Traffic Manager profile    |
+| Output Name | Description |
+| --- | --- |
+| `traffic_manager_profile_id` | The ID of the Traffic Manager profile |
+| `traffic_manager_fqdn` | The FQDN of the Traffic Manager profile |
 
 <!-- START BADGE -->
 <div align="center">
-  <img src="https://img.shields.io/badge/Total%20views-1459-limegreen" alt="Total views">
-  <p>Refresh Date: 2025-10-15</p>
+  <img src="https://img.shields.io/badge/Total%20views-1283-limegreen" alt="Total views">
+  <p>Refresh Date: 2026-02-03</p>
 </div>
 <!-- END BADGE -->

@@ -5,7 +5,7 @@ Costa Rica
 [![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/)
 [brown9804](https://github.com/brown9804)
 
-Last updated: 2025-06-12
+Last updated: 2026-02-03
 
 ----------
 
@@ -27,17 +27,17 @@ Last updated: 2025-06-12
 
 ## Variables
 
-| Variable Name           | Description                                      | Type   | Example Value                |
-|------------------------ |--------------------------------------------------|--------|-----------------------------|
-| `subscription_id`       | The Azure subscription ID                        | string | `"00000000-0000-0000-0000-000000000000"` |
-| `resource_group_name`   | The name of the resource group                   | string | `"my-expressroute-rg"`      |
-| `location`              | The Azure region to deploy resources             | string | `"eastus"`                  |
-| `expressroute_name`     | The name of the ExpressRoute circuit             | string | `"my-expressroute"`         |
-| `service_provider_name` | The name of the ExpressRoute service provider    | string | `"Equinix"`                 |
-| `peering_location`      | The peering location for the ExpressRoute circuit| string | `"Silicon Valley"`          |
-| `bandwidth_in_mbps`     | The bandwidth in Mbps for the circuit            | number | `200`                       |
-| `sku_tier`              | The SKU tier for ExpressRoute                    | string | `"Standard"`                |
-| `sku_family`            | The SKU family for ExpressRoute                  | string | `"MeteredData"`             |
+| Variable Name | Description | Type | Example Value |
+| --- | --- | --- | --- |
+| `subscription_id` | The Azure subscription ID | string | `"00000000-0000-0000-0000-000000000000"` |
+| `resource_group_name` | The name of the resource group | string | `"my-expressroute-rg"` |
+| `location` | The Azure region to deploy resources | string | `"eastus"` |
+| `expressroute_name` | The name of the ExpressRoute circuit | string | `"my-expressroute"` |
+| `service_provider_name` | The name of the ExpressRoute service provider | string | `"Equinix"` |
+| `peering_location` | The peering location for the ExpressRoute circuit | string | `"Silicon Valley"` |
+| `bandwidth_in_mbps` | The bandwidth in Mbps for the circuit | number | `200` |
+| `sku_tier` | The SKU tier for ExpressRoute | string | `"Standard"` |
+| `sku_family` | The SKU family for ExpressRoute | string | `"MeteredData"` |
 
 ## Usage
 
@@ -60,7 +60,7 @@ terraform apply
 
 <!-- START BADGE -->
 <div align="center">
-  <img src="https://img.shields.io/badge/Total%20views-1459-limegreen" alt="Total views">
-  <p>Refresh Date: 2025-10-15</p>
+  <img src="https://img.shields.io/badge/Total%20views-1283-limegreen" alt="Total views">
+  <p>Refresh Date: 2026-02-03</p>
 </div>
 <!-- END BADGE -->

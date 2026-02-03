@@ -5,7 +5,7 @@ Costa Rica
 [![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/)
 [brown9804](https://github.com/brown9804)
 
-Last updated: 2025-03-12
+Last updated: 2026-02-03
 
 ----------
 
@@ -30,19 +30,19 @@ Last updated: 2025-03-12
 
 Below is a list of variables used in this template, their expected values, types, and examples:
 
-| Variable Name             | Description                                      | Type   | Example Value         |
-|---------------------------|--------------------------------------------------|--------|-----------------------|
-| `resource_group_name`     | The name of the Azure Resource Group to associate the Storage Account with. | string | `"my-resource-group"` |
-| `location`                | The Azure region where the Resource Group will be created. | string | `"East US"`           |
-| `storage_account_name`    | The name of the Azure Storage Account to create. | string | `"mystorageaccount"`  |
-| `account_tier`            | The tier to use for the Storage Account (Standard or Premium). | string | `"Standard"`          |
-| `account_replication_type`| The replication type to use for the Storage Account (LRS, GRS, RAGRS, ZRS). | string | `"LRS"`               |
-| `subscription_id`         | The Azure subscription ID to use for the AzureRM provider. | string | `"your-subscription-id"` |
-| `tags`                    | A map of tags to assign to the resources.        | map    | `{ "env": "dev" }`    |
+| Variable Name | Description | Type | Example Value |
+| --- | --- | --- | --- |
+| `resource_group_name` | The name of the Azure Resource Group to associate the Storage Account with. | string | `"my-resource-group"` |
+| `location` | The Azure region where the Resource Group will be created. | string | `"East US"` |
+| `storage_account_name` | The name of the Azure Storage Account to create. | string | `"mystorageaccount"` |
+| `account_tier` | The tier to use for the Storage Account (Standard or Premium). | string | `"Standard"` |
+| `account_replication_type` | The replication type to use for the Storage Account (LRS, GRS, RAGRS, ZRS). | string | `"LRS"` |
+| `subscription_id` | The Azure subscription ID to use for the AzureRM provider. | string | `"your-subscription-id"` |
+| `tags` | A map of tags to assign to the resources. | map | `{ "env": "dev" }` |
 
 <!-- START BADGE -->
 <div align="center">
-  <img src="https://img.shields.io/badge/Total%20views-1459-limegreen" alt="Total views">
-  <p>Refresh Date: 2025-10-15</p>
+  <img src="https://img.shields.io/badge/Total%20views-1283-limegreen" alt="Total views">
+  <p>Refresh Date: 2026-02-03</p>
 </div>
 <!-- END BADGE -->

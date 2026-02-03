@@ -5,7 +5,7 @@ Costa Rica
 [![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/)
 [brown9804](https://github.com/brown9804)
 
-Last updated: 2025-03-24
+Last updated: 2026-02-03
 
 ----------
 
@@ -31,22 +31,22 @@ Last updated: 2025-03-24
 
 Below is a list of variables used in this template, their expected values, types, and examples:
 
-| Variable Name             | Description                                      | Type   | Example Value         |
-|---------------------------|--------------------------------------------------|--------|-----------------------|
-| `resource_group_name`     | The name of the Azure Resource Group to associate the AVD environment with. | string | `"my-resource-group"` |
-| `location`                | The Azure region where the Resource Group will be created. | string | `"East US"`           |
-| `virtual_network_name`    | The name of the Azure Virtual Network to create. | string | `"my-vnet"`           |
-| `subnet_name`             | The name of the Subnet to create within the Virtual Network. | string | `"my-subnet"`         |
-| `workspace_name`          | The name of the Azure Virtual Desktop Workspace to create. | string | `"my-avd-workspace"`  |
-| `host_pool_name`          | The name of the Azure Virtual Desktop Host Pool to create. | string | `"my-avd-hostpool"`   |
-| `vm_size`                 | The size of the Virtual Machines for the session hosts. | string | `"Standard_DS2_v2"`   |
-| `admin_username`          | The administrator username for the session hosts. | string | `"adminuser"`         |
-| `admin_password`          | The administrator password for the session hosts. | string | `"P@ssw0rd1234"`      |
-| `tags`                    | A map of tags to assign to the resources.        | map    | `{ "env": "dev" }`    |
+| Variable Name | Description | Type | Example Value |
+| --- | --- | --- | --- |
+| `resource_group_name` | The name of the Azure Resource Group to associate the AVD environment with. | string | `"my-resource-group"` |
+| `location` | The Azure region where the Resource Group will be created. | string | `"East US"` |
+| `virtual_network_name` | The name of the Azure Virtual Network to create. | string | `"my-vnet"` |
+| `subnet_name` | The name of the Subnet to create within the Virtual Network. | string | `"my-subnet"` |
+| `workspace_name` | The name of the Azure Virtual Desktop Workspace to create. | string | `"my-avd-workspace"` |
+| `host_pool_name` | The name of the Azure Virtual Desktop Host Pool to create. | string | `"my-avd-hostpool"` |
+| `vm_size` | The size of the Virtual Machines for the session hosts. | string | `"Standard_DS2_v2"` |
+| `admin_username` | The administrator username for the session hosts. | string | `"adminuser"` |
+| `admin_password` | The administrator password for the session hosts. | string | `"P@ssw0rd1234"` |
+| `tags` | A map of tags to assign to the resources. | map | `{ "env": "dev" }` |
 
 <!-- START BADGE -->
 <div align="center">
-  <img src="https://img.shields.io/badge/Total%20views-1459-limegreen" alt="Total views">
-  <p>Refresh Date: 2025-10-15</p>
+  <img src="https://img.shields.io/badge/Total%20views-1283-limegreen" alt="Total views">
+  <p>Refresh Date: 2026-02-03</p>
 </div>
 <!-- END BADGE -->

@@ -5,7 +5,7 @@ Costa Rica
 [![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/)
 [brown9804](https://github.com/brown9804)
 
-Last updated: 2025-03-24
+Last updated: 2026-02-03
 
 ----------
 
@@ -31,21 +31,21 @@ Last updated: 2025-03-24
 
 Below is a list of variables used in this template, their expected values, types, and examples:
 
-| Variable Name             | Description                                      | Type   | Example Value         |
-|---------------------------|--------------------------------------------------|--------|-----------------------|
-| `resource_group_name`     | The name of the Azure Resource Group to associate the Container Instances with. | string | `"my-resource-group"` |
-| `location`                | The Azure region where the Resource Group will be created. | string | `"East US"`           |
-| `container_group_name`    | The name of the Azure Container Group to create. | string | `"my-container-group"` |
-| `container_name`          | The name of the Container to create within the Container Group. | string | `"my-container"`      |
-| `image`                   | The Docker image to use for the Container.       | string | `"nginx:latest"`      |
-| `cpu_cores`               | The number of CPU cores to allocate to the Container. | number | `1`                   |
-| `memory_in_gb`            | The amount of memory in GB to allocate to the Container. | number | `1.5`                 |
-| `port`                    | The port to expose on the Container.             | number | `80`                  |
-| `tags`                    | A map of tags to assign to the resources.        | map    | `{ "env": "dev" }`    |
+| Variable Name | Description | Type | Example Value |
+| --- | --- | --- | --- |
+| `resource_group_name` | The name of the Azure Resource Group to associate the Container Instances with. | string | `"my-resource-group"` |
+| `location` | The Azure region where the Resource Group will be created. | string | `"East US"` |
+| `container_group_name` | The name of the Azure Container Group to create. | string | `"my-container-group"` |
+| `container_name` | The name of the Container to create within the Container Group. | string | `"my-container"` |
+| `image` | The Docker image to use for the Container. | string | `"nginx:latest"` |
+| `cpu_cores` | The number of CPU cores to allocate to the Container. | number | `1` |
+| `memory_in_gb` | The amount of memory in GB to allocate to the Container. | number | `1.5` |
+| `port` | The port to expose on the Container. | number | `80` |
+| `tags` | A map of tags to assign to the resources. | map | `{ "env": "dev" }` |
 
 <!-- START BADGE -->
 <div align="center">
-  <img src="https://img.shields.io/badge/Total%20views-1459-limegreen" alt="Total views">
-  <p>Refresh Date: 2025-10-15</p>
+  <img src="https://img.shields.io/badge/Total%20views-1283-limegreen" alt="Total views">
+  <p>Refresh Date: 2026-02-03</p>
 </div>
 <!-- END BADGE -->
