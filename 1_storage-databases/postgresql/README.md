@@ -46,8 +46,11 @@ Below is a list of variables used in this template, their expected values, types
 | `ssl_enforcement_enabled` | Whether SSL enforcement is enabled.              | bool   | `true`                |
 | `subscription_id`         | The subscription ID to use for the provider.     | string | `"your-subscription-id"` |
 
+<!-- START BADGE -->
 <div align="center">
-  <h3 style="color: #4CAF50;">Total Visitors</h3>
-  <img src="https://profile-counter.glitch.me/your-github-username/count.svg" alt="Visitor Count" style="border: 2px solid #4CAF50; border-radius: 5px; padding: 5px;"/>
+  <img src="https://img.shields.io/badge/Total%20views-1459-limegreen" alt="Total views">
+  <p>Refresh Date: 2025-10-15</p>
 </div>
+<!-- END BADGE -->
+
 
