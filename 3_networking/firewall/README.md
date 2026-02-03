@@ -27,13 +27,13 @@ Last updated: 2026-02-03
 
 ## Variables
 
-| Variable Name         | Description                                      | Type   | Example Value                |
-|---------------------- |--------------------------------------------------|--------|-----------------------------|
-| `resource_group_name` | The name of the resource group                   | string | `"my-firewall-rg"`          |
-| `location`            | The Azure region to deploy resources             | string | `"eastus"`                  |
-| `firewall_name`       | The name of the Azure Firewall                   | string | `"my-azfw"`                 |
-| `public_ip_name`      | The name of the public IP address for the firewall | string | `"my-azfw-pip"`           |
-| `subnet_id`           | The ID of the subnet for the Azure Firewall      | string | `".../subnets/AzureFirewallSubnet"` |
+| Variable Name | Description | Type | Example Value |
+| --- | --- | --- | --- |
+| `resource_group_name` | The name of the resource group | string | `"my-firewall-rg"` |
+| `location` | The Azure region to deploy resources | string | `"eastus"` |
+| `firewall_name` | The name of the Azure Firewall | string | `"my-azfw"` |
+| `public_ip_name` | The name of the public IP address for the firewall | string | `"my-azfw-pip"` |
+| `subnet_id` | The ID of the subnet for the Azure Firewall | string | `".../subnets/AzureFirewallSubnet"` |
 
 ## Usage
 
@@ -49,10 +49,10 @@ terraform apply
 
 ## Outputs
 
-| Output Name         | Description                                 |
-|---------------------|---------------------------------------------|
-| `firewall_id`       | The ID of the Azure Firewall                |
-| `firewall_public_ip`| The public IP address of the Azure Firewall |
+| Output Name | Description |
+| --- | --- |
+| `firewall_id` | The ID of the Azure Firewall |
+| `firewall_public_ip` | The public IP address of the Azure Firewall |
 
 <!-- START BADGE -->
 <div align="center">

@@ -29,13 +29,13 @@ Last updated: 2025-06-12
 
 > Below is a list of variables used in this template, their expected values, types, and examples:
 
-| Variable Name         | Description                                      | Type   | Example Value                |
-|---------------------- |--------------------------------------------------|--------|-----------------------------|
-| `subscription_id`     | The Azure subscription ID                        | string | `"00000000-0000-0000-0000-000000000000"` |
-| `resource_group_name` | The name of the resource group                   | string | `"my-frontdoor-rg"`         |
-| `location`            | The Azure region to deploy resources             | string | `"eastus"`                  |
-| `front_door_name`     | The name of the Azure Front Door profile         | string | `"myfrontdoorprofile"`      |
-| `backend_host`        | The backend host (FQDN or IP) for Front Door     | string | `"mybackend.example.com"`   |
+| Variable Name | Description | Type | Example Value |
+| --- | --- | --- | --- |
+| `subscription_id` | The Azure subscription ID | string | `"00000000-0000-0000-0000-000000000000"` |
+| `resource_group_name` | The name of the resource group | string | `"my-frontdoor-rg"` |
+| `location` | The Azure region to deploy resources | string | `"eastus"` |
+| `front_door_name` | The name of the Azure Front Door profile | string | `"myfrontdoorprofile"` |
+| `backend_host` | The backend host (FQDN or IP) for Front Door | string | `"mybackend.example.com"` |
 
 ## Usage
 
@@ -51,9 +51,9 @@ terraform apply
 
 ## Outputs
 
-| Output Name                  | Description                                 |
-|------------------------------|---------------------------------------------|
-| `front_door_id`              | The ID of the Front Door profile            |
+| Output Name | Description |
+| --- | --- |
+| `front_door_id` | The ID of the Front Door profile |
 | `front_door_frontend_endpoint` | The frontend endpoint hostname of Front Door |
 
 <!-- START BADGE -->

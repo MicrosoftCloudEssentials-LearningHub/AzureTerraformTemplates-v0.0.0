@@ -24,16 +24,16 @@ Last updated: 2026-02-03
 
 ## Variables
 
-| Variable Name         | Description                                      | Type   | Example Value                |
-|---------------------- |--------------------------------------------------|--------|-----------------------------|
-| `subscription_id`     | The Azure subscription ID                        | string | `"00000000-0000-0000-0000-000000000000"` |
-| `resource_group_name` | The name of the resource group                   | string | `"RG-cdn-test"`             |
-| `location`            | The Azure region to deploy resources             | string | `"eastus"`                  |
-| `cdn_profile_name`    | The name of the CDN profile                      | string | `"mycdnprofile"`            |
-| `cdn_sku`             | The SKU for the CDN profile                      | string | `"Standard_Microsoft"`      |
-| `cdn_endpoint_name`   | The name of the CDN endpoint                     | string | `"mycdnendpoint"`           |
-| `origin_host`         | The hostname of the origin server                | string | `"myorigin.example.com"`    |
-| `tags`                | A map of tags to assign to resources             | map    | `{ Environment = "CDN", Owner = "IT" }` |
+| Variable Name | Description | Type | Example Value |
+| --- | --- | --- | --- |
+| `subscription_id` | The Azure subscription ID | string | `"00000000-0000-0000-0000-000000000000"` |
+| `resource_group_name` | The name of the resource group | string | `"RG-cdn-test"` |
+| `location` | The Azure region to deploy resources | string | `"eastus"` |
+| `cdn_profile_name` | The name of the CDN profile | string | `"mycdnprofile"` |
+| `cdn_sku` | The SKU for the CDN profile | string | `"Standard_Microsoft"` |
+| `cdn_endpoint_name` | The name of the CDN endpoint | string | `"mycdnendpoint"` |
+| `origin_host` | The hostname of the origin server | string | `"myorigin.example.com"` |
+| `tags` | A map of tags to assign to resources | map | `{ Environment = "CDN", Owner = "IT" }` |
 
 ## Usage
 

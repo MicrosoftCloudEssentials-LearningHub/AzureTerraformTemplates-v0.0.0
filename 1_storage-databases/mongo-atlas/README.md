@@ -89,28 +89,28 @@ Last updated: 2026-02-03
 
 Below is a list of variables used in this template, their expected values, types, and examples:
 
-| Variable Name               | Description                                      | Type    | Example Value             |
-|-----------------------------|--------------------------------------------------|---------|---------------------------|
-| `azure_subscription_id`     | The Azure subscription ID.                       | string  | `"your-subscription-id"`  |
-| `resource_group_name`       | The name of the Azure resource group.            | string  | `"your-resource-group"`   |
-| `vnet_name`                 | The name of the Azure virtual network.           | string  | `"your-vnet-name"`        |
-| `azure_vnet_cidr_block`     | The CIDR block for the Azure virtual network.    | string  | `"10.1.0.0/16"`           |
-| `atlas_cidr_block`          | The CIDR block for the MongoDB Atlas network container. | string  | `"192.168.1.0/24"`        |
-| `location`                  | The location/region where the resources will be created. | string  | `"West US"`               |
-| `mongodbatlas_org_id`       | The organization ID for MongoDB Atlas.           | string  | `"your-org-id"`           |
-| `azure_directory_id`        | The Azure directory ID.                          | string  | `"your-directory-id"`     |
-| `mongodbatlas_public_key`   | The public key for MongoDB Atlas.                | string  | `"your-public-key"`       |
-| `mongodbatlas_private_key`  | The private key for MongoDB Atlas.               | string  | `"your-private-key"`      |
+| Variable Name | Description | Type | Example Value |
+| --- | --- | --- | --- |
+| `azure_subscription_id` | The Azure subscription ID. | string | `"your-subscription-id"` |
+| `resource_group_name` | The name of the Azure resource group. | string | `"your-resource-group"` |
+| `vnet_name` | The name of the Azure virtual network. | string | `"your-vnet-name"` |
+| `azure_vnet_cidr_block` | The CIDR block for the Azure virtual network. | string | `"10.1.0.0/16"` |
+| `atlas_cidr_block` | The CIDR block for the MongoDB Atlas network container. | string | `"192.168.1.0/24"` |
+| `location` | The location/region where the resources will be created. | string | `"West US"` |
+| `mongodbatlas_org_id` | The organization ID for MongoDB Atlas. | string | `"your-org-id"` |
+| `azure_directory_id` | The Azure directory ID. | string | `"your-directory-id"` |
+| `mongodbatlas_public_key` | The public key for MongoDB Atlas. | string | `"your-public-key"` |
+| `mongodbatlas_private_key` | The private key for MongoDB Atlas. | string | `"your-private-key"` |
 
 > CIDR options example:
 
 | Azure Virtual Network CIDR Block Options | MongoDB Atlas Network Container CIDR Block Options |
-|------------------------------------------|----------------------------------------------------|
-| `10.2.0.0/16`                            | `192.168.2.0/24`                                   |
-| `10.3.0.0/16`                            | `192.168.3.0/24`                                   |
-| `10.4.0.0/16`                            | `192.168.4.0/24`                                   |
-| `10.5.0.0/16`                            | `192.168.5.0/24`                                   |
-| `10.6.0.0/16`                            | `192.168.6.0/24`                                   |
+| --- | --- |
+| `10.2.0.0/16` | `192.168.2.0/24` |
+| `10.3.0.0/16` | `192.168.3.0/24` |
+| `10.4.0.0/16` | `192.168.4.0/24` |
+| `10.5.0.0/16` | `192.168.5.0/24` |
+| `10.6.0.0/16` | `192.168.6.0/24` |
 
 ## How to create MongoDB Atlas public/private key
 
