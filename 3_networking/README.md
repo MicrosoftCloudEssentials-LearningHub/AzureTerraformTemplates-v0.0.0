@@ -12,7 +12,20 @@ Last updated: 2025-02-21
 > [!IMPORTANT]
 > This folder contains sample Terraform templates for Azure networking services. These templates are starting points and should be customized based on your application needs.
 
+## Templates available
+
+- [Azure Application Gateway](./application-gateway)
+- [Azure CDN (Content Delivery Network)](./cdn)
+- [Azure ExpressRoute](./expressroute)
+- [Azure Firewall](./firewall)
+- [Azure Front Door](./front-door)
+- [Azure Load Balancer](./load-balancer)
+- [Azure Traffic Manager](./traffic-manager)
+- [Azure VPN Gateway](.//vpn-gateway)
+
+<!-- START BADGE -->
 <div align="center">
-  <h3 style="color: #4CAF50;">Total Visitors</h3>
-  <img src="https://profile-counter.glitch.me/brown9804/count.svg" alt="Visitor Count" style="border: 2px solid #4CAF50; border-radius: 5px; padding: 5px;"/>
+  <img src="https://img.shields.io/badge/Total%20views-1459-limegreen" alt="Total views">
+  <p>Refresh Date: 2025-10-15</p>
 </div>
+<!-- END BADGE -->
