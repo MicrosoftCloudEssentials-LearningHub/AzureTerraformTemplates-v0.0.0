@@ -31,15 +31,15 @@ Last updated: 2025-03-11
 Below is a list of variables used in this template, their expected values, types, and examples:
 
 | Variable Name           | Description                                      | Type   | Example Value         |
-|-------------------------|--------------------------------------------------|--------|-----------------------|
-| `resource_group_name`   | The name of the Azure Resource Group to associate the Subnet with. | string | `"my-resource-group"` |
-| `vnet_name`             | The name of the Azure Virtual Network to associate the Subnet with. | string | `"my-vnet"`           |
-| `subnet_name`           | The name of the Azure Subnet to create.          | string | `"my-subnet"`         |
-| `location`              | The Azure region where the Subnet will be created. | string | `"East US"`           |
-| `address_space`         | The address space for the Virtual Network.       | list   | `["10.0.0.0/16"]`     |
-| `subnet_address_prefixes` | The address prefixes for the Subnet.            | list   | `["10.0.1.0/24"]`     |
-| `subscription_id`       | The Azure subscription ID to use for the AzureRM provider. | string | `"your-subscription-id"` |
-| `tags`                  | A map of tags to assign to the resources.        | map    | `{ "env": "dev" }`    |
+| --- | --- | --- | --- |
+| `resource_group_name` | The name of the Azure Resource Group to associate the Subnet with. | string | `"my-resource-group"` |
+| `vnet_name` | The name of the Azure Virtual Network to associate the Subnet with. | string | `"my-vnet"` |
+| `subnet_name` | The name of the Azure Subnet to create. | string | `"my-subnet"` |
+| `location` | The Azure region where the Subnet will be created. | string | `"East US"` |
+| `address_space` | The address space for the Virtual Network. | list | `["10.0.0.0/16"]` |
+| `subnet_address_prefixes` | The address prefixes for the Subnet. | list | `["10.0.1.0/24"]` |
+| `subscription_id` | The Azure subscription ID to use for the AzureRM provider. | string | `"your-subscription-id"` |
+| `tags` | A map of tags to assign to the resources. | map | `{ "env": "dev" }` |
 
 <!-- START BADGE -->
 <div align="center">

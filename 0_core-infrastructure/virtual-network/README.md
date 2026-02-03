@@ -31,13 +31,13 @@ Last updated: 2025-03-11
 Below is a list of variables used in this template, their expected values, types, and examples:
 
 | Variable Name       | Description                                      | Type   | Example Value         |
-|---------------------|--------------------------------------------------|--------|-----------------------|
-| `vnet_name`         | The name of the Azure Virtual Network to create. | string | `"my-vnet"`           |
+| --- | --- | --- | --- |
+| `vnet_name` | The name of the Azure Virtual Network to create. | string | `"my-vnet"` |
 | `resource_group_name` | The name of the Azure Resource Group to associate the Virtual Network with. | string | `"my-resource-group"` |
-| `location`          | The Azure region where the Virtual Network will be created. | string | `"East US"`           |
-| `address_space`     | The address space for the Virtual Network.       | list   | `["10.0.0.0/16"]`     |
-| `subscription_id`   | The Azure subscription ID to use for the AzureRM provider. | string | `"your-subscription-id"` |
-| `tags`              | A map of tags to assign to the Virtual Network.  | map    | `{ "env": "dev" }`    |
+| `location` | The Azure region where the Virtual Network will be created. | string | `"East US"` |
+| `address_space` | The address space for the Virtual Network. | list | `["10.0.0.0/16"]` |
+| `subscription_id` | The Azure subscription ID to use for the AzureRM provider. | string | `"your-subscription-id"` |
+| `tags` | A map of tags to assign to the Virtual Network. | map | `{ "env": "dev" }` |
 
 <!-- START BADGE -->
 <div align="center">

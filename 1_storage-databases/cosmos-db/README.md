@@ -31,12 +31,12 @@ Last updated: 2025-03-13
 Below is a list of variables used in this template, their expected values, types, and examples:
 
 | Variable Name             | Description                                      | Type   | Example Value         |
-|---------------------------|--------------------------------------------------|--------|-----------------------|
-| `resource_group_name`     | The name of the Azure Resource Group to associate the Cosmos DB Account with. | string | `"my-resource-group"` |
-| `location`                | The Azure region where the Resource Group will be created. | string | `"East US"`           |
-| `cosmosdb_account_name`   | The name of the Azure Cosmos DB Account to create. | string | `"mycosmosdbaccount"` |
-| `subscription_id`         | The Azure subscription ID to use for the AzureRM provider. | string | `"your-subscription-id"` |
-| `tags`                    | A map of tags to assign to the resources.        | map    | `{ "env": "dev" }`    |
+| --- | --- | --- | --- |
+| `resource_group_name` | The name of the Azure Resource Group to associate the Cosmos DB Account with. | string | `"my-resource-group"` |
+| `location` | The Azure region where the Resource Group will be created. | string | `"East US"` |
+| `cosmosdb_account_name` | The name of the Azure Cosmos DB Account to create. | string | `"mycosmosdbaccount"` |
+| `subscription_id` | The Azure subscription ID to use for the AzureRM provider. | string | `"your-subscription-id"` |
+| `tags` | A map of tags to assign to the resources. | map | `{ "env": "dev" }` |
 
 <!-- START BADGE -->
 <div align="center">
