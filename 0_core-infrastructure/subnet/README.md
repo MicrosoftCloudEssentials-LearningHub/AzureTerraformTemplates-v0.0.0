@@ -41,7 +41,10 @@ Below is a list of variables used in this template, their expected values, types
 | `subscription_id`       | The Azure subscription ID to use for the AzureRM provider. | string | `"your-subscription-id"` |
 | `tags`                  | A map of tags to assign to the resources.        | map    | `{ "env": "dev" }`    |
 
+<!-- START BADGE -->
 <div align="center">
-  <h3 style="color: #4CAF50;">Total Visitors</h3>
-  <img src="https://profile-counter.glitch.me/brown9804/count.svg" alt="Visitor Count" style="border: 2px solid #4CAF50; border-radius: 5px; padding: 5px;"/>
+  <img src="https://img.shields.io/badge/Total%20views-1459-limegreen" alt="Total views">
+  <p>Refresh Date: 2025-10-15</p>
 </div>
+<!-- END BADGE -->
+
