@@ -30,13 +30,13 @@ Last updated: 2025-02-21
 
 Below is a list of variables used in this template, their expected values, types, and examples:
 
-| Variable Name         | Description                                      | Type   | Example Value         |
-|-----------------------|--------------------------------------------------|--------|-----------------------|
+| Variable Name | Description | Type | Example Value |
+| --- | --- | --- | --- |
 | `resource_group_name` | The name of the Azure Resource Group to associate the NSG with. | string | `"my-resource-group"` |
-| `nsg_name`            | The name of the Azure Network Security Group to create. | string | `"my-nsg"`            |
-| `location`            | The Azure region where the NSG will be created. | string | `"East US"`           |
-| `subscription_id`     | The Azure subscription ID to use for the AzureRM provider. | string | `"your-subscription-id"` |
-| `tags`                | A map of tags to assign to the resources.        | map    | `{ "env": "dev" }`    |
+| `nsg_name` | The name of the Azure Network Security Group to create. | string | `"my-nsg"` |
+| `location` | The Azure region where the NSG will be created. | string | `"East US"` |
+| `subscription_id` | The Azure subscription ID to use for the AzureRM provider. | string | `"your-subscription-id"` |
+| `tags` | A map of tags to assign to the resources. | map | `{ "env": "dev" }` |
 
 <!-- START BADGE -->
 <div align="center">

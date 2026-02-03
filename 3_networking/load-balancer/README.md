@@ -31,7 +31,7 @@ Last updated: 2025-06-12
 > Below is a list of variables used in this template, their expected values, types, and examples:
 
 | Variable Name | Description | Type | Example Value |
-|--------------|-------------|------|---------------|
+| --- | --- | --- | --- |
 | `subscription_id` | The Azure subscription ID | string | `"your-subscription-id"` |
 | `resource_group_name` | The name of the resource group | string | `"my-resource-group"` |
 | `location` | The Azure region to deploy resources | string | `"eastus"` |
@@ -63,7 +63,7 @@ terraform apply
 ## Outputs
 
 | Output Name | Description |
-|-------------|-------------|
+| --- | --- |
 | `load_balancer_id` | The ID of the Load Balancer |
 | `public_ip_address` | The public IP address of the Load Balancer |
 | `backend_pool_id` | The ID of the Backend Address Pool |

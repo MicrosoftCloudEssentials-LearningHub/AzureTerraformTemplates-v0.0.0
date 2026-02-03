@@ -109,11 +109,11 @@ Last updated: 2026-02-03
 
 ## Versioning 
 
-| **Version**   | **Description**                                                                 |
-|---------------|---------------------------------------------------------------------------------|
-| [0.0.0](https://github.com/MicrosoftCloudEssentials-LearningHub/AzureTerraformTemplates-v0.0.0)    | This is the initial version of the template, showcasing sample configurations.               |
-| **0.1.0**     | Added support for additional Azure services.                                   |
-| **1.0.0**     | First stable release with a comprehensive set of Azure resources.              |
+| **Version** | **Description** |
+| --- | --- |
+| [0.0.0](https://github.com/MicrosoftCloudEssentials-LearningHub/AzureTerraformTemplates-v0.0.0) | This is the initial version of the template, showcasing sample configurations. |
+| **0.1.0** | Added support for additional Azure services. |
+| **1.0.0** | First stable release with a comprehensive set of Azure resources. |
 
 ## Overview 
 

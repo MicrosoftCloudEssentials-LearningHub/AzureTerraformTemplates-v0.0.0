@@ -30,15 +30,15 @@ Last updated: 2025-02-21
 
 Below is a list of variables used in this template, their expected values, types, and examples:
 
-| Variable Name         | Description                                      | Type   | Example Value         |
-|-----------------------|--------------------------------------------------|--------|-----------------------|
+| Variable Name | Description | Type | Example Value |
+| --- | --- | --- | --- |
 | `resource_group_name` | The name of the Azure Resource Group to associate the Public IP with. | string | `"my-resource-group"` |
-| `public_ip_name`      | The name of the Azure Public IP to create.       | string | `"my-public-ip"`      |
-| `location`            | The Azure region where the Public IP will be created. | string | `"East US"`           |
-| `allocation_method`   | The allocation method for the Public IP (Static or Dynamic). | string | `"Static"`            |
-| `sku`                 | The SKU of the Public IP (Basic or Standard).    | string | `"Basic"`             |
-| `subscription_id`     | The Azure subscription ID to use for the AzureRM provider. | string | `"your-subscription-id"` |
-| `tags`                | A map of tags to assign to the resources.        | map    | `{ "env": "dev" }`    |
+| `public_ip_name` | The name of the Azure Public IP to create. | string | `"my-public-ip"` |
+| `location` | The Azure region where the Public IP will be created. | string | `"East US"` |
+| `allocation_method` | The allocation method for the Public IP (Static or Dynamic). | string | `"Static"` |
+| `sku` | The SKU of the Public IP (Basic or Standard). | string | `"Basic"` |
+| `subscription_id` | The Azure subscription ID to use for the AzureRM provider. | string | `"your-subscription-id"` |
+| `tags` | A map of tags to assign to the resources. | map | `{ "env": "dev" }` |
 
 <!-- START BADGE -->
 <div align="center">
