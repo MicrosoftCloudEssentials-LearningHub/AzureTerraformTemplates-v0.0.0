@@ -46,7 +46,6 @@ Last updated: 2026-02-03
   <img width="550" alt="image" src="https://github.com/user-attachments/assets/482a289c-e912-40e2-b13a-4167a763cdfe" />
 </p>
 
-
 ```
 ╷
 │ Error: error creating MongoDB Network Peering Connection: https://cloud.mongodb.com/api/atlas/v2/groups/677a5/peers POST: HTTP 500 Internal Server Error (Error code: "UNEXPECTED_ERROR") Detail: Unexpected error. Reason: Internal Server Error. Params: [], BadRequestDetail: 

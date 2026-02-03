@@ -29,7 +29,6 @@ Last updated: 2025-03-27
 
 </details>
 
-
 > [!NOTE]
 > The MongoDB Atlas network peering depends on the Azure resources. Terraform ensures that these resources are created before the peering by using the `depends_on` argument in the configuration.
 
@@ -45,37 +44,38 @@ Last updated: 2025-03-27
     <img width="550" alt="image" src="https://github.com/user-attachments/assets/62f3c882-2ca5-4abf-9de0-fa83857ec03d">
 </p>
 
-
 <p align="center">
     <img width="550" alt="image" src="https://github.com/user-attachments/assets/de1d3b05-1596-4be0-8a35-73d472b17478">
 </p>
 
 > [!TIP]
-> For this demostration, I used promotional codes that I found for MongoDB Atlas that will give you $100 FREE MONGODB credits: `GETATLAS `
+> For this demostration, I used promotional codes that I found for MongoDB Atlas that will give you $100 FREE MONGODB credits: `GETATLAS`
 
 ## Prerequisites
 
 - An `Azure subscription is required`. All other resources, including instructions for creating a Resource Group, are provided in this workshop.
 - `Contributor role assigned or any custom role that allows`: access to manage all resources, and the ability to deploy resources within subscription.
 - If you choose to use the Terraform approach, please ensure that:
-  -  [Terraform is installed on your local machine](https://developer.hashicorp.com/terraform/tutorials/azure-get-started/install-cli#install-terraform).
-  -  [Install the Azure CLI](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli) to work with both Terraform and Azure commands.
+  - [Terraform is installed on your local machine](https://developer.hashicorp.com/terraform/tutorials/azure-get-started/install-cli#install-terraform).
+  - [Install the Azure CLI](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli) to work with both Terraform and Azure commands.
 - A MongoDB Atlas account. If you don't have one yet, just sign up for a [free MongoDB Atlas account here](https://www.mongodb.com/cloud/atlas/register).
 
-    https://github.com/user-attachments/assets/1507a6a7-b74b-4ec6-8118-433ef52e6d8f
+    <https://github.com/user-attachments/assets/1507a6a7-b74b-4ec6-8118-433ef52e6d8f>
 
 ## Permissions required 
 
 > Please read [terraform documentation on azurerm specifics](https://registry.terraform.io/providers/mongodb/mongodbatlas/latest/docs/resources/network_peering). To create the peering request with an Azure VNET, you need to grant Atlas the following permissions on the virtual network: <br/>
+>
 > - Microsoft.Network/virtualNetworks/virtualNetworkPeerings/read <br/>
 > - Microsoft.Network/virtualNetworks/virtualNetworkPeerings/write <br/>
 > - Microsoft.Network/virtualNetworks/virtualNetworkPeerings/delete <br/>
 > - Microsoft.Network/virtualNetworks/peer/action <br/>
+>
 > For more information, see [Set Up a Network Peering Connection](https://docs.atlas.mongodb.com/security-vpc-peering/) and [Mongo DB network peering](https://docs.atlas.mongodb.com/reference/api/vpc-create-peering-connection/)
 
 > For example:
 
-https://github.com/user-attachments/assets/2f71a62f-1d8c-41f4-9403-efb84028056c
+<https://github.com/user-attachments/assets/2f71a62f-1d8c-41f4-9403-efb84028056c>
 
 ## File Descriptions
 
@@ -122,14 +122,14 @@ Below is a list of variables used in this template, their expected values, types
 3. Select API Key, click on create new, and store the values securely
 
    <img width="350" alt="image" src="https://github.com/user-attachments/assets/4e774329-6af5-4e76-a6f8-13d25c30be08">
-        
-   https://github.com/user-attachments/assets/7c42f0c5-37cf-4d1b-9f48-ccf95d6c5f4d
+
+    <https://github.com/user-attachments/assets/7c42f0c5-37cf-4d1b-9f48-ccf95d6c5f4d>
 
 ## How it works 
 
 > Overall, to set up network peering between Azure and MongoDB Atlas using Terraform, start by creating a MongoDB Atlas account, project, network container, and cluster. Ensure you have an Azure virtual network (VNet) configured and [grant necessary permissions to the Azure service principal to enable it to peer with MongoDB Atlas](#permissions-required). Deploy the VNet peering module to establish the connection between the Azure VNet and MongoDB Atlas, making sure the CIDR blocks do not overlap to avoid conflicts. You can use this template, and run the stardard terraform commands to deploy the infrastrcture, click [here if you need more information about it](https://github.com/MicrosoftCloudEssentials-LearningHub/AzureTerraformTemplates-v0.0.0/tree/mongo-atlas?tab=readme-ov-file#how-to-execute-it) <br/>
 
-https://github.com/user-attachments/assets/95f0c5cd-b1b9-422d-a32d-4cfdb98a5a1e
+<https://github.com/user-attachments/assets/95f0c5cd-b1b9-422d-a32d-4cfdb98a5a1e>
 
 <!-- START BADGE -->
 <div align="center">
@@ -137,4 +137,3 @@ https://github.com/user-attachments/assets/95f0c5cd-b1b9-422d-a32d-4cfdb98a5a1e
   <p>Refresh Date: 2026-02-03</p>
 </div>
 <!-- END BADGE -->
-

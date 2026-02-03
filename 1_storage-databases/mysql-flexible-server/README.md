@@ -30,22 +30,22 @@ Last updated: 2025-03-24
 
 Below is a list of variables used in this template, their expected values, types, and examples:
 
-| Variable Name             | Description                                      | Type   | Example Value         |
-|---------------------------|--------------------------------------------------|--------|-----------------------|
-| `resource_group_name`             | The name of the Resource Group to associate the MySQL Flexible Server with. | string | `"example-resources"` |
-| `location`                        | The region where the Resource Group will be created. | string | `"West US"`           |
-| `administrator_login`             | The administrator login for the MySQL server.    | string | `"adminuser"`         |
-| `administrator_password`          | The administrator password for the MySQL server. | string | `"P@ssw0rd1234!"`     |
-| `sku_name`                        | The SKU name for the MySQL server.               | string | `"GP_Standard_D2ds_v4"`|
-| `mysql_version`                   | The version of MySQL.                            | string | `"8.0.21"`            |
-| `backup_retention_days`           | The number of days to retain backups.            | number | `7`                   |
-| `high_availability_mode`          | The high availability mode.                      | string | `"SameZone"`          |
-| `maintenance_window_day_of_week`  | The day of the week for maintenance.             | number | `0`                   |
-| `maintenance_window_start_hour`   | The start hour for maintenance.                  | number | `8`                   |
-| `maintenance_window_start_minute` | The start minute for maintenance.                | number | `0`                   |
-| `storage_iops`                    | The IOPS for the storage.                        | number | `360`                 |
-| `storage_size_gb`                 | The size of the storage in GB.                   | number | `20`                  |
-| `subscription_id`         | The subscription ID to use for the provider.     | string | `"your-subscription-id"` |
+| Variable Name | Description | Type | Example Value |
+| --- | --- | --- | --- |
+| `resource_group_name` | The name of the Resource Group to associate the MySQL Flexible Server with. | string | `"example-resources"` |
+| `location` | The region where the Resource Group will be created. | string | `"West US"` |
+| `administrator_login` | The administrator login for the MySQL server. | string | `"adminuser"` |
+| `administrator_password` | The administrator password for the MySQL server. | string | `"P@ssw0rd1234!"` |
+| `sku_name` | The SKU name for the MySQL server. | string | `"GP_Standard_D2ds_v4"` |
+| `mysql_version` | The version of MySQL. | string | `"8.0.21"` |
+| `backup_retention_days` | The number of days to retain backups. | number | `7` |
+| `high_availability_mode` | The high availability mode. | string | `"SameZone"` |
+| `maintenance_window_day_of_week` | The day of the week for maintenance. | number | `0` |
+| `maintenance_window_start_hour` | The start hour for maintenance. | number | `8` |
+| `maintenance_window_start_minute` | The start minute for maintenance. | number | `0` |
+| `storage_iops` | The IOPS for the storage. | number | `360` |
+| `storage_size_gb` | The size of the storage in GB. | number | `20` |
+| `subscription_id` | The subscription ID to use for the provider. | string | `"your-subscription-id"` |
 
 <!-- START BADGE -->
 <div align="center">
@@ -53,4 +53,3 @@ Below is a list of variables used in this template, their expected values, types
   <p>Refresh Date: 2026-02-03</p>
 </div>
 <!-- END BADGE -->
-

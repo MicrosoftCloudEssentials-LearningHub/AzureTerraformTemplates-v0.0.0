@@ -31,7 +31,7 @@ Last updated: 2025-06-12
 > Below is a list of variables used in this template, their expected values, types, and examples:
 
 | Variable Name | Description | Type | Example Value |
-|--------------|-------------|------|---------------|
+| --- | --- | --- | --- |
 | `subscription_id` | The Azure subscription ID | string | `"12345678-abcd-efgh-ijkl-9876543210"` |
 | `resource_group_name` | The name of the resource group | string | `"appgw-resource-group"` |
 | `location` | The Azure region to deploy resources | string | `"eastus"` |
@@ -57,7 +57,7 @@ terraform apply
 ## Outputs
 
 | Output Name | Description |
-|-------------|-------------|
+| --- | --- |
 | `application_gateway_id` | The ID of the Application Gateway |
 | `public_ip_address` | The frontend public IP address of the Application Gateway |
 | `virtual_network_name` | The name of the virtual network |

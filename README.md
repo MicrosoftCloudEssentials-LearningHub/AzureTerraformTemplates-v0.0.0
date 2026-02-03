@@ -35,13 +35,13 @@ Last updated: 2026-02-03
 <summary><b> Core Infrastructure </b> (Click to expand) </summary>
 
 - [Core Infrastructure](./0_core-infrastructure)
-    - [Resource Group](./0_core-infrastructure/resource-group)
-    - [Azure Bastion](./0_core-infrastructure/azure-bastion)
-    - [Azure DNS Zone](./0_core-infrastructure/azure-dns)
-    - [Network Security Group](./0_core-infrastructure/network-security-group)
-    - [Azure Public IP](./0_core-infrastructure/public-ip)
-    - [Subnet](./0_core-infrastructure/subnet)
-    - [Virtual Network (VNET)](./0_core-infrastructure/virtual-network)
+  - [Resource Group](./0_core-infrastructure/resource-group)
+  - [Azure Bastion](./0_core-infrastructure/azure-bastion)
+  - [Azure DNS Zone](./0_core-infrastructure/azure-dns)
+  - [Network Security Group](./0_core-infrastructure/network-security-group)
+  - [Azure Public IP](./0_core-infrastructure/public-ip)
+  - [Subnet](./0_core-infrastructure/subnet)
+  - [Virtual Network (VNET)](./0_core-infrastructure/virtual-network)
 
 </details>
 
@@ -49,15 +49,15 @@ Last updated: 2026-02-03
 <summary><b> Storage and Databases </b> (Click to expand) </summary>
 
 - [Storage and Databases](./1_storage-databases)
-    - [Blob Storage](./1_storage-databases/blob-storage)
-    - [Azure Cosmos DB](./1_storage-databases/cosmos-db)
-    - [Azure Data Lake Storage Gen2](./1_storage-databases/data-lake-storage)
-    - [Azure File Storage](./1_storage-databases/file-storage)
-    - [MySQL Flexible Server](./1_storage-databases/mysql-flexible-server)
-    - [PostgreSQL Server](./1_storage-databases/postgresql)
-    - [Azure SQL Database](./1_storage-databases/sql-database)
-    - [Azure Storage Account](./1_storage-databases/storage-account)
-    - [MongoDB Atlas with Azure Network Peering](./1_storage-databases/mongo-atlas)
+  - [Blob Storage](./1_storage-databases/blob-storage)
+  - [Azure Cosmos DB](./1_storage-databases/cosmos-db)
+  - [Azure Data Lake Storage Gen2](./1_storage-databases/data-lake-storage)
+  - [Azure File Storage](./1_storage-databases/file-storage)
+  - [MySQL Flexible Server](./1_storage-databases/mysql-flexible-server)
+  - [PostgreSQL Server](./1_storage-databases/postgresql)
+  - [Azure SQL Database](./1_storage-databases/sql-database)
+  - [Azure Storage Account](./1_storage-databases/storage-account)
+  - [MongoDB Atlas with Azure Network Peering](./1_storage-databases/mongo-atlas)
 
 </details>
 
@@ -65,13 +65,13 @@ Last updated: 2026-02-03
 <summary><b> Compute and Containers </b> (Click to expand) </summary>
 
 - [Compute and Containers](./2_compute-containers)
-    - [Azure Virtual Machine](./2_compute-containers/virtual-machine)
-    - [Azure Virtual Desktop](./2_compute-containers/virtual-desktop)
-    - [Azure Kubernetes Service (AKS)](./2_compute-containers/kubernetes-service)
-    - [Azure Functions (Function App)](./2_compute-containers/function-app)
-    - [Azure Container Instances](./2_compute-containers/container-instances)
-    - [Azure Batch](./2_compute-containers/batch)
-    - [Azure App Service](./2_compute-containers/app-service)
+  - [Azure Virtual Machine](./2_compute-containers/virtual-machine)
+  - [Azure Virtual Desktop](./2_compute-containers/virtual-desktop)
+  - [Azure Kubernetes Service (AKS)](./2_compute-containers/kubernetes-service)
+  - [Azure Functions (Function App)](./2_compute-containers/function-app)
+  - [Azure Container Instances](./2_compute-containers/container-instances)
+  - [Azure Batch](./2_compute-containers/batch)
+  - [Azure App Service](./2_compute-containers/app-service)
 
 </details>
 
@@ -79,14 +79,14 @@ Last updated: 2026-02-03
 <summary><b> Networking </b> (Click to expand) </summary>
 
 - [Networking](./3_networking)
-    - [Azure Application Gateway](./3_networking/application-gateway)
-    - [Azure ExpressRoute](./3_networking/expressroute)
-    - [Azure Firewall](./3_networking/firewall)
-    - [Azure Front Door](./3_networking/front-door)
-    - [Azure Load Balancer](./3_networking/load-balancer)
-    - [Azure Traffic Manager](./3_networking/traffic-manager)
-    - [Azure VPN Gateway](./3_networking/vpn-gateway)
-    - [Azure CDN (Content Delivery Network)](./3_networking/cdn)
+  - [Azure Application Gateway](./3_networking/application-gateway)
+  - [Azure ExpressRoute](./3_networking/expressroute)
+  - [Azure Firewall](./3_networking/firewall)
+  - [Azure Front Door](./3_networking/front-door)
+  - [Azure Load Balancer](./3_networking/load-balancer)
+  - [Azure Traffic Manager](./3_networking/traffic-manager)
+  - [Azure VPN Gateway](./3_networking/vpn-gateway)
+  - [Azure CDN (Content Delivery Network)](./3_networking/cdn)
 
 </details>
 
@@ -94,18 +94,18 @@ Last updated: 2026-02-03
 <summary><b> Migration and Backup </b> (Click to expand) </summary>
 
 - [Migration and Backup](./10_migration-backup)
-    - [Azure Data Protection Backup Vault](./10_migration-backup/backup)
-    - [Azure Site Recovery (Recovery Services Vault)](./10_migration-backup/site-recovery)
+  - [Azure Data Protection Backup Vault](./10_migration-backup/backup)
+  - [Azure Site Recovery (Recovery Services Vault)](./10_migration-backup/site-recovery)
 
 </details>
 
 ## Prerequisites
 
 - An `Azure subscription is required`. All other resources, including instructions for creating a Resource Group, are provided in this repository.
--` Contributor role assigned or any custom role that allows`: access to manage all resources, and the ability to deploy resources within subscription.
+- `Contributor role assigned or any custom role that allows`: access to manage all resources, and the ability to deploy resources within subscription.
 - If you choose to use the Terraform approach, please ensure that:
-  -  [Terraform is installed on your local machine](https://developer.hashicorp.com/terraform/tutorials/azure-get-started/install-cli#install-terraform).
-  -  [Install the Azure CLI](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli) to work with both Terraform and Azure commands.
+  - [Terraform is installed on your local machine](https://developer.hashicorp.com/terraform/tutorials/azure-get-started/install-cli#install-terraform).
+  - [Install the Azure CLI](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli) to work with both Terraform and Azure commands.
 
 ## Versioning 
 
@@ -149,7 +149,6 @@ graph TD;
 > [!IMPORTANT]
 > Please modify `terraform.tfvars` with your information, then run the following flow. If you need more visual guidance, please check the video that illustrates the provisioning steps. 
 
-
 1. **Login to Azure**: This command logs you into your Azure account. It opens a browser window where you can enter your Azure credentials. Once logged in, you can manage your Azure resources from the command line.
 
     ```sh
@@ -190,7 +189,6 @@ graph TD;
 
         <img width="550" alt="image" src="https://github.com/user-attachments/assets/2b32b63f-3e9f-46da-a5e9-c39360135251">
 
-     
    - **Remove**: Destroys the infrastructure managed by Terraform. It prompts for confirmation before deleting any resources. It also uses the variable values specified in `terraform.tfvars`.
     
         ```sh
@@ -205,3 +203,5 @@ graph TD;
   <p>Refresh Date: 2026-02-03</p>
 </div>
 <!-- END BADGE -->
+
+</div>

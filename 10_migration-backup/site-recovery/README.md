@@ -24,13 +24,13 @@ Last updated: 2025-06-13
 
 ## Variables
 
-| Variable Name         | Description                                      | Type   | Example Value                |
-|---------------------- |--------------------------------------------------|--------|-----------------------------|
-| `resource_group_name` | The name of the resource group                   | string | `"my-siterecovery-rg"`      |
-| `location`            | The Azure region to deploy resources             | string | `"eastus"`                  |
-| `vault_name`          | The name of the Recovery Services Vault          | string | `"my-siterecovery-vault"`   |
-| `sku`                 | The SKU for the Recovery Services Vault          | string | `"Standard"`                |
-| `tags`                | A map of tags to assign to resources             | map    | `{ Environment = "SiteRecovery", Owner = "IT" }` |
+| Variable Name | Description | Type | Example Value |
+| --- | --- | --- | --- |
+| `resource_group_name` | The name of the resource group | string | `"my-siterecovery-rg"` |
+| `location` | The Azure region to deploy resources | string | `"eastus"` |
+| `vault_name` | The name of the Recovery Services Vault | string | `"my-siterecovery-vault"` |
+| `sku` | The SKU for the Recovery Services Vault | string | `"Standard"` |
+| `tags` | A map of tags to assign to resources | map | `{ Environment = "SiteRecovery", Owner = "IT" }` |
 
 ## Usage
 
@@ -46,9 +46,9 @@ terraform apply
 
 ## Outputs
 
-| Output Name                | Description                                 |
-|----------------------------|---------------------------------------------|
-| `recovery_services_vault_id` | The ID of the Recovery Services Vault      |
+| Output Name | Description |
+| --- | --- |
+| `recovery_services_vault_id` | The ID of the Recovery Services Vault |
 
 <!-- START BADGE -->
 <div align="center">

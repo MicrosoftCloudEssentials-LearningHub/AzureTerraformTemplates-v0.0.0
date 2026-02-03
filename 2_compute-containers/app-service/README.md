@@ -31,15 +31,15 @@ Last updated: 2025-03-24
 
 Below is a list of variables used in this template, their expected values, types, and examples:
 
-| Variable Name             | Description                                      | Type   | Example Value         |
-|---------------------------|--------------------------------------------------|--------|-----------------------|
-| `resource_group_name`     | The name of the Azure Resource Group to associate the App Service with. | string | `"my-resource-group"` |
-| `location`                | The Azure region where the Resource Group will be created. | string | `"East US"`           |
-| `app_service_plan_name`   | The name of the Azure App Service Plan to create. | string | `"my-app-service-plan"` |
-| `app_service_name`        | The name of the Azure App Service to create.     | string | `"my-app-service"`    |
-| `app_service_sku`         | The SKU of the App Service Plan.                 | string | `"B1"`                |
-| `runtime_stack`           | The runtime stack for the App Service.           | string | `"NODE|14-lts"`       |
-| `tags`                    | A map of tags to assign to the resources.        | map    | `{ "env": "dev" }`    |
+| Variable Name | Description | Type | Example Value |
+| --- | --- | --- | --- |
+| `resource_group_name` | The name of the Azure Resource Group to associate the App Service with. | string | `"my-resource-group"` |
+| `location` | The Azure region where the Resource Group will be created. | string | `"East US"` |
+| `app_service_plan_name` | The name of the Azure App Service Plan to create. | string | `"my-app-service-plan"` |
+| `app_service_name` | The name of the Azure App Service to create. | string | `"my-app-service"` |
+| `app_service_sku` | The SKU of the App Service Plan. | string | `"B1"` |
+| `runtime_stack` | The runtime stack for the App Service. | string | `"NODE\|14-lts"` |
+| `tags` | A map of tags to assign to the resources. | map | `{ "env": "dev" }` |
 
 <!-- START BADGE -->
 <div align="center">

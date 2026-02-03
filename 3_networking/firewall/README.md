@@ -18,8 +18,6 @@ Last updated: 2025-06-12
     <img width="800" alt="image" src="https://github.com/user-attachments/assets/7614ce31-c57d-41ce-a9f2-307c29cb0f3d">
 </p>
 
-
-
 ## File Descriptions
 
 - **main.tf**: Contains the main configuration for creating the Azure Firewall and its supporting resources.

@@ -24,13 +24,13 @@ Last updated: 2025-06-13
 
 ## Variables
 
-| Variable Name         | Description                                      | Type   | Example Value                |
-|---------------------- |--------------------------------------------------|--------|-----------------------------|
-| `resource_group_name` | The name of the resource group                   | string | `"my-backup-rg"`            |
-| `location`            | The Azure region to deploy resources             | string | `"eastus"`                  |
-| `backup_vault_name`   | The name of the Data Protection Backup Vault     | string | `"my-backup-vault"`         |
-| `redundancy`          | The redundancy setting for the backup vault      | string | `"LocallyRedundant"`        |
-| `tags`                | A map of tags to assign to resources             | map    | `{ Environment = "Backup", Owner = "IT" }` |
+| Variable Name | Description | Type | Example Value |
+| --- | --- | --- | --- |
+| `resource_group_name` | The name of the resource group | string | `"my-backup-rg"` |
+| `location` | The Azure region to deploy resources | string | `"eastus"` |
+| `backup_vault_name` | The name of the Data Protection Backup Vault | string | `"my-backup-vault"` |
+| `redundancy` | The redundancy setting for the backup vault | string | `"LocallyRedundant"` |
+| `tags` | A map of tags to assign to resources | map | `{ Environment = "Backup", Owner = "IT" }` |
 
 ## Usage
 
@@ -46,9 +46,9 @@ terraform apply
 
 ## Outputs
 
-| Output Name      | Description                                 |
-|------------------|---------------------------------------------|
-| `backup_vault_id`| The ID of the Data Protection Backup Vault  |
+| Output Name | Description |
+| --- | --- |
+| `backup_vault_id` | The ID of the Data Protection Backup Vault |
 
 <!-- START BADGE -->
 <div align="center">

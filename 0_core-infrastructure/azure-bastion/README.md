@@ -49,4 +49,3 @@ Below is a list of variables used in this template, their expected values, types
   <p>Refresh Date: 2026-02-03</p>
 </div>
 <!-- END BADGE -->
-

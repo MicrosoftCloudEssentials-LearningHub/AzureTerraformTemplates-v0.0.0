@@ -15,7 +15,6 @@ Last updated: 2025-06-13
     <img width="700" alt="image" src="https://github.com/user-attachments/assets/57af5973-c81e-48df-98d9-80957e0f7207">
 </p>
 
-
 ## File Descriptions
 
 - **main.tf**: Contains the main configuration for creating the Azure CDN profile and endpoint.

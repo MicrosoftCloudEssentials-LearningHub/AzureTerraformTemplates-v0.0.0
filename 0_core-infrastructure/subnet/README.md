@@ -30,7 +30,7 @@ Last updated: 2026-02-03
 
 Below is a list of variables used in this template, their expected values, types, and examples:
 
-| Variable Name           | Description                                      | Type   | Example Value         |
+| Variable Name | Description | Type | Example Value |
 | --- | --- | --- | --- |
 | `resource_group_name` | The name of the Azure Resource Group to associate the Subnet with. | string | `"my-resource-group"` |
 | `vnet_name` | The name of the Azure Virtual Network to associate the Subnet with. | string | `"my-vnet"` |
@@ -47,4 +47,3 @@ Below is a list of variables used in this template, their expected values, types
   <p>Refresh Date: 2026-02-03</p>
 </div>
 <!-- END BADGE -->
-

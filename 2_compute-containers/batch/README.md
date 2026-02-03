@@ -30,13 +30,13 @@ Last updated: 2025-06-01
 
 Below is a list of variables used in this template, their expected values, types, and examples:
 
-| Variable Name             | Description                                      | Type   | Example Value         |
-|---------------------------|--------------------------------------------------|--------|-----------------------|
-| `resource_group_name`     | The name of the Azure Resource Group to associate the Batch environment with. | string | `"my-resource-group"` |
-| `location`                | The Azure region where the Resource Group will be created. | string | `"East US"`           |
-| `storage_account_name`    | The name of the Azure Storage Account to create. | string | `"mystorageaccount"`  |
-| `batch_account_name`      | The name of the Azure Batch Account to create.   | string | `"mybatchaccount"`    |
-| `tags`                    | A map of tags to assign to the resources.        | map    | `{ "env": "dev" }`    |
+| Variable Name | Description | Type | Example Value |
+| --- | --- | --- | --- |
+| `resource_group_name` | The name of the Azure Resource Group to associate the Batch environment with. | string | `"my-resource-group"` |
+| `location` | The Azure region where the Resource Group will be created. | string | `"East US"` |
+| `storage_account_name` | The name of the Azure Storage Account to create. | string | `"mystorageaccount"` |
+| `batch_account_name` | The name of the Azure Batch Account to create. | string | `"mybatchaccount"` |
+| `tags` | A map of tags to assign to the resources. | map | `{ "env": "dev" }` |
 
 <!-- START BADGE -->
 <div align="center">

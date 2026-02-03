@@ -30,17 +30,17 @@ Last updated: 2025-03-13
 
 Below is a list of variables used in this template, their expected values, types, and examples:
 
-| Variable Name             | Description                                      | Type   | Example Value         |
-|---------------------------|--------------------------------------------------|--------|-----------------------|
-| `resource_group_name`     | The name of the Azure Resource Group to associate the SQL Database with. | string | `"my-resource-group"` |
-| `location`                | The Azure region where the Resource Group will be created. | string | `"East US"`           |
-| `sql_server_name`         | The name of the Azure SQL Server to create.      | string | `"my-sql-server"`     |
-| `administrator_login`     | The administrator login name for the SQL Server. | string | `"adminuser"`         |
-| `administrator_login_password` | The administrator login password for the SQL Server. | string | `"P@ssw0rd123"`       |
-| `sql_database_name`       | The name of the Azure SQL Database to create.    | string | `"mydatabase"`        |
-| `sku_name`                | The SKU name for the SQL Database (e.g., S0, S1, P1). | string | `"S1"`               |
-| `subscription_id`         | The Azure subscription ID to use for the AzureRM provider. | string | `"your-subscription-id"` |
-| `tags`                    | A map of tags to assign to the resources.        | map    | `{ "env": "dev" }`    |
+| Variable Name | Description | Type | Example Value |
+| --- | --- | --- | --- |
+| `resource_group_name` | The name of the Azure Resource Group to associate the SQL Database with. | string | `"my-resource-group"` |
+| `location` | The Azure region where the Resource Group will be created. | string | `"East US"` |
+| `sql_server_name` | The name of the Azure SQL Server to create. | string | `"my-sql-server"` |
+| `administrator_login` | The administrator login name for the SQL Server. | string | `"adminuser"` |
+| `administrator_login_password` | The administrator login password for the SQL Server. | string | `"P@ssw0rd123"` |
+| `sql_database_name` | The name of the Azure SQL Database to create. | string | `"mydatabase"` |
+| `sku_name` | The SKU name for the SQL Database (e.g., S0, S1, P1). | string | `"S1"` |
+| `subscription_id` | The Azure subscription ID to use for the AzureRM provider. | string | `"your-subscription-id"` |
+| `tags` | A map of tags to assign to the resources. | map | `{ "env": "dev" }` |
 
 <!-- START BADGE -->
 <div align="center">
@@ -48,4 +48,3 @@ Below is a list of variables used in this template, their expected values, types
   <p>Refresh Date: 2026-02-03</p>
 </div>
 <!-- END BADGE -->
-
