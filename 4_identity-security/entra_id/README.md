@@ -1,4 +1,4 @@
-# Terraform Template - Microsoft Entra ID (Entra ID)
+# Terraform Template - Microsoft Entra ID (App)
 
 Costa Rica
 
@@ -9,11 +9,14 @@ Last updated: 2026-02-03
 
 ------------------------------------------
 
-> High level: creates a Microsoft Entra ID application registration (tenant-level). Optionally creates a service principal, a client secret, and (optionally) assigns an Azure RBAC role at a provided scope.
+> This template contains Terraform configurations to create and manage a Microsoft Entra ID application registration (tenant-level). Optionally creates a service principal, a client secret, and (optionally) assigns an Azure RBAC role at a provided scope.
 
-> High level: creates a Microsoft Entra ID application registration (tenant-level). Optionally creates a service principal and a client secret.
-
+> [!NOTE]
 > No Azure resource group is required unless you choose a resource-group RBAC scope (because the RG must already exist for role assignment).
+
+<img width="1898" height="987" alt="image" src="https://github.com/user-attachments/assets/0bb658e3-a617-4132-8d99-c2bd4efe38ca" />
+
+<img width="1326" height="768" alt="image" src="https://github.com/user-attachments/assets/b219e1fd-7c1e-4265-9f71-2bc559af1694" />
 
 ## File Descriptions
 
@@ -46,36 +49,27 @@ Below is a list of variables used in this template, their expected values, types
    az login
    ```
 
-2. Initialize and apply:
+2. Initialize, validate and plan:
 
    ```sh
    terraform init -upgrade
-   terraform apply -auto-approve
-   ```
-
-   Keep your `terraform.tfvars` minimal: set only `app_display_name`, and explicitly opt-in to optional resources (service principal, client secret, RBAC scope) when you need them.
-
-3. Validate and plan:
-
-   ```sh
    terraform validate
    terraform plan
    ```
 
-4. Apply:
+   > Keep your `terraform.tfvars` minimal: set only `app_display_name`, and explicitly opt-in to optional resources (service principal, client secret, RBAC scope) when you need them.
+
+3. Apply:
 
    ```sh
    terraform apply -auto-approve
    ```
 
-If you need Azure RBAC role assignments, use an AzureRM-based template (requires a subscription context and scope such as a subscription or resource group).
+> If you need Azure RBAC role assignments, use an AzureRM-based template (requires a subscription context and scope such as a subscription or resource group). These `TF_VAR_*` environment variables are scoped to your current shell session.
 
-> These `TF_VAR_*` environment variables are scoped to your current shell session.
-
-## Notes
-
-- Creating applications, service principals, and secrets requires Microsoft Entra ID permissions (e.g., Application Administrator or appropriate Microsoft Graph application roles).
-- This template does not create Azure resources and does not require a resource group.
+> [!NOTE]
+> - Creating applications, service principals, and secrets requires Microsoft Entra ID permissions (e.g., Application Administrator or appropriate Microsoft Graph application roles).
+> - This template does not create Azure resources and does not require a resource group.
 
 <!-- START BADGE -->
 <div align="center">
