@@ -68,6 +68,7 @@ Below is a list of variables used in this template, their expected values, types
 > If you need Azure RBAC role assignments, use an AzureRM-based template (requires a subscription context and scope such as a subscription or resource group). These `TF_VAR_*` environment variables are scoped to your current shell session.
 
 > [!NOTE]
+>
 > - Creating applications, service principals, and secrets requires Microsoft Entra ID permissions (e.g., Application Administrator or appropriate Microsoft Graph application roles).
 > - This template does not create Azure resources and does not require a resource group.
 
