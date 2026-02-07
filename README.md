@@ -91,6 +91,14 @@ Last updated: 2026-02-03
 </details>
 
 <details>
+<summary><b> Identity and Security </b> (Click to expand) </summary>
+
+- [Identity and Security](./4_identity-security)
+  - [Microsoft Entra ID (Entra ID)](./4_identity-security/entra_id)
+
+</details>
+
+<details>
 <summary><b> Migration and Backup </b> (Click to expand) </summary>
 
 - [Migration and Backup](./10_migration-backup)
@@ -199,8 +207,8 @@ graph TD;
 
 <!-- START BADGE -->
 <div align="center">
-  <img src="https://img.shields.io/badge/Total%20views-1283-limegreen" alt="Total views">
-  <p>Refresh Date: 2026-02-03</p>
+  <img src="https://img.shields.io/badge/Total%20views-1615-limegreen" alt="Total views">
+  <p>Refresh Date: 2026-02-07</p>
 </div>
 <!-- END BADGE -->
 
