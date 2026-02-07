@@ -91,6 +91,14 @@ Last updated: 2026-02-03
 </details>
 
 <details>
+<summary><b> Identity and Security </b> (Click to expand) </summary>
+
+- [Identity and Security](./4_identity-security)
+  - [Microsoft Entra ID (Entra ID)](./4_identity-security/entra_id)
+
+</details>
+
+<details>
 <summary><b> Migration and Backup </b> (Click to expand) </summary>
 
 - [Migration and Backup](./10_migration-backup)
