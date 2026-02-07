@@ -15,6 +15,7 @@ Last updated: 2026-02-03
 ## Templates available
 
 - [Microsoft Entra ID (Entra ID)](./entra_id)
+- [Azure Key Vault](./key-vault)
 
 <!-- START BADGE -->
 <div align="center">
