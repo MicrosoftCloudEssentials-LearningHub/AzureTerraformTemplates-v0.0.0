@@ -15,6 +15,7 @@ Last updated: 2026-02-09
 
 > [!NOTE]
 > Key Vault data-plane access (secrets/keys/certificates) depends on your authorization mode:
+>
 > - If `enable_rbac_authorization = true`, grant Azure RBAC roles (for example: Key Vault Secrets Officer) at the vault scope.
 > - If `enable_rbac_authorization = false`, you must manage Key Vault access policies (not included in this minimal template).
 
