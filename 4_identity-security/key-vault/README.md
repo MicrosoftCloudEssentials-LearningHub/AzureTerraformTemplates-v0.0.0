@@ -1,4 +1,3 @@
-````markdown
 # Terraform Template - Azure Key Vault
 
 Costa Rica
@@ -11,6 +10,8 @@ Last updated: 2026-02-09
 ------------------------------------------
 
 > This template contains Terraform configurations to create and manage an Azure Key Vault with dependencies on a Resource Group.
+
+<img width="650" alt="image" src="https://github.com/user-attachments/assets/135bf519-e661-4eb0-8705-90db25b29491" />
 
 > [!NOTE]
 > Key Vault data-plane access (secrets/keys/certificates) depends on your authorization mode:
@@ -93,5 +94,3 @@ Below is a list of variables used in this template, their expected values, types
   <p>Refresh Date: 2026-02-09</p>
 </div>
 <!-- END BADGE -->
-
-````
