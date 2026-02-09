@@ -11,6 +11,10 @@ Last updated: 2026-02-09
 
 > This template contains Terraform configurations to create an Azure User Assigned Managed Identity with dependencies on a Resource Group.
 
+<img width="650" alt="image" src="https://github.com/user-attachments/assets/8149b211-3565-4c74-b7e0-17a15d0e3f1d" />
+
+<img width="650" alt="image" src="https://github.com/user-attachments/assets/ab38d984-bd82-46d6-afc3-e11ea5175920" />
+
 ## File Descriptions
 
 - **main.tf**: Contains the main configuration for creating the Resource Group and the User Assigned Managed Identity.
