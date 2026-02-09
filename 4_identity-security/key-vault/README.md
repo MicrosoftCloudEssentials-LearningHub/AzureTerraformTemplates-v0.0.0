@@ -83,11 +83,11 @@ Below is a list of variables used in this template, their expected values, types
    terraform apply -auto-approve
    ```
 
-## Notes
 
-- This template creates the Resource Group for you.
-- Key Vault names are globally unique. If you see `VaultAlreadyExists`, either change the base name or keep `key_vault_name_use_random_suffix = true`.
-- If you enable `purge_protection_enabled`, Key Vault deletion becomes more restrictive and `terraform destroy` may fail until purge protection rules allow cleanup.
+> [!NOTES]
+> - This template creates the Resource Group for you.
+> - Key Vault names are globally unique. If you see `VaultAlreadyExists`, either change the base name or keep `key_vault_name_use_random_suffix = true`.
+> - If you enable `purge_protection_enabled`, Key Vault deletion becomes more restrictive and `terraform destroy` may fail until purge protection rules allow cleanup.
 
 <!-- START BADGE -->
 <div align="center">
