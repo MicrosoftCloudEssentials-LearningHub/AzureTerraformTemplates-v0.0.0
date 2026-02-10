@@ -17,10 +17,11 @@ Last updated: 2026-02-09
 - [Microsoft Entra ID (Entra ID)](./entra_id)
 - [Azure Key Vault](./key-vault)
 - [User Assigned Managed Identity](./managed-identity)
+- [Azure Policy Assignment](./policy)
 
 <!-- START BADGE -->
 <div align="center">
   <img src="https://img.shields.io/badge/Total%20views-1646-limegreen" alt="Total views">
-  <p>Refresh Date: 2026-02-09</p>
+  <p>Refresh Date: 2026-02-10</p>
 </div>
 <!-- END BADGE -->
