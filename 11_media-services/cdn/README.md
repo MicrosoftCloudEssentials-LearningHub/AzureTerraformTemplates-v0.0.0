@@ -12,8 +12,9 @@ Last updated: 2026-02-10
 > This template contains Terraform configurations to create an Azure Front Door (Standard/Premium) profile and endpoint suitable for serving media assets (for example, fronting a storage/web origin).
 
 > [!NOTE]
-> `Azure CDN (classic) profiles (for example `Standard_Microsoft`) no longer support new profile creation.` This template uses the modern Azure Front Door resources (`azurerm_cdn_frontdoor_*`).
+> `Azure CDN (classic) profiles (for example`Standard_Microsoft`) no longer support new profile creation.` This template uses the modern Azure Front Door resources (`azurerm_cdn_frontdoor_*`).
 > The modern replacement for “Microsoft-managed global CDN + edge routing” is Azure Front Door Standard/Premium. It provides the CDN capability, but it’s provisioned via azurerm_cdn_frontdoor_* resources (Front Door profile/endpoint/route/origin), not azurerm_cdn_profile. <br/>
+>
 > - If you already have classic CDN resources: Terraform can often still manage them.
 > - If you’re creating new: you generally need Front Door Standard/Premium (or another supported CDN provider SKU where available), because classic Microsoft CDN can’t be created anymore.
 
