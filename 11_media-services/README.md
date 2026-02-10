@@ -10,11 +10,15 @@ Last updated: 2026-02-09
 ------------------------------------------
 
 > [!IMPORTANT]
-> TThis folder contains sample Terraform templates for Azure media services. These templates are starting points and should be customized based on your application needs.
+> This folder contains sample Terraform templates for Azure media services. These templates are starting points and should be customized based on your application needs.
+
+## Templates
+
+- [cdn](./cdn)
 
 <!-- START BADGE -->
 <div align="center">
-  <img src="https://img.shields.io/badge/Total%20views-1646-limegreen" alt="Total views">
+  <img src="https://img.shields.io/badge/Total%20views-1706-limegreen" alt="Total views">
   <p>Refresh Date: 2026-02-10</p>
 </div>
 <!-- END BADGE -->
