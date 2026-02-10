@@ -10,7 +10,11 @@ Last updated: 2026-02-09
 ------------------------------------------
 
 > [!IMPORTANT]
-> TThis folder contains sample Terraform templates for Azure media services. These templates are starting points and should be customized based on your application needs.
+> This folder contains sample Terraform templates for Azure media services. These templates are starting points and should be customized based on your application needs.
+
+## Templates
+
+- [cdn](./cdn)
 
 <!-- START BADGE -->
 <div align="center">
