@@ -11,6 +11,12 @@ Last updated: 2026-02-09
 
 > This template contains Terraform configurations to create an Azure Policy Assignment scoped to a Resource Group, using a User Assigned Managed Identity.
 
+<img width="650" alt="image" src="https://github.com/user-attachments/assets/96147a10-ef43-457a-9823-a6d4609ac7ad" />
+
+<img width="650" alt="image" src="https://github.com/user-attachments/assets/b86789c2-1918-4ea1-a773-1a4b40aec23d" />
+
+<img width="650" alt="image" src="https://github.com/user-attachments/assets/6a96b324-ef48-4547-a91d-cce10553622d" />
+
 > [!NOTE]
 > Some Azure Policies (for example, `DeployIfNotExists` / remediation scenarios) require an identity on the assignment. This template always creates a User Assigned Managed Identity and attaches it to the assignment.
 
@@ -72,7 +78,7 @@ Last updated: 2026-02-09
    terraform apply -auto-approve
    ```
 
-> [!NOTES]
+> [!NOTE]
 >
 > - This template creates the Resource Group for you.
 > - If you leave `policy_definition_id` as a placeholder, `terraform apply` will fail with `PolicyDefinitionNotFound`. Use Azure CLI to find a valid definition ID (built-in or custom), for example: `az policy definition list --query "[0].id" -o tsv`.
