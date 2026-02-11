@@ -2,6 +2,9 @@
 **/.terraform/*
 **/.terraform
 
+# Terraform provider schema export files (generated)
+**/.terraform-provider-schema.json
+
 # .tfstate files
 *.tfstate
 *.tfstate.*
