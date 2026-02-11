@@ -14,6 +14,10 @@ Last updated: 2026-02-10
 > [!IMPORTANT]
 > **Azure Media Services (AMS) is retired** and Microsoft **blocks creation of new AMS accounts in all Azure regions**. This template uses Azure AI Video Indexer as the supported replacement for video/audio analysis workflows, and uses the `azapi` provider to deploy `Microsoft.VideoIndexer/accounts@2024-01-01`.
 
+<img width="650" alt="image" src="https://github.com/user-attachments/assets/5535b973-51d3-4d96-8ec7-1877a3602b8a" />
+
+<img width="650" alt="image" src="https://github.com/user-attachments/assets/f4779509-0c33-4f8c-8767-4c10ec9ab54e" />
+
 ## File Descriptions
 
 - **main.tf**: Creates the Resource Group, Storage Account, Azure AI Video Indexer account (via `azapi_resource`), and role assignment.
