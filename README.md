@@ -106,6 +106,7 @@ Last updated: 2026-02-11
 
 - [Analytics and Big Data](./5_analytics-bigdata)
   - [Azure Data Factory](./5_analytics-bigdata/data-factory)
+  - [Azure Synapse Analytics (Workspace)](./5_analytics-bigdata/synapse-analytics)
 
 </details>
 
