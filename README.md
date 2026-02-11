@@ -105,6 +105,7 @@ Last updated: 2026-02-11
 <summary><b> Analytics and Big Data </b> (Click to expand) </summary>
 
 - [Analytics and Big Data](./5_analytics-bigdata)
+  - [Azure Data Factory](./5_analytics-bigdata/data-factory)
 
 </details>
 
