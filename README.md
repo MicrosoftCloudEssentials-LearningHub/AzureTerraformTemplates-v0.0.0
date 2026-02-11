@@ -5,7 +5,7 @@ Costa Rica
 [![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/)
 [brown9804](https://github.com/brown9804)
 
-Last updated: 2026-02-09
+Last updated: 2026-02-11
 
 ----------
 
@@ -95,6 +95,44 @@ Last updated: 2026-02-09
 
 - [Identity and Security](./4_identity-security)
   - [Microsoft Entra ID (Entra ID)](./4_identity-security/entra_id)
+  - [Azure Key Vault](./4_identity-security/key-vault)
+  - [User Assigned Managed Identity](./4_identity-security/managed-identity)
+  - [Azure Policy Assignment](./4_identity-security/policy)
+
+</details>
+
+<details>
+<summary><b> Analytics and Big Data </b> (Click to expand) </summary>
+
+- [Analytics and Big Data](./5_analytics-bigdata)
+
+</details>
+
+<details>
+<summary><b> Monitoring and Management </b> (Click to expand) </summary>
+
+- [Monitoring and Management](./6_monitoring-management)
+
+</details>
+
+<details>
+<summary><b> IoT </b> (Click to expand) </summary>
+
+- [IoT](./7_iot)
+
+</details>
+
+<details>
+<summary><b> AI and ML </b> (Click to expand) </summary>
+
+- [AI and ML](./8_ai-ml)
+
+</details>
+
+<details>
+<summary><b> Developer Tools </b> (Click to expand) </summary>
+
+- [Developer Tools](./9_developer-tools)
 
 </details>
 
@@ -104,6 +142,15 @@ Last updated: 2026-02-09
 - [Migration and Backup](./10_migration-backup)
   - [Azure Data Protection Backup Vault](./10_migration-backup/backup)
   - [Azure Site Recovery (Recovery Services Vault)](./10_migration-backup/site-recovery)
+
+</details>
+
+<details>
+<summary><b> Media Services </b> (Click to expand) </summary>
+
+- [Media Services](./11_media-services)
+  - [CDN (Front Door Standard/Premium)](./11_media-services/cdn)
+  - [Azure AI Video Indexer](./11_media-services/ai-video-indexer)
 
 </details>
 
