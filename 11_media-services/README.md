@@ -12,8 +12,6 @@ Last updated: 2026-02-11
 > [!IMPORTANT]
 > This folder contains sample Terraform templates for Azure media services. These templates are starting points and should be customized based on your application needs.
 
-## Templates
-
 ## Templates available
 
 - [CDN (Front Door Standard/Premium)](./cdn)
