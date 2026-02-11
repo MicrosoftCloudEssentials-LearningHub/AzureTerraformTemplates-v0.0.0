@@ -14,8 +14,10 @@ Last updated: 2026-02-09
 
 ## Templates
 
-- [cdn](./cdn)
-- [ai-video-indexer](./ai-video-indexer)
+## Templates available
+
+- [CDN (Front Door Standard/Premium)](./cdn)
+- [Azure AI Video Indexer](./ai-video-indexer)
 
 <!-- START BADGE -->
 <div align="center">
