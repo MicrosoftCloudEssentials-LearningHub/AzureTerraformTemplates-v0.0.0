@@ -11,6 +11,11 @@ Last updated: 2026-02-11
 
 > This template contains Terraform configurations to create an Azure Data Factory instance with a system-assigned managed identity.
 
+> [!NOTE]
+> - This template creates the Resource Group for you.
+> - Azure Data Factory names are globally unique. If you disable `append_random_suffix`, you may hit `DataFactoryNameInUse` and need to change `data_factory_name`.
+
+
 <div align="center">
   <img width="650" alt="image" src="https://github.com/user-attachments/assets/49954b0e-348c-4b6f-bb84-c5939452ae17" style="border: 2px solid #4CAF50; border-radius: 5px; padding: 5px;"/>
 </div>
@@ -76,12 +81,6 @@ Last updated: 2026-02-11
    terraform apply -auto-approve
    ```
 
-> [!NOTE]
-> This template creates the Resource Group for you.
-
-> [!NOTE]
-> Azure Data Factory names are globally unique. If you disable `append_random_suffix`, you may hit `DataFactoryNameInUse` and need to change `data_factory_name`.
-
 <!-- START BADGE -->
 <div align="center">
   <img src="https://img.shields.io/badge/Total%20views-1706-limegreen" alt="Total views">
@@ -89,4 +88,3 @@ Last updated: 2026-02-11
 </div>
 <!-- END BADGE -->
 
-````
