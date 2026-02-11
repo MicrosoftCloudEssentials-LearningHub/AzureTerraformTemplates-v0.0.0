@@ -11,6 +11,18 @@ Last updated: 2026-02-11
 
 > This template contains Terraform configurations to create an Azure Data Factory instance with a system-assigned managed identity.
 
+<div align="center">
+  <img width="650" alt="image" src="https://github.com/user-attachments/assets/49954b0e-348c-4b6f-bb84-c5939452ae17" style="border: 2px solid #4CAF50; border-radius: 5px; padding: 5px;"/>
+</div>
+
+<div align="center">
+  <img width="650" alt="image" src="https://github.com/user-attachments/assets/6106e50d-0c7e-4eab-8845-12bc6ee10069" style="border: 2px solid #4CAF50; border-radius: 5px; padding: 5px;"/>
+</div>
+
+<div align="center">
+  <img width="650" alt="image" src="https://github.com/user-attachments/assets/966f05b9-3a25-467c-9ca8-659c15a1cf3b" style="border: 2px solid #4CAF50; border-radius: 5px; padding: 5px;"/>
+</div>
+
 ## File Descriptions
 
 - **main.tf**: Creates the Resource Group and Azure Data Factory.
