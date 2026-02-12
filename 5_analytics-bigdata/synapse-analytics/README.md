@@ -27,6 +27,7 @@ Last updated: 2026-02-12
 </div>
 
 > [!NOTE]
+>
 > - This template creates the Storage Account and filesystem via the AzAPI provider (management plane) to avoid key-based Storage data-plane operations (common in environments where shared keys are disabled by policy).
 > - Synapse validates the default data lake storage using the DFS URL format: `https://<accountname>.dfs.core.windows.net/<filesystem>`. This template passes that format to `azurerm_synapse_workspace`.
 
