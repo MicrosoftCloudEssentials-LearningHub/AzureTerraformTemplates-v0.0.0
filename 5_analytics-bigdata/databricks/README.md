@@ -12,6 +12,7 @@ Last updated: 2026-02-12
 > This template contains Terraform configurations to create an Azure Databricks workspace.
 
 > [!IMPORTANT]
+>
 > - Azure Databricks creates a **managed resource group** for service-managed infrastructure. You will typically see **two resource groups**: your main RG plus the Databricks-managed RG. This is expected behavior.
 > - If you disable `append_random_suffix`, you may hit name collisions.
 
@@ -26,7 +27,6 @@ Last updated: 2026-02-12
 <div align="center">
   <img width="650" alt="image" src="https://github.com/user-attachments/assets/eb7c2c5c-2f1b-4bb1-8266-5e3093f28371" style="border: 2px solid #4CAF50; border-radius: 5px; padding: 5px;"/>
 </div>
-
 
 ## File Descriptions
 
