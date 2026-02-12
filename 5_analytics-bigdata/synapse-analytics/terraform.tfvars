@@ -3,8 +3,10 @@ location            = "eastus"
 
 # Synapse workspace names are globally unique.
 # This template appends a random suffix by default to reduce collisions.
-synapse_workspace_name      = "synw-analytics-dev"
-managed_resource_group_name = "rg-synapse-managed-analytics-dev"
+synapse_workspace_name = "synw-analytics-dev"
+
+# Optional. If omitted, the template auto-generates a Synapse managed RG name.
+# managed_resource_group_name = "rg-synapse-managed-analytics-dev"
 
 # Storage account names must be lowercase alphanumeric and globally unique.
 # This template appends a random suffix by default (without dashes).

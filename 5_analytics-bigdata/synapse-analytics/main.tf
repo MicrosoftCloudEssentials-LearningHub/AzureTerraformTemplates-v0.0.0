@@ -2,11 +2,24 @@
 # Creates an Azure Synapse Analytics workspace backed by an ADLS Gen2 filesystem.
 # Storage resources are created via AzAPI (management plane) to avoid key-based data-plane operations.
 
-resource "azurerm_resource_group" "rg" {
-  name     = var.resource_group_name
-  location = var.location
+data "azurerm_client_config" "current" {}
 
-  tags = var.tags
+# Resource group creation is idempotent in ARM (PUT). This will create the RG if it doesn't exist,
+# or update tags if it already exists.
+resource "azapi_resource" "resource_group" {
+  type      = "Microsoft.Resources/resourceGroups@2022-09-01"
+  name      = var.resource_group_name
+  location  = var.location
+  parent_id = "/subscriptions/${data.azurerm_client_config.current.subscription_id}"
+
+  body = jsonencode({
+    tags = var.tags
+  })
+
+  response_export_values = [
+    "id",
+    "name"
+  ]
 }
 
 resource "random_string" "suffix" {
@@ -20,14 +33,19 @@ resource "random_string" "suffix" {
     location            = var.location
     workspace_base      = var.synapse_workspace_name
     storage_base        = var.storage_account_name
-    managed_rg_base     = var.managed_resource_group_name
+    managed_rg_base     = coalesce(var.managed_resource_group_name, "rg-synapse-managed-${var.synapse_workspace_name}")
   }
 }
 
 locals {
+  rg_id    = azapi_resource.resource_group.id
+  rg_name  = var.resource_group_name
+  location = var.location
+
   suffix                 = var.append_random_suffix ? random_string.suffix.result : ""
   synapse_workspace_name = var.append_random_suffix ? "${var.synapse_workspace_name}-${local.suffix}" : var.synapse_workspace_name
-  managed_rg_name        = var.append_random_suffix ? "${var.managed_resource_group_name}-${local.suffix}" : var.managed_resource_group_name
+  managed_rg_base        = coalesce(var.managed_resource_group_name, "rg-synapse-managed-${var.synapse_workspace_name}")
+  managed_rg_name        = var.append_random_suffix ? "${local.managed_rg_base}-${local.suffix}" : local.managed_rg_base
 
   # Storage Account names must be lowercase alphanumeric and cannot contain dashes.
   storage_account_name = var.append_random_suffix ? "${var.storage_account_name}${local.suffix}" : var.storage_account_name
@@ -40,8 +58,8 @@ locals {
 resource "azapi_resource" "storage_account" {
   type      = "Microsoft.Storage/storageAccounts@2021-04-01"
   name      = local.storage_account_name
-  location  = azurerm_resource_group.rg.location
-  parent_id = azurerm_resource_group.rg.id
+  location  = local.location
+  parent_id = local.rg_id
 
   body = jsonencode({
     kind = "StorageV2"
@@ -90,8 +108,8 @@ resource "azapi_resource" "filesystem" {
 
 resource "azurerm_synapse_workspace" "ws" {
   name                                 = local.synapse_workspace_name
-  resource_group_name                  = azurerm_resource_group.rg.name
-  location                             = azurerm_resource_group.rg.location
+  resource_group_name                  = local.rg_name
+  location                             = local.location
   managed_resource_group_name          = local.managed_rg_name
   storage_data_lake_gen2_filesystem_id = local.dfs_filesystem_id
 

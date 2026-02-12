@@ -2,7 +2,7 @@
 # This file defines the input variables used in the Terraform configuration.
 
 variable "resource_group_name" {
-  description = "The name of the Azure Resource Group to create and deploy Synapse into."
+  description = "The name of the Azure Resource Group to deploy Synapse into. If create_resource_group is true, Terraform will create this resource group."
   type        = string
 
   validation {
@@ -36,15 +36,18 @@ variable "synapse_workspace_name" {
 }
 
 variable "managed_resource_group_name" {
-  description = "Base name of the managed resource group for Synapse. If append_random_suffix is true, the final name will be '<base>-<suffix>'."
+  description = "Optional base name of the Synapse managed resource group. If null/omitted, the template auto-generates a name. If append_random_suffix is true, the final name will be '<base>-<suffix>'."
   type        = string
+  default     = null
 
   validation {
     condition = (
-      length(trimspace(var.managed_resource_group_name)) > 0
-      && length(var.managed_resource_group_name) <= (var.append_random_suffix ? (90 - 1 - var.random_suffix_length) : 90)
+      var.managed_resource_group_name == null ? true : (
+        length(try(trimspace(var.managed_resource_group_name), "")) > 0
+        && length(try(var.managed_resource_group_name, "")) <= (var.append_random_suffix ? (90 - 1 - var.random_suffix_length) : 90)
+      )
     )
-    error_message = "managed_resource_group_name must be 1-90 chars and leave room for '-<suffix>' when append_random_suffix is true."
+    error_message = "managed_resource_group_name must be 1-90 chars (or null to auto-generate) and leave room for '-<suffix>' when append_random_suffix is true."
   }
 }
 

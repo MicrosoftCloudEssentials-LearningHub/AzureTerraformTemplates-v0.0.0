@@ -2,7 +2,7 @@
 
 output "resource_group_id" {
   description = "The ID of the resource group."
-  value       = azurerm_resource_group.rg.id
+  value       = local.rg_id
 }
 
 output "storage_account_id" {

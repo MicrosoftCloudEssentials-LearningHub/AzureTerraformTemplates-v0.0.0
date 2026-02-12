@@ -12,6 +12,9 @@ Last updated: 2026-02-11
 > This template contains Terraform configurations to create an Azure Synapse Analytics workspace backed by an ADLS Gen2 filesystem.
 
 > [!IMPORTANT]
+> Azure Synapse always uses a **managed resource group** (configured by `managed_resource_group_name`). This is created and managed by the Synapse service itself and is required for the workspace to operate. You will see **two resource groups** in Azure: your main RG plus the Synapse-managed RG.
+
+> [!IMPORTANT]
 > This template creates the Storage Account and filesystem via the AzAPI provider (management plane) to avoid key-based Storage data-plane operations (common in environments where shared keys are disabled by policy).
 
 > [!NOTE]
@@ -32,7 +35,7 @@ Last updated: 2026-02-11
 | `resource_group_name` | Resource Group name to create/deploy into. | string | `"rg-analytics-dev"` |
 | `location` | Azure region for the deployment. | string | `"eastus"` |
 | `synapse_workspace_name` | Base Synapse workspace name. If suffix enabled, final is `<base>-<suffix>`. | string | `"synw-analytics-dev"` |
-| `managed_resource_group_name` | Base managed RG name for Synapse. If suffix enabled, final is `<base>-<suffix>`. | string | `"rg-synapse-managed-analytics-dev"` |
+| `managed_resource_group_name` | Optional base managed RG name for Synapse. If omitted, auto-generated. | string | `null` |
 | `storage_account_name` | Base storage account name. If suffix enabled, final is `<base><suffix>` (no dash). | string | `"stadlsanalyticsdev"` |
 | `filesystem_name` | ADLS Gen2 filesystem name (container). | string | `"synapse"` |
 | `sql_administrator_login` | Synapse SQL admin login. | string | `"sqladminuser"` |
