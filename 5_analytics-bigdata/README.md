@@ -15,6 +15,7 @@ Last updated: 2026-02-09
 ## Templates available
 
 - [Azure Data Factory](./data-factory)
+- [Azure Databricks (Workspace)](./databricks)
 - [Azure Synapse Analytics (Workspace)](./synapse-analytics)
 
 <!-- START BADGE -->

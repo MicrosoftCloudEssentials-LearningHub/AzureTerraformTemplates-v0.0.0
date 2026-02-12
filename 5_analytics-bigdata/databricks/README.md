@@ -1,0 +1,76 @@
+# Terraform Template - Azure Databricks (Workspace)
+
+Costa Rica
+
+[![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/)
+[brown9804](https://github.com/brown9804)
+
+Last updated: 2026-02-12
+
+------------------------------------------
+
+> This template contains Terraform configurations to create an Azure Databricks workspace.
+
+> [!IMPORTANT]
+> Azure Databricks creates a **managed resource group** for service-managed infrastructure. You will typically see **two resource groups**: your main RG plus the Databricks-managed RG. This is expected behavior.
+
+## File Descriptions
+
+- **main.tf**: Creates/updates the Resource Group (idempotent ARM PUT) and the Databricks workspace.
+- **variables.tf**: Defines input variables used in the Terraform configuration.
+- **provider.tf**: Configures the AzureRM + AzAPI + Random providers.
+- **terraform.tfvars**: Example values for variables.
+- **outputs.tf**: Outputs such as the workspace ID and URL.
+
+## Variables
+
+| Variable Name | Description | Type | Example Value |
+| --- | --- | --- | --- |
+| `resource_group_name` | Resource Group name to deploy into (created if missing). | string | `"rg-analytics-dev"` |
+| `location` | Azure region for the deployment. | string | `"eastus"` |
+| `databricks_workspace_name` | Base workspace name. If suffix enabled, final is `<base>-<suffix>`. | string | `"dbw-analytics-dev"` |
+| `sku` | Workspace SKU (`standard`, `premium`, `trial`). | string | `"standard"` |
+| `managed_resource_group_name` | Optional base managed RG name. If omitted, Databricks auto-generates it. | string | `null` |
+| `append_random_suffix` | Append random suffix to reduce name collisions. | bool | `true` |
+| `random_suffix_length` | Length of the suffix when enabled. | number | `6` |
+| `tags` | Tags applied to resources. | map(string) | `{ "env": "dev" }` |
+
+## Usage
+
+1. Authenticate:
+
+   ```sh
+   az login
+   az account show
+   # If needed:
+   az account set --subscription "<subscription-id-or-name>"
+   ```
+
+2. Initialize:
+
+   ```sh
+   terraform init -upgrade
+   ```
+
+3. Validate and plan:
+
+   ```sh
+   terraform validate
+   terraform plan
+   ```
+
+4. Apply:
+
+   ```sh
+   terraform apply -auto-approve
+   ```
+
+> [!NOTE]
+> If you disable `append_random_suffix`, you may hit name collisions.
+
+<!-- START BADGE -->
+<div align="center">
+  <img src="https://img.shields.io/badge/Total%20views-0-limegreen" alt="Total views">
+  <p>Refresh Date: 2026-02-12</p>
+</div>
+<!-- END BADGE -->
