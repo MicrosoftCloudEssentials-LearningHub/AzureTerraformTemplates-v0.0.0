@@ -14,11 +14,21 @@ Last updated: 2026-02-12
 > [!IMPORTANT]
 > Azure Synapse always uses a **managed resource group** (configured by `managed_resource_group_name`). This is created and managed by the Synapse service itself and is required for the workspace to operate. You will see **two resource groups** in Azure: your main RG plus the Synapse-managed RG.
 
-> [!IMPORTANT]
-> This template creates the Storage Account and filesystem via the AzAPI provider (management plane) to avoid key-based Storage data-plane operations (common in environments where shared keys are disabled by policy).
+<div align="center">
+  <img width="650" alt="image" src="https://github.com/user-attachments/assets/f64e70e3-9d12-4a5e-8bbd-1c7852be7a96" style="border: 2px solid #4CAF50; border-radius: 5px; padding: 5px;"/>
+</div>
+
+<div align="center">
+  <img width="650" alt="image" src="https://github.com/user-attachments/assets/e3bc9dea-fda4-4be5-b5d0-a18fbcfccf4b" style="border: 2px solid #4CAF50; border-radius: 5px; padding: 5px;"/>
+</div>
+
+<div align="center">
+  <img width="650" alt="image" src="https://github.com/user-attachments/assets/5436f362-9c6d-45d1-9cf0-bb7d428fd267" style="border: 2px solid #4CAF50; border-radius: 5px; padding: 5px;"/>
+</div>
 
 > [!NOTE]
-> Synapse validates the default data lake storage using the DFS URL format: `https://<accountname>.dfs.core.windows.net/<filesystem>`. This template passes that format to `azurerm_synapse_workspace`.
+> - This template creates the Storage Account and filesystem via the AzAPI provider (management plane) to avoid key-based Storage data-plane operations (common in environments where shared keys are disabled by policy).
+> - Synapse validates the default data lake storage using the DFS URL format: `https://<accountname>.dfs.core.windows.net/<filesystem>`. This template passes that format to `azurerm_synapse_workspace`.
 
 ## File Descriptions
 
