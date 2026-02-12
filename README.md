@@ -106,6 +106,7 @@ Last updated: 2026-02-11
 
 - [Analytics and Big Data](./5_analytics-bigdata)
   - [Azure Data Factory](./5_analytics-bigdata/data-factory)
+  - [Azure Synapse Analytics (Workspace)](./5_analytics-bigdata/synapse-analytics)
 
 </details>
 
@@ -255,8 +256,8 @@ graph TD;
 
 <!-- START BADGE -->
 <div align="center">
-  <img src="https://img.shields.io/badge/Total%20views-1706-limegreen" alt="Total views">
-  <p>Refresh Date: 2026-02-11</p>
+  <img src="https://img.shields.io/badge/Total%20views-1790-limegreen" alt="Total views">
+  <p>Refresh Date: 2026-02-12</p>
 </div>
 <!-- END BADGE -->
 
