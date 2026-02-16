@@ -10,8 +10,8 @@ resource_group_name = "RG-frontdoor-test"
 location            = "eastus"
 
 # Front Door Configuration
-front_door_name     = "myfrontdoorprofilebrown"
-backend_host        = "mybackendtestbrown.example.com"
+front_door_name = "myfrontdoorprofilebrown"
+backend_host    = "mybackendtestbrown.example.com"
 
 # Frontend Endpoint Configuration
 frontend_endpoint_name = "frontendEndpoint"
@@ -21,6 +21,6 @@ health_probe_path     = "/"
 health_probe_protocol = "Http"
 
 # Routing Rule Configuration
-routing_rule_name    = "routingRule1"
-accepted_protocols   = ["Http", "Https"]
-patterns_to_match    = ["/*"]
+routing_rule_name  = "routingRule1"
+accepted_protocols = ["Http", "Https"]
+patterns_to_match  = ["/*"]

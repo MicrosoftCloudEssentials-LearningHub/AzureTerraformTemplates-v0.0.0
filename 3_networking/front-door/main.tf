@@ -29,21 +29,21 @@ resource "azurerm_cdn_frontdoor_origin_group" "fd" {
   }
 
   load_balancing {
-    sample_size = 4
+    sample_size                 = 4
     successful_samples_required = 3
   }
 }
 
 resource "azurerm_cdn_frontdoor_origin" "fd" {
-  name                          = "origin1"
-  cdn_frontdoor_origin_group_id = azurerm_cdn_frontdoor_origin_group.fd.id
-  host_name                     = var.backend_host
-  http_port                     = 80
-  https_port                    = 443
-  enabled                       = true
-  origin_host_header            = var.backend_host
-  priority                      = 1
-  weight                        = 1000
+  name                           = "origin1"
+  cdn_frontdoor_origin_group_id  = azurerm_cdn_frontdoor_origin_group.fd.id
+  host_name                      = var.backend_host
+  http_port                      = 80
+  https_port                     = 443
+  enabled                        = true
+  origin_host_header             = var.backend_host
+  priority                       = 1
+  weight                         = 1000
   certificate_name_check_enabled = true
 }
 

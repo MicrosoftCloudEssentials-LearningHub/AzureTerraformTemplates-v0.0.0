@@ -24,8 +24,8 @@ resource "azuread_service_principal" "this" {
 }
 
 resource "azuread_application_password" "this" {
-  count            = var.create_client_secret ? 1 : 0
-  application_id   = azuread_application.this.id
-  display_name     = var.client_secret_display_name
-  end_date         = timeadd(timestamp(), var.client_secret_end_date_relative)
+  count          = var.create_client_secret ? 1 : 0
+  application_id = azuread_application.this.id
+  display_name   = var.client_secret_display_name
+  end_date       = timeadd(timestamp(), var.client_secret_end_date_relative)
 }

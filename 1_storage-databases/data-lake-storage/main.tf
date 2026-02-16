@@ -28,8 +28,8 @@ resource "azurerm_storage_account" "example" {
 }
 
 resource "azurerm_storage_data_lake_gen2_filesystem" "example" {
-  name                = var.filesystem_name
-  storage_account_id  = azurerm_storage_account.example.id
+  name               = var.filesystem_name
+  storage_account_id = azurerm_storage_account.example.id
 
   # Ensure the Data Lake Gen2 File System depends on the Storage Account
   depends_on = [

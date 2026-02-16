@@ -27,9 +27,9 @@ resource "azurerm_cdn_endpoint" "cdn" {
   is_https_allowed    = true
 
   origin {
-    name      = "origin1"
-    host_name = var.origin_host
-    http_port = 80
+    name       = "origin1"
+    host_name  = var.origin_host
+    http_port  = 80
     https_port = 443
   }
 }

@@ -26,14 +26,14 @@ resource "azurerm_virtual_desktop_workspace" "example" {
 }
 
 resource "azurerm_virtual_desktop_host_pool" "example" {
-  name                = var.host_pool_name
-  resource_group_name = azurerm_resource_group.example.name
-  location            = azurerm_resource_group.example.location
-  type                = "Pooled"
-  load_balancer_type  = "BreadthFirst"
+  name                     = var.host_pool_name
+  resource_group_name      = azurerm_resource_group.example.name
+  location                 = azurerm_resource_group.example.location
+  type                     = "Pooled"
+  load_balancer_type       = "BreadthFirst"
   preferred_app_group_type = "Desktop"
-  friendly_name       = "${var.host_pool_name} Friendly"
-  description         = "${var.host_pool_name} Description"
+  friendly_name            = "${var.host_pool_name} Friendly"
+  description              = "${var.host_pool_name} Description"
 }
 
 resource "azurerm_virtual_desktop_application_group" "example" {
@@ -47,8 +47,8 @@ resource "azurerm_virtual_desktop_application_group" "example" {
 }
 
 resource "azurerm_virtual_desktop_workspace_application_group_association" "example" {
-  workspace_id          = azurerm_virtual_desktop_workspace.example.id
-  application_group_id  = azurerm_virtual_desktop_application_group.example.id
+  workspace_id         = azurerm_virtual_desktop_workspace.example.id
+  application_group_id = azurerm_virtual_desktop_application_group.example.id
 }
 
 resource "azurerm_network_interface" "example" {
@@ -65,18 +65,18 @@ resource "azurerm_network_interface" "example" {
 }
 
 resource "azurerm_windows_virtual_machine" "example" {
-  count               = 2
-  name                = "${var.host_pool_name}-vm-${count.index}"
-  resource_group_name = azurerm_resource_group.example.name
-  location            = azurerm_resource_group.example.location
-  size                = var.vm_size
-  admin_username      = var.admin_username
-  admin_password      = var.admin_password
+  count                 = 2
+  name                  = "${var.host_pool_name}-vm-${count.index}"
+  resource_group_name   = azurerm_resource_group.example.name
+  location              = azurerm_resource_group.example.location
+  size                  = var.vm_size
+  admin_username        = var.admin_username
+  admin_password        = var.admin_password
   network_interface_ids = [element(azurerm_network_interface.example.*.id, count.index)]
 
   os_disk {
-    name              = "${var.host_pool_name}-osdisk-${count.index}"
-    caching           = "ReadWrite"
+    name                 = "${var.host_pool_name}-osdisk-${count.index}"
+    caching              = "ReadWrite"
     storage_account_type = "Standard_LRS"
   }
 

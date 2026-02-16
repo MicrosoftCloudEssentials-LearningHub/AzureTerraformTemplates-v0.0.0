@@ -7,8 +7,8 @@ terraform {
   # Specify the required provider and its version
   required_providers {
     azurerm = {
-      source  = "hashicorp/azurerm"  # Source of the AzureRM provider
-      version = "~> 4.16.0"          # Version of the AzureRM provider
+      source  = "hashicorp/azurerm" # Source of the AzureRM provider
+      version = "~> 4.16.0"         # Version of the AzureRM provider
     }
     time = {
       source  = "hashicorp/time"
@@ -19,7 +19,7 @@ terraform {
 }
 
 provider "azurerm" {
-  features {}                        # Enable all features for the AzureRM provider
-  subscription_id = var.subscription_id  # Use the subscription ID variable
+  features {}                           # Enable all features for the AzureRM provider
+  subscription_id = var.subscription_id # Use the subscription ID variable
 }
 
