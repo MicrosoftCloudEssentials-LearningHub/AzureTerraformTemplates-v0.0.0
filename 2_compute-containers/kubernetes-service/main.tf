@@ -41,8 +41,8 @@ resource "azurerm_kubernetes_cluster" "example" {
     network_plugin    = "azure"
     load_balancer_sku = "standard"
     network_policy    = "calico"
-    service_cidr      = "10.1.0.0/16"  # Updated service CIDR to avoid overlap
-    dns_service_ip    = "10.1.0.10"    # Set DNS service IP within the service CIDR range
+    service_cidr      = "10.1.0.0/16" # Updated service CIDR to avoid overlap
+    dns_service_ip    = "10.1.0.10"   # Set DNS service IP within the service CIDR range
   }
 
   tags = var.tags

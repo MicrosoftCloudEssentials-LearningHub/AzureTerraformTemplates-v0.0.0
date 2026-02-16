@@ -10,6 +10,6 @@ resource_group_name = "RG-vpn-gateway-test"
 location            = "eastus"
 
 # VPN Gateway Configuration
-public_ip_name     = "my-vpngw-pip"
-vpn_gateway_name   = "my-vpngw"
-vpn_gateway_sku    = "VpnGw1"
+public_ip_name   = "my-vpngw-pip"
+vpn_gateway_name = "my-vpngw"
+vpn_gateway_sku  = "VpnGw1"

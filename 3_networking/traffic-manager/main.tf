@@ -9,8 +9,8 @@ resource "azurerm_resource_group" "tm" {
 
 # Traffic Manager Profile
 resource "azurerm_traffic_manager_profile" "tm" {
-  name                = var.traffic_manager_name
-  resource_group_name = azurerm_resource_group.tm.name
+  name                   = var.traffic_manager_name
+  resource_group_name    = azurerm_resource_group.tm.name
   traffic_routing_method = var.traffic_routing_method
 
   dns_config {

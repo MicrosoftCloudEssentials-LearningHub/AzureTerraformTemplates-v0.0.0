@@ -117,6 +117,10 @@ Last updated: 2026-02-16
 <summary><b> Monitoring and Management </b> (Click to expand) </summary>
 
 - [Monitoring and Management](./6_monitoring-management)
+  - [Azure Monitor (Action Group)](./6_monitoring-management/monitor)
+  - [Log Analytics (Workspace)](./6_monitoring-management/log-analytics)
+  - [Azure Automation (Automation Account)](./6_monitoring-management/automation)
+  - [Azure Advisor (Activity Log Alerts)](./6_monitoring-management/advisor)
 
 </details>
 

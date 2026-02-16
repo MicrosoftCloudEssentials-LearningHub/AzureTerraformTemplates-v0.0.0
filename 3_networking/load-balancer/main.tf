@@ -51,14 +51,14 @@ resource "azurerm_lb_probe" "lb" {
 
 # Load Balancer Rule
 resource "azurerm_lb_rule" "lb" {
-  name                            = var.lb_rule_name
-  loadbalancer_id                 = azurerm_lb.lb.id
-  protocol                        = "Tcp"
-  frontend_port                   = var.frontend_port
-  backend_port                    = var.backend_port
-  frontend_ip_configuration_name  = var.frontend_ip_configuration_name
-  backend_address_pool_ids        = [azurerm_lb_backend_address_pool.lb.id]
-  probe_id                        = azurerm_lb_probe.lb.id
-  enable_floating_ip              = false
-  idle_timeout_in_minutes         = 4
+  name                           = var.lb_rule_name
+  loadbalancer_id                = azurerm_lb.lb.id
+  protocol                       = "Tcp"
+  frontend_port                  = var.frontend_port
+  backend_port                   = var.backend_port
+  frontend_ip_configuration_name = var.frontend_ip_configuration_name
+  backend_address_pool_ids       = [azurerm_lb_backend_address_pool.lb.id]
+  probe_id                       = azurerm_lb_probe.lb.id
+  enable_floating_ip             = false
+  idle_timeout_in_minutes        = 4
 }

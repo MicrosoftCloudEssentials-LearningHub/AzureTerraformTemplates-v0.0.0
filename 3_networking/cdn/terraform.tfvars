@@ -10,10 +10,10 @@ resource_group_name = "RG-cdn-test"
 location            = "eastus"
 
 # CDN Configuration
-cdn_profile_name     = "mycdnprofiletestbr"
-cdn_sku              = "Standard_Microsoft"
-cdn_endpoint_name    = "mycdnendpointtestbr"
-origin_host          = "myorigintestbr.example.com"
+cdn_profile_name  = "mycdnprofiletestbr"
+cdn_sku           = "Standard_Microsoft"
+cdn_endpoint_name = "mycdnendpointtestbr"
+origin_host       = "myorigintestbr.example.com"
 tags = {
   Environment = "CDN"
   Owner       = "IT"

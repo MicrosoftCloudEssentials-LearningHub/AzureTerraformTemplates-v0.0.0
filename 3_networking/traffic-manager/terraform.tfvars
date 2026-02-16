@@ -6,8 +6,8 @@
 subscription_id = "" # your-subscription-id
 
 # Resource Group
-resource_group_name = "RG-trafficmanager-test"  # your-resource-group-name
-location = "eastus"
+resource_group_name = "RG-trafficmanager-test" # your-resource-group-name
+location            = "eastus"
 
 # Traffic Manager Configuration
 traffic_manager_name   = "my-tm-profile"

@@ -59,18 +59,18 @@ resource "azurerm_application_gateway" "agw" {
   }
   http_listener {
     name                           = "httpListener"
-    frontend_ip_configuration_name  = "frontendIpConfig"
-    frontend_port_name              = "frontendPort"
+    frontend_ip_configuration_name = "frontendIpConfig"
+    frontend_port_name             = "frontendPort"
     protocol                       = "Http"
   }
 
   request_routing_rule {
-  name                       = "rule1"
-  rule_type                  = "Basic"
-  http_listener_name         = "httpListener"
-  backend_address_pool_name  = "backendPool"
-  backend_http_settings_name = "httpSettings"
-  priority                   = 320  # Add a priority value (1-20000)
-}
+    name                       = "rule1"
+    rule_type                  = "Basic"
+    http_listener_name         = "httpListener"
+    backend_address_pool_name  = "backendPool"
+    backend_http_settings_name = "httpSettings"
+    priority                   = 320 # Add a priority value (1-20000)
+  }
 
 }

@@ -10,8 +10,8 @@ resource_group_name = "RG-siterecorvery-test"
 location            = "eastus"
 
 # Recovery Services Vault Configuration
-vault_name         = "my-siterecovery-vault"
-sku                = "Standard"
+vault_name = "my-siterecovery-vault"
+sku        = "Standard"
 tags = {
   Environment = "SiteRecovery"
   Owner       = "IT"

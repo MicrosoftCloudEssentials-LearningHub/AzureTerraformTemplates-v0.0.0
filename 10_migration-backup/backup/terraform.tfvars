@@ -10,8 +10,8 @@ resource_group_name = "RG-backupvault-test"
 location            = "eastus"
 
 # Backup Vault
-backup_vault_name  = "my-backup-vault"
-redundancy         = "LocallyRedundant"
+backup_vault_name = "my-backup-vault"
+redundancy        = "LocallyRedundant"
 tags = {
   Environment = "Backup"
   Owner       = "IT"
