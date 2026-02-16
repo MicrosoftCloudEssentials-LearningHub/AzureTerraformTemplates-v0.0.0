@@ -5,7 +5,7 @@ Costa Rica
 [![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/)
 [brown9804](https://github.com/brown9804)
 
-Last updated: 2026-02-12
+Last updated: 2026-02-16
 
 ------------------------------------------
 
@@ -16,6 +16,8 @@ Last updated: 2026-02-12
 
 - [Azure Data Factory](./data-factory)
 - [Azure Databricks (Workspace)](./databricks)
+- [Azure Event Hubs](./event-hub)
+- [Microsoft Fabric (Capacity)](./fabric)
 - [Azure Synapse Analytics (Workspace)](./synapse-analytics)
 
 <!-- START BADGE -->
