@@ -11,6 +11,10 @@ Last updated: 2026-02-16
 
 > This template contains Terraform configurations to create an Azure Log Analytics workspace.
 
+<img width="650" alt="image" src="https://github.com/user-attachments/assets/33236836-83f2-485f-ac21-2d50f0fd3250" />
+
+<img width="650" alt="image" src="https://github.com/user-attachments/assets/31c6dfe7-ad1c-4107-a598-ded77e303414" />
+
 ## File Descriptions
 
 - **main.tf**: Creates the Resource Group (AzAPI) and Log Analytics workspace.
