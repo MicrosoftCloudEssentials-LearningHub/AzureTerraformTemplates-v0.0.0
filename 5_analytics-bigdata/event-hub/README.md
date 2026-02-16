@@ -15,6 +15,14 @@ Last updated: 2026-02-16
 > - The Resource Group is created via the AzAPI provider (management plane) to keep creation idempotent (ARM PUT) and align with other templates in this repository.
 > - Event Hubs namespace names are globally unique. Keeping `append_random_suffix = true` helps avoid collisions.
 
+<div align="center">
+  <img width="650" alt="image" src="https://github.com/user-attachments/assets/2d9b80e2-b1d3-41be-a5bb-a7a4591b44be" style="border: 2px solid #4CAF50; border-radius: 5px; padding: 5px;"/>
+</div>
+
+<div align="center">
+  <img width="650" alt="image" src="https://github.com/user-attachments/assets/72fdee04-5145-4b78-9025-6f946c78f45e" style="border: 2px solid #4CAF50; border-radius: 5px; padding: 5px;"/>
+</div>
+
 ## File Descriptions
 
 - **main.tf**: Creates the Resource Group, Event Hubs Namespace, Event Hub, and optional consumer groups.
