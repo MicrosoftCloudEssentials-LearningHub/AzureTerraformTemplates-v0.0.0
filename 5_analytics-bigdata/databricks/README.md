@@ -12,7 +12,21 @@ Last updated: 2026-02-12
 > This template contains Terraform configurations to create an Azure Databricks workspace.
 
 > [!IMPORTANT]
-> Azure Databricks creates a **managed resource group** for service-managed infrastructure. You will typically see **two resource groups**: your main RG plus the Databricks-managed RG. This is expected behavior.
+>
+> - Azure Databricks creates a **managed resource group** for service-managed infrastructure. You will typically see **two resource groups**: your main RG plus the Databricks-managed RG. This is expected behavior.
+> - If you disable `append_random_suffix`, you may hit name collisions.
+
+<div align="center">
+  <img width="650" alt="image" src="https://github.com/user-attachments/assets/5f4cf7a6-9317-4d34-adcf-c493297ab814" style="border: 2px solid #4CAF50; border-radius: 5px; padding: 5px;"/>
+</div>
+
+<div align="center">
+  <img width="650" alt="image" src="https://github.com/user-attachments/assets/90778a82-a56f-4b56-8673-66339073c746" style="border: 2px solid #4CAF50; border-radius: 5px; padding: 5px;"/>
+</div>
+
+<div align="center">
+  <img width="650" alt="image" src="https://github.com/user-attachments/assets/eb7c2c5c-2f1b-4bb1-8266-5e3093f28371" style="border: 2px solid #4CAF50; border-radius: 5px; padding: 5px;"/>
+</div>
 
 ## File Descriptions
 
@@ -64,13 +78,10 @@ Last updated: 2026-02-12
    ```sh
    terraform apply -auto-approve
    ```
-
-> [!NOTE]
-> If you disable `append_random_suffix`, you may hit name collisions.
-
+   
 <!-- START BADGE -->
 <div align="center">
-  <img src="https://img.shields.io/badge/Total%20views-0-limegreen" alt="Total views">
+  <img src="https://img.shields.io/badge/Total%20views-1790-limegreen" alt="Total views">
   <p>Refresh Date: 2026-02-12</p>
 </div>
 <!-- END BADGE -->
