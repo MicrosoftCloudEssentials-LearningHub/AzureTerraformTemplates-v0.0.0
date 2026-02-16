@@ -11,6 +11,10 @@ Last updated: 2026-02-16
 
 > This template contains Terraform configurations to create an Azure Automation Account.
 
+<img width="650" alt="image" src="https://github.com/user-attachments/assets/9076fb43-9d42-48ef-821b-6b9ccc624e64" />
+
+<img width="650" alt="image" src="https://github.com/user-attachments/assets/e6bac1ce-4710-45a5-b5ac-b2a083250594" />
+
 ## File Descriptions
 
 - **main.tf**: Creates the Resource Group (AzAPI) and Automation Account.
