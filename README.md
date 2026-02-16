@@ -5,7 +5,7 @@ Costa Rica
 [![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/)
 [brown9804](https://github.com/brown9804)
 
-Last updated: 2026-02-12
+Last updated: 2026-02-16
 
 ----------
 
@@ -107,6 +107,8 @@ Last updated: 2026-02-12
 - [Analytics and Big Data](./5_analytics-bigdata)
   - [Azure Data Factory](./5_analytics-bigdata/data-factory)
   - [Azure Databricks (Workspace)](./5_analytics-bigdata/databricks)
+  - [Azure Event Hubs](./5_analytics-bigdata/event-hub)
+  - [Microsoft Fabric (Capacity)](./5_analytics-bigdata/fabric)
   - [Azure Synapse Analytics (Workspace)](./5_analytics-bigdata/synapse-analytics)
 
 </details>
