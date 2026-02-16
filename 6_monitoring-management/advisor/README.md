@@ -1,0 +1,25 @@
+# Terraform Template - Azure Advisor Alerts (Activity Log)
+
+Costa Rica
+
+[![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/)
+[brown9804](https://github.com/brown9804)
+
+Last updated: 2026-02-16
+
+------------------------------------------
+
+> This template contains Terraform configurations to create an Action Group and an Activity Log Alert for new Azure Advisor recommendations.
+
+> [!NOTE]
+> This is based on the Microsoft Learn quickstart for Advisor alerts.
+
+## Usage
+
+```sh
+az login
+terraform init -upgrade
+terraform validate
+terraform plan
+terraform apply -auto-approve
+```
