@@ -14,6 +14,8 @@ Last updated: 2026-02-16
 > [!NOTE]
 > This is based on the Microsoft Learn quickstart for Advisor alerts.
 
+<img width="650" alt="image" src="https://github.com/user-attachments/assets/98939432-38a0-4f0c-864a-0fe683a000fc" />
+
 ## Usage
 
 ```sh
