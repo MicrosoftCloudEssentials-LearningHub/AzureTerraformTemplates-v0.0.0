@@ -13,6 +13,7 @@ Last updated: 2026-02-16
 
 > [!IMPORTANT]
 > Fabric capacity creation requires at least one admin member.
+>
 > - Option A (recommended): set `use_current_user_as_admin = true` and let Terraform resolve the current user UPN.
 > - Option B: set `admin_members` explicitly to one or more UPNs like `user@domain.com`.
 > To avoid committing identities, prefer environment variables:
@@ -20,9 +21,9 @@ Last updated: 2026-02-16
 > - PowerShell (auto): keep `use_current_user_as_admin = true` and omit `admin_members`.
 
 > [!NOTE]
+>
 > - The Fabric capacity resource is created via the AzAPI provider using the ARM resource type `Microsoft.Fabric/capacities@2023-11-01`.
 > - The Resource Group is created via AzAPI (idempotent ARM PUT) to align with other templates in this repository.
-
 
 <img width="650" alt="image" src="https://github.com/user-attachments/assets/fb74b695-b13d-4ca1-aae6-d5386e67660a" />
 
