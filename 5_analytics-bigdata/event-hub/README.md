@@ -12,6 +12,7 @@ Last updated: 2026-02-16
 > This template contains Terraform configurations to create an Azure Event Hubs namespace and an Event Hub (optionally with consumer groups).
 
 > [!NOTE]
+>
 > - The Resource Group is created via the AzAPI provider (management plane) to keep creation idempotent (ARM PUT) and align with other templates in this repository.
 > - Event Hubs namespace names are globally unique. Keeping `append_random_suffix = true` helps avoid collisions.
 
