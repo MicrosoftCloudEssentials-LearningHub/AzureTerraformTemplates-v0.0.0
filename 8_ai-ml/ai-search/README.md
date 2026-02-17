@@ -11,7 +11,6 @@ Last updated: 2026-02-17
 
 > This template creates an Azure AI Search service.
 
-
 <img width="650" alt="image" src="https://github.com/user-attachments/assets/986c7cf2-8601-45d0-bbc2-da1a0ff0c7f3" />
 
 <img width="650" alt="image" src="https://github.com/user-attachments/assets/701992c9-3076-4aae-9830-eb0b53145f87" />
