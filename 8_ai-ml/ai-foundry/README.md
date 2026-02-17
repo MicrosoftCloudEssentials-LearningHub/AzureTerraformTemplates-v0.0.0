@@ -11,6 +11,12 @@ Last updated: 2026-02-16
 
 > This template creates a Microsoft Foundry account (Cognitive Services account kind `AIServices`) and an optional Foundry project.
 
+<img width="650" alt="image" src="https://github.com/user-attachments/assets/2a2533c3-3052-43ea-be41-02eea066bdd1" />
+
+<img width="650" alt="image" src="https://github.com/user-attachments/assets/303fb22c-3bdb-4ed3-9691-87ea72a0ecc3" />
+
+<img width="650" alt="image" src="https://github.com/user-attachments/assets/4319f24c-e3df-483f-9a8f-73095ca4b10e" />
+
 ## Usage
 
 ```sh
