@@ -5,7 +5,7 @@ Costa Rica
 [![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/)
 [brown9804](https://github.com/brown9804)
 
-Last updated: 2026-02-16
+Last updated: 2026-02-17
 
 ----------
 
@@ -128,6 +128,10 @@ Last updated: 2026-02-16
 <summary><b> IoT </b> (Click to expand) </summary>
 
 - [IoT](./7_iot)
+  - [Azure IoT Hub](./7_iot/iot-hub)
+  - [Azure IoT Edge (Device Update for IoT Hub)](./7_iot/iot-edge)
+  - [Azure Digital Twins](./7_iot/digital-twins)
+  - [Azure Time Series Insights (IoT)](./7_iot/time-series-insights)
 
 </details>
 
