@@ -1,4 +1,4 @@
-# Terraform Template - Azure Advisor Alerts (Activity Log)
+# Terraform Template - Azure AI Services (Cognitive Services Account)
 
 Costa Rica
 
@@ -9,12 +9,7 @@ Last updated: 2026-02-17
 
 ------------------------------------------
 
-> This template contains Terraform configurations to create an Action Group and an Activity Log Alert for new Azure Advisor recommendations.
-
-> [!NOTE]
-> This is based on the Microsoft Learn quickstart for Advisor alerts.
-
-<img width="650" alt="image" src="https://github.com/user-attachments/assets/98939432-38a0-4f0c-864a-0fe683a000fc" />
+> This template creates a Cognitive Services account (Azure AI Services). Configure `kind` for your workload (for example OpenAI, SpeechServices, TextAnalytics).
 
 ## Usage
 

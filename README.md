@@ -135,6 +135,10 @@ Last updated: 2026-02-16
 <summary><b> AI and ML </b> (Click to expand) </summary>
 
 - [AI and ML](./8_ai-ml)
+  - [Azure Machine Learning (Workspace)](./8_ai-ml/machine-learning)
+  - [Azure AI Search (Search Service)](./8_ai-ml/ai-search)
+  - [Azure AI Services (Cognitive Services Account)](./8_ai-ml/ai-services)
+  - [Microsoft Foundry (Azure AI Foundry)](./8_ai-ml/ai-foundry)
 
 </details>
 
