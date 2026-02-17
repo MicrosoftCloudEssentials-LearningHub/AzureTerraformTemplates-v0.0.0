@@ -21,6 +21,14 @@ Last updated: 2026-02-17
 > az provider show --namespace Microsoft.DeviceUpdate --query registrationState -o tsv
 > ```
 
+<img width="650" alt="image" src="https://github.com/user-attachments/assets/3f655801-866c-4198-90b1-50d9602bd2ce" />
+
+<img width="650" alt="image" src="https://github.com/user-attachments/assets/5cf31e91-8a42-4fcf-a09b-883f7023e716" />
+
+<img width="650" alt="image" src="https://github.com/user-attachments/assets/888161b1-99bd-416f-9d30-b8fb6755060b" />
+
+<img width="650"  alt="image" src="https://github.com/user-attachments/assets/2e49a469-129a-48fe-ab5b-5dd6305fcf4f" />
+
 ## Usage
 
 ```sh
