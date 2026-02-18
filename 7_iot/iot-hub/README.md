@@ -11,7 +11,6 @@ Last updated: 2026-02-17
 
 > This template creates an Azure IoT Hub.
 
-
 <img width="1362" height="686" alt="image" src="https://github.com/user-attachments/assets/37facbbd-9e4f-417e-9a84-d123ad738e7a" />
 
 <img width="1249" height="610" alt="image" src="https://github.com/user-attachments/assets/32b7dcaf-90e0-4c41-a914-9710c42c8bc1" />
