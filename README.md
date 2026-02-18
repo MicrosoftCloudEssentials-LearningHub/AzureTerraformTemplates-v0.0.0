@@ -5,7 +5,7 @@ Costa Rica
 [![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/)
 [brown9804](https://github.com/brown9804)
 
-Last updated: 2026-02-16
+Last updated: 2026-02-17
 
 ----------
 
@@ -128,6 +128,9 @@ Last updated: 2026-02-16
 <summary><b> IoT </b> (Click to expand) </summary>
 
 - [IoT](./7_iot)
+  - [Azure IoT Hub](./7_iot/iot-hub)
+  - [Azure IoT Edge (Device Update for IoT Hub)](./7_iot/iot-edge)
+  - [Azure Digital Twins](./7_iot/digital-twins)
 
 </details>
 
@@ -143,27 +146,20 @@ Last updated: 2026-02-16
 </details>
 
 <details>
-<summary><b> Developer Tools </b> (Click to expand) </summary>
-
-- [Developer Tools](./9_developer-tools)
-
-</details>
-
-<details>
 <summary><b> Migration and Backup </b> (Click to expand) </summary>
 
-- [Migration and Backup](./10_migration-backup)
-  - [Azure Data Protection Backup Vault](./10_migration-backup/backup)
-  - [Azure Site Recovery (Recovery Services Vault)](./10_migration-backup/site-recovery)
+- [Migration and Backup](./9_migration-backup)
+  - [Azure Data Protection Backup Vault](./9_migration-backup/backup)
+  - [Azure Site Recovery (Recovery Services Vault)](./9_migration-backup/site-recovery)
 
 </details>
 
 <details>
 <summary><b> Media Services </b> (Click to expand) </summary>
 
-- [Media Services](./11_media-services)
-  - [CDN (Front Door Standard/Premium)](./11_media-services/cdn)
-  - [Azure AI Video Indexer](./11_media-services/ai-video-indexer)
+- [Media Services](./10_media-services)
+  - [CDN (Front Door Standard/Premium)](./10_media-services/cdn)
+  - [Azure AI Video Indexer](./10_media-services/ai-video-indexer)
 
 </details>
 
@@ -268,8 +264,6 @@ graph TD;
 <!-- START BADGE -->
 <div align="center">
   <img src="https://img.shields.io/badge/Total%20views-1930-limegreen" alt="Total views">
-  <p>Refresh Date: 2026-02-17</p>
+  <p>Refresh Date: 2026-02-18</p>
 </div>
 <!-- END BADGE -->
-
-</div>
