@@ -48,6 +48,7 @@ resource "azurerm_iothub" "hub" {
   public_network_access_enabled = var.public_network_access_enabled
   local_authentication_enabled  = var.local_authentication_enabled
   event_hub_partition_count     = var.event_hub_partition_count
+  event_hub_retention_in_days   = var.event_hub_retention_in_days
   min_tls_version               = var.min_tls_version
 
   tags = var.tags

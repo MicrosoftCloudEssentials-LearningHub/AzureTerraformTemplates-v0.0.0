@@ -73,6 +73,17 @@ variable "event_hub_partition_count" {
   }
 }
 
+variable "event_hub_retention_in_days" {
+  description = "Retention time in days for the built-in Event Hub-compatible endpoint. Must be between 1 and 7."
+  type        = number
+  default     = 1
+
+  validation {
+    condition     = var.event_hub_retention_in_days >= 1 && var.event_hub_retention_in_days <= 7
+    error_message = "event_hub_retention_in_days must be between 1 and 7."
+  }
+}
+
 variable "min_tls_version" {
   description = "Minimum TLS version enforced by the IoT Hub."
   type        = string
