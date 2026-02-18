@@ -131,7 +131,6 @@ Last updated: 2026-02-17
   - [Azure IoT Hub](./7_iot/iot-hub)
   - [Azure IoT Edge (Device Update for IoT Hub)](./7_iot/iot-edge)
   - [Azure Digital Twins](./7_iot/digital-twins)
-  - [Azure Time Series Insights (IoT)](./7_iot/time-series-insights)
 
 </details>
 
@@ -147,27 +146,20 @@ Last updated: 2026-02-17
 </details>
 
 <details>
-<summary><b> Developer Tools </b> (Click to expand) </summary>
-
-- [Developer Tools](./9_developer-tools)
-
-</details>
-
-<details>
 <summary><b> Migration and Backup </b> (Click to expand) </summary>
 
-- [Migration and Backup](./10_migration-backup)
-  - [Azure Data Protection Backup Vault](./10_migration-backup/backup)
-  - [Azure Site Recovery (Recovery Services Vault)](./10_migration-backup/site-recovery)
+- [Migration and Backup](./9_migration-backup)
+  - [Azure Data Protection Backup Vault](./9_migration-backup/backup)
+  - [Azure Site Recovery (Recovery Services Vault)](./9_migration-backup/site-recovery)
 
 </details>
 
 <details>
 <summary><b> Media Services </b> (Click to expand) </summary>
 
-- [Media Services](./11_media-services)
-  - [CDN (Front Door Standard/Premium)](./11_media-services/cdn)
-  - [Azure AI Video Indexer](./11_media-services/ai-video-indexer)
+- [Media Services](./10_media-services)
+  - [CDN (Front Door Standard/Premium)](./10_media-services/cdn)
+  - [Azure AI Video Indexer](./10_media-services/ai-video-indexer)
 
 </details>
 
@@ -275,5 +267,3 @@ graph TD;
   <p>Refresh Date: 2026-02-17</p>
 </div>
 <!-- END BADGE -->
-
-</div>

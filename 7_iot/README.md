@@ -17,7 +17,6 @@ Last updated: 2026-02-17
 - [Azure IoT Hub](./iot-hub)
 - [Azure IoT Edge (Device Update for IoT Hub)](./iot-edge)
 - [Azure Digital Twins](./digital-twins)
-- [Azure Time Series Insights (IoT)](./time-series-insights)
 
 <!-- START BADGE -->
 <div align="center">
